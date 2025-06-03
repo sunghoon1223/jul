@@ -13,6 +13,9 @@
 #    - Place `chromedriver.exe` (or `chromedriver` on Linux/macOS) in a known directory.
 #    - You'll need to provide the path to this executable in the `setup_driver()` function
 #      or ensure it's in your system's PATH.
+# 4. (Optional) playsound Package for sound alerts: Install using pip: `pip install playsound`
+#    You will also need a sound file (e.g., alert.mp3 or alert.wav) in the same directory as the script,
+#    or you can modify the `SOUND_FILE_PATH` variable.
 #
 # --- CONFIGURATION (CRITICAL) ---
 # You MUST edit the following variables in this script:
@@ -80,6 +83,8 @@ import time
 import random
 import math
 import re # For functions previously in post_analyzer.py
+import getpass # For hidden password input
+from playsound import playsound # For sound alerts
 
 # Selenium imports
 from selenium import webdriver
@@ -89,10 +94,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
-# --- Configuration Variables (User must fill these) ---
-NAVER_ID = ""  # IMPORTANT: Fill in your Naver ID
-NAVER_PW = ""  # IMPORTANT: Fill in your Naver Password
-# WARNING: Hardcoding credentials is a security risk. Consider environment variables or input prompts for real use.
+# --- Configuration Variables (User must fill some, others are prompted at runtime) ---
+NAVER_ID = ""  # Will be prompted at runtime
+NAVER_PW = ""  # Will be prompted at runtime (input will be hidden)
+# WARNING: Even with runtime input, be mindful of shoulder surfing.
 
 CAFE_URL = "https_cafe_naver_com_chocammall" # Replace with the actual full URL, e.g., "https://cafe.naver.com/chocammall"
 # Note: The provided URL in the issue "https://cafe.naver.com/chocammall" seems to be the correct one.
@@ -113,6 +118,9 @@ CAMPSITE_DB = {
     # Add more campsites here
 }
 MAX_DISTANCE_KM = 150
+SOUND_FILE_PATH = "alert.mp3"  # Placeholder for the sound file. User should place e.g. "alert.mp3" or "alert.wav"
+                                 # in the same directory as the script, or provide a full path.
+ENABLE_SOUND_ALERT = True    # Set to False to disable sound alerts
 
 # --- WebDriver Setup and Teardown ---
 def setup_driver(webdriver_path="chromedriver"): # User might need to provide path to chromedriver
@@ -125,7 +133,7 @@ def setup_driver(webdriver_path="chromedriver"): # User might need to provide pa
 
     # Option 2: Manual path to chromedriver
     # User needs to download chromedriver matching their Chrome version and provide its path.
-    # Example: webdriver_path = "/path/to/your/chromedriver" 
+    # Example: webdriver_path = "/path/to/your/chromedriver"
     # If chromedriver is in PATH, you might just need: driver = webdriver.Chrome()
     try:
         # Attempt to use WebDriverManager if available (conceptual, not installing it here)
@@ -147,6 +155,31 @@ def teardown_driver(driver):
         print("Quitting WebDriver.")
         driver.quit()
 
+def play_alert_sound(sound_file_path):
+    """Plays a sound alert if enabled and the sound file exists."""
+    if not ENABLE_SOUND_ALERT:
+        print("Sound alert is disabled.")
+        return
+
+    if not sound_file_path:
+        print("Sound file path is not set. Cannot play alert.")
+        return
+
+    try:
+        print(f"Attempting to play sound: {sound_file_path}")
+        # Note: playsound can be blocking or non-blocking depending on the platform and file type.
+        # For some platforms/formats, you might need playsound(sound_file_path, block=False)
+        # if you want the script to continue immediately. Default is usually blocking.
+        playsound(sound_file_path)
+        print("Sound alert played.")
+    except Exception as e:
+        # Catching a broad exception as playsound can have various issues
+        # (file not found, unsupported format, platform specific issues like no sound device)
+        print(f"Could not play sound alert: {e}")
+        print("Ensure the sound file exists at the specified path and is a supported format (e.g., WAV, MP3).")
+        print("You might need to install additional codecs for MP3 on some systems (e.g., ffmpeg), or try a WAV file.")
+        print("To install playsound: pip install playsound")
+
 # --- Text Analysis Functions (Previously from post_analyzer.py) ---
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -165,7 +198,7 @@ def haversine(lat1, lon1, lat2, lon2):
 def check_dates(post_text):
     """
     Checks for specific June 6-8 date patterns (2 nights, 3 days).
-    Examples: "6월 6일 ~ 6월 8일", "6/6 ~ 6/8", "6월 6,7,8일", 
+    Examples: "6월 6일 ~ 6월 8일", "6/6 ~ 6/8", "6월 6,7,8일",
               "6월 6일부터 6월 8일까지", "6월 6일부터 8일까지".
     More complex NLP might be needed for wider variations.
     """
@@ -184,7 +217,7 @@ def check_dates(post_text):
     for pattern in patterns:
         if re.search(pattern, post_text, re.IGNORECASE):
             return True
-    
+
     # Check for "2박 3일" explicitly mentioned alongside a "6월 6일" start or "6월 8일" end
     # This is a simpler check and might need refinement.
     if ("2박 3일" in post_text or "2박3일" in post_text):
@@ -260,15 +293,15 @@ def analyze_post(post_text, target_lat, target_lon, campsite_db, max_distance_km
             if distance <= max_distance_km:
                 print(f"Post analysis: Campsite '{campsite_name}' is within {max_distance_km} km.")
                 found_matching_campsite = True
-                break 
+                break
             else:
                 print(f"Post analysis: Campsite '{campsite_name}' is too far.")
-    
+
     if not found_matching_campsite:
         print(f"Post analysis: No mentioned campsites in database found within {max_distance_km} km, or no known campsites mentioned.")
         return False
     print("Post analysis: Location criteria MET.")
-    
+
     return True # All criteria met
 
 # --- Automation Functions ---
@@ -281,36 +314,36 @@ def login_to_naver(driver, username, password):
                This function does not handle CAPTCHAs or 2FA.
     """
     login_url = "https://nid.naver.com/nidlogin.login" # Common Naver login page
-    
+
     try:
         print(f"Navigating to Naver login page: {login_url}")
         driver.get(login_url)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "id"))) # Wait for ID field
-        
+
         print("Entering username...")
         id_field = driver.find_element(By.ID, "id")
         for char in username:
             id_field.send_keys(char)
             time.sleep(random.uniform(0.05, 0.2)) # Simulate human typing
-            
+
         print("Entering password...")
         pw_field = driver.find_element(By.ID, "pw")
         for char in password:
             pw_field.send_keys(char)
             time.sleep(random.uniform(0.05, 0.2)) # Simulate human typing
-            
+
         # Optional: Brief pause before clicking login
         time.sleep(random.uniform(0.5, 1.0))
-        
+
         print("Clicking login button...")
         # Naver's login button ID is often 'log.login' but can change.
-        login_button = driver.find_element(By.ID, "log.login") 
+        login_button = driver.find_element(By.ID, "log.login")
         login_button.click()
-        
+
         # Wait for a moment to allow page to process login (e.g., redirect)
         # A more robust check would be to wait for a specific element on the post-login page.
         print("Login submitted. Waiting briefly for page load...")
-        time.sleep(random.uniform(3, 5)) 
+        time.sleep(random.uniform(3, 5))
 
         # Check if login was successful (very basic check: are we still on a login page?)
         # A more reliable check would be to look for an element specific to a logged-in state
@@ -326,10 +359,10 @@ def login_to_naver(driver, username, password):
                 # No obvious error message, but still on login page - could be other issues
                 print("Login may have failed. Still on a login-related page without obvious error message.")
                 return False
-        
+
         print("Login appears to be successful (or at least, not obviously failed on the login page).")
         return True
-        
+
     except TimeoutException:
         print("Login failed: Timeout waiting for login page elements.")
         print("Possible reasons: incorrect URL, slow network, or Naver page structure changed.")
@@ -352,7 +385,7 @@ def scrape_cafe_posts(driver, cafe_url):
         print(f"Navigating to Cafe URL: {cafe_url}")
         driver.get(cafe_url)
         # Wait for page to load - a more specific wait for a known element is better
-        time.sleep(random.uniform(3, 5)) 
+        time.sleep(random.uniform(3, 5))
 
         # --- Attempt to switch to the main content iframe (VERY COMMON IN NAVER CAFES) ---
         # User MUST find the correct iframe ID or name if one is used.
@@ -373,7 +406,7 @@ def scrape_cafe_posts(driver, cafe_url):
         # Examples: 'li.article', 'div.post_item', 'tr.board_row'
         # It's often better to find a list of posts first.
         post_element_selector = "div.article" # Placeholder for individual post containers
-        
+
         print(f"Looking for post elements using selector: '{post_element_selector}'")
         # It's good practice to wait for at least one post element to be present
         try:
@@ -399,8 +432,8 @@ def scrape_cafe_posts(driver, cafe_url):
             try:
                 # Try to get the full text of the post element.
                 # This might include more than just the desired post content.
-                post_text = post_el.text 
-                
+                post_text = post_el.text
+
                 # Conceptual: try to get a link to the post if available
                 post_link = ""
                 try:
@@ -413,7 +446,7 @@ def scrape_cafe_posts(driver, cafe_url):
                 print(f"--- Post {index + 1} ---")
                 print(f"Link (conceptual): {post_link}")
                 # print(f"Raw Text: {post_text[:200]}...") # Print a snippet
-                
+
                 scraped_posts_data.append({"text": post_text, "link": post_link, "id": post_link or f"post_index_{index}"})
 
                 # Add a small delay to mimic human reading/browsing
@@ -421,7 +454,7 @@ def scrape_cafe_posts(driver, cafe_url):
 
             except Exception as e:
                 print(f"Error processing post element {index + 1}: {e}")
-        
+
         # Switch back to default content if you were in an iframe
         # This is important if further actions need to be taken on the main page
         try:
@@ -480,31 +513,35 @@ def post_comment(driver, post_identifier, comment_text="저요"):
         # User MUST replace these with actual selectors.
         comment_textarea_selector = "textarea.comment_textarea, textarea[name='comment'], #comment_editor_textarea" # Placeholder
         comment_submit_button_selector = "button.btn_register, a.btn_comment_submit, input[type='submit'][value='등록']" # Placeholder
-        
+
         print("Looking for comment textarea...")
         comment_field = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, comment_textarea_selector))
         )
-        
+
         print(f"Entering comment: '{comment_text}'")
         # comment_field.click() # Sometimes helpful to focus
         # comment_field.clear() # Clear if there's any default text
         for char in comment_text:
             comment_field.send_keys(char)
             time.sleep(random.uniform(0.05, 0.15))
-            
+
         time.sleep(random.uniform(0.5, 1.0)) # Pause before submitting
-        
+
         print("Looking for comment submit button...")
         submit_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, comment_submit_button_selector))
         )
-        
+
         print("Clicking comment submit button...")
         submit_button.click()
-        
+
         print("Comment submitted. Waiting briefly...")
         time.sleep(random.uniform(2, 4)) # Wait for comment to process / page to update
+
+        # --- Play sound alert on successful submission ---
+        play_alert_sound(SOUND_FILE_PATH) # Call the new sound playing function
+        # --- End of sound alert ---
 
         # Switch back to the previous context (e.g., default content or 'cafe_main' iframe)
         # If coming from 'cafe_main', we might need to switch to default_content, then back to 'cafe_main'.
@@ -542,27 +579,40 @@ def post_comment(driver, post_identifier, comment_text="저요"):
 # --- Main Orchestration ---
 def main():
     """Main orchestration function for Naver Cafe automation."""
-    
+
+    # --- Get Credentials at Runtime ---
+    print("--- Naver Credentials ---")
+    # It's good practice to ensure these are only assigned if not already set
+    # (e.g., for testing/debugging, one might hardcode temporarily, but runtime input is safer)
+    # However, for this request, we will always prompt.
+
+    local_naver_id = input("네이버 아이디를 입력하세요: ")
+    local_naver_pw = getpass.getpass("네이버 비밀번호를 입력하세요 (입력 시 화면에 보이지 않습니다): ")
+
+    if not local_naver_id or not local_naver_pw:
+        print("아이디 또는 비밀번호가 입력되지 않았습니다. 로그인을 시도할 수 없습니다.")
+        # Decide if script should exit or proceed without login
+        # For now, we'll let it proceed to the login check logic below,
+        # which will then skip login if credentials are truly empty.
+        # This allows testing scraping part anonymously if user just hits Enter.
+
     # --- Initial Setup ---
-    # Critical: User must fill in NAVER_ID, NAVER_PW, CAFE_URL, TARGET_LAT, TARGET_LON, CAMPSITE_DB
-    # These are checked before main() is called if script is run directly.
-    
     print("Starting Naver Cafe Automation Script...")
     # Consider adding a longer initial random delay before even starting browser
-    # time.sleep(random.uniform(5, 15)) 
+    # time.sleep(random.uniform(5, 15))
 
     driver = setup_driver() # User might need to pass the path to their chromedriver executable
-    
+
     if not driver:
         print("Failed to initialize WebDriver. Exiting.")
         return
 
     logged_in_successfully = False
-    if NAVER_ID and NAVER_PW:
+    if local_naver_id and local_naver_pw: # Check if user actually entered something
         print("\nAttempting to log into Naver...")
-        time.sleep(random.uniform(1, 3)) # Short delay before navigating to login
-        if login_to_naver(driver, NAVER_ID, NAVER_PW):
-            print("Login concluded.") # login_to_naver prints success/failure details
+        time.sleep(random.uniform(1, 3))
+        if login_to_naver(driver, local_naver_id, local_naver_pw):
+            # login_to_naver prints success/failure details
             # A more robust check post-login would be to verify presence of a specific element
             # that only appears when logged in, or that the URL is no longer the login page.
             # For now, we trust the basic checks in login_to_naver.
@@ -571,14 +621,15 @@ def main():
                  print("Verified: Not on a login page after login attempt. Assuming success.")
             else:
                  print("Warning: Still on a login-related page after login attempt. Assuming failure for safety.")
-                 logged_in_successfully = False # Ensure it's false if basic check fails
+                 logged_in_successfully = False
         else:
             print("Login attempt finished with failure indication from login_to_naver.")
             logged_in_successfully = False
-        
+
         time.sleep(random.uniform(2, 5)) # Delay after login attempt
     else:
-        print("\nNaver ID or Password not provided. Proceeding without login.")
+        print("\nNaver ID or Password not entered. Proceeding without login.")
+        logged_in_successfully = False
         print("Note: Scraping and commenting capabilities may be limited or impossible without login.")
         time.sleep(random.uniform(1, 3))
 
@@ -592,14 +643,14 @@ def main():
     #     time.sleep(sleep_duration)
 
     print("\nStarting Cafe interaction cycle...")
-    
+
     # --- Navigate to Cafe and Scrape Posts ---
     if CAFE_URL and CAFE_URL != "https_cafe_naver_com_chocammall": # Basic check for placeholder
         print(f"Preparing to scrape Cafe: {CAFE_URL}")
         time.sleep(random.uniform(2, 4)) # "Human-like" pause before navigating
 
         posts = scrape_cafe_posts(driver, CAFE_URL) # This function has its own internal delays
-        
+
         if posts:
             print(f"\nScraping attempt yielded {len(posts)} post(s). Analyzing...")
             time.sleep(random.uniform(1, 3)) # Pause after scraping before analysis
@@ -607,12 +658,12 @@ def main():
             for i, p_data in enumerate(posts):
                 print(f"--- Processing Post {i+1}/{len(posts)} (ID: {p_data.get('id', 'N/A')}) ---")
                 # print(f"Post Text Snippet: {p_data['text'][:100]}...") # Already printed in scrape_cafe_posts conceptually
-                
+
                 time.sleep(random.uniform(0.5, 1.5)) # Small delay before analyzing each post
 
                 if analyze_post(p_data['text'], TARGET_LAT, TARGET_LON, CAMPSITE_DB, MAX_DISTANCE_KM):
                     print(f"POST {i+1} (ID: {p_data.get('id', 'N/A')}) MATCHES ALL CRITERIA!")
-                    
+
                     # Add a more significant "human-like" delay before commenting
                     # Simulates reading the post and deciding to comment.
                     pre_comment_delay = random.uniform(5, 15)
@@ -634,10 +685,10 @@ def main():
                         time.sleep(random.uniform(2, 4))
                 else:
                     print(f"Post {i+1} (ID: {p_data.get('id', 'N/A')}) does not match all criteria.")
-                
+
                 print("-" * 40) # Separator for posts
                 # Delay between processing individual posts from the scraped list
-                time.sleep(random.uniform(2, 5)) 
+                time.sleep(random.uniform(2, 5))
         else:
             print("No posts were scraped or returned from scrape_cafe_posts.")
             time.sleep(random.uniform(1, 3))
@@ -646,7 +697,7 @@ def main():
         time.sleep(random.uniform(1, 3))
 
     print("\nCafe interaction cycle finished.")
-    
+
     # --- End of Conceptual Main Automation Loop ---
 
     # Consider adding a longer random delay before closing browser
@@ -680,7 +731,7 @@ if __name__ == "__main__":
         print(f"Test: '{text}' | Expected: {expected} | Got: {result} | Pass: {result == expected}")
         if result != expected:
             all_keyword_tests_passed = False
-    
+
     if all_keyword_tests_passed:
         print("All check_keyword direct tests PASSED!")
     else:
@@ -688,12 +739,9 @@ if __name__ == "__main__":
     print("--- End of check_keyword tests ---\n")
 
     # Existing checks for NAVER_ID, NAVER_PW, CAFE_URL
-    if not NAVER_ID or not NAVER_PW:
-        print("CRITICAL: NAVER_ID and NAVER_PW must be set in the script for login.")
-        print("You can still run the script to test scraping without login if desired (functionality might be limited).")
-        # Proceeding without login if credentials are not set.
-    
-    if CAFE_URL == "https_cafe_naver_com_chocammall" or not CAFE_URL: # Check for placeholder or empty
+
+    # Simplified initial check - NAVER_ID/PW will be prompted in main()
+    if CAFE_URL == "https_cafe_naver_com_chocammall" or not CAFE_URL:
         print("CRITICAL: CAFE_URL is a placeholder or not set. Please set the full correct URL in the script.")
     else:
         main()
