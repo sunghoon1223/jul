@@ -19,18 +19,21 @@
 #
 # --- CONFIGURATION (CRITICAL) ---
 # You MUST edit the following variables in this script:
-#   - `NAVER_ID`: Your Naver username.
-#   - `NAVER_PW`: Your Naver password.
+#   - `NAVER_ID`: Your Naver username. (Will be prompted if left empty)
+#   - `NAVER_PW`: Your Naver password. (Will be prompted if left empty)
 #     SECURITY WARNING: Hardcoding credentials is a risk. For advanced use, consider
 #     environment variables, a configuration file, or runtime prompts.
-#   - `CAFE_URL`: The FULL URL of the Naver Cafe's main page where new posts appear.
 #   - `TARGET_LAT`, `TARGET_LON`: Accurate latitude and longitude for your target address
 #     (e.g., "경기도 수원시 장안구 하률로30번길 22"). Use a geocoding tool to find these.
-#   - `CAMPSITE_DB`: A Python dictionary of campsite names (EXACTLY as they appear in posts)
-#     and their accurate latitude/longitude coordinates. Example:
-#     `CAMPSITE_DB = { "행복캠핑장": {"lat": 37.12345, "lon": 127.54321}, ... }`
-#   - `MAX_DISTANCE_KM`: Maximum allowed distance from your target address to a campsite.
+#   - `CAMPSITE_DB`: A Python dictionary. Keys are campsite names (EXACTLY as they appear in posts).
+#     Values are dictionaries containing "lat", "lon", and optionally "region" (e.g., "경기", "강원", "충청")
+#     for feed-based region filtering. Example:
+#     `CAMPSITE_DB = { "행복캠핑장": {"lat": 37.12345, "lon": 127.54321, "region": "경기"}, ... }`
+#   - `MAX_DISTANCE_KM`: Maximum allowed distance from your target address to a campsite (used by original analyze_post logic, less relevant for feed/board split).
+#   - `FEED_URL`, `BOARD_URLS`: Configure at least one of these for the script to know where to look for posts.
 #   - (Optional) `webdriver_path` in `setup_driver()`: Update if your chromedriver is not in PATH.
+#   - (Optional) `SOUND_FILE_PATH`, `ENABLE_SOUND_ALERT`: For sound notifications.
+#   - (Optional) `CYCLE_REST_MIN_SECONDS`, `CYCLE_REST_MAX_SECONDS`, `SHORT_DELAY_MIN`, `SHORT_DELAY_MAX`, `BOARD_SWITCH_DELAY_MIN`, `BOARD_SWITCH_DELAY_MAX`: For controlling script timing.
 #
 # --- CUSTOMIZATION (ESSENTIAL FOR FUNCTIONALITY) ---
 # The core challenge of this script is that Naver Cafe's website structure can change,
@@ -99,9 +102,19 @@ NAVER_ID = ""  # Will be prompted at runtime
 NAVER_PW = ""  # Will be prompted at runtime (input will be hidden)
 # WARNING: Even with runtime input, be mindful of shoulder surfing.
 
-CAFE_URL = "https_cafe_naver_com_chocammall" # Replace with the actual full URL, e.g., "https://cafe.naver.com/chocammall"
-# Note: The provided URL in the issue "https://cafe.naver.com/chocammall" seems to be the correct one.
-# User should verify and ensure this is the main page for new posts.
+# CAFE_URL = "https_cafe_naver_com_chocammall" # Replace with the actual full URL
+# The old CAFE_URL is deprecated in favor of FEED_URL and BOARD_URLS.
+# It's commented out to avoid confusion. The main() logic now uses FEED_URL and BOARD_URLS.
+
+TARGET_REGIONS_FOR_FEED = ["경기", "강원", "충청"] # Target regions for filtering posts from the FEED_URL. Add more as needed.
+
+FEED_URL = "https://section.cafe.naver.com/ca-fe/home/feed" # URL for the main feed to check periodically
+BOARD_URLS = [
+    "https://cafe.naver.com/f-e/cafes/20486145/menus/128?viewType=L", # User provided URL 1
+    "https://cafe.naver.com/f-e/cafes/20486145/menus/127?viewType=L", # User provided URL 2
+    "https://cafe.naver.com/f-e/cafes/20486145/menus/129?viewType=L", # User provided URL 3
+    # Add more board URLs here if needed
+] # List of specific cafe board URLs to cycle through
 
 # Target location (경기도 수원시 장안구 하률로30번길 22)
 # User needs to provide accurate latitude and longitude for this.
@@ -111,16 +124,29 @@ TARGET_LON = 126.990794  # Placeholder - User must replace
 
 # Campsite Database
 # User needs to populate this with campsite names (as they appear in posts) and their coordinates.
-# Format: { "campsite_name_in_post": {"lat": latitude, "lon": longitude}, ... }
+# Format: { "campsite_name_in_post": {"lat": latitude, "lon": longitude, "region": "region_name"}, ... }
 CAMPSITE_DB = {
-    "해피캠핑장": {"lat": 37.3000, "lon": 127.0000}, # Example, within 150km of Suwon placeholder
-    "먼곳캠핑장": {"lat": 38.5000, "lon": 128.0000}, # Example, likely outside 150km
+    "해피캠핑장": {"lat": 37.3000, "lon": 127.0000, "region": "경기"}, # Example
+    "먼곳캠핑장": {"lat": 38.5000, "lon": 128.0000, "region": "강원"}, # Example
     # Add more campsites here
 }
-MAX_DISTANCE_KM = 150
+MAX_DISTANCE_KM = 150  # Original maximum allowed distance (km) for proximity filtering.
+                       # Note: With the current 'feed'/'board' specific logic,
+                       # this variable is less directly used as 'feed' uses region names
+                       # and 'board' skips location filtering.
+
 SOUND_FILE_PATH = "alert.mp3"  # Placeholder for the sound file. User should place e.g. "alert.mp3" or "alert.wav"
                                  # in the same directory as the script, or provide a full path.
 ENABLE_SOUND_ALERT = True    # Set to False to disable sound alerts
+
+CYCLE_REST_MIN_SECONDS = 300  # Minimum seconds for long rest after a full cycle (e.g., 300 = 5 minutes)
+CYCLE_REST_MAX_SECONDS = 900  # Maximum seconds for long rest after a full cycle (e.g., 900 = 15 minutes)
+
+# Short Delays (can be fine-tuned by user)
+SHORT_DELAY_MIN = 0.5
+SHORT_DELAY_MAX = 1.5
+BOARD_SWITCH_DELAY_MIN = 2
+BOARD_SWITCH_DELAY_MAX = 5
 
 # --- WebDriver Setup and Teardown ---
 def setup_driver(webdriver_path="chromedriver"): # User might need to provide path to chromedriver
@@ -269,40 +295,94 @@ def check_keyword(post_text):
     # If "양도" is present and none of the exclusion conditions were met
     return True
 
-def analyze_post(post_text, target_lat, target_lon, campsite_db, max_distance_km):
+def analyze_post(post_text, target_lat, target_lon, campsite_db, max_distance_km, url_type="board"): # Default for safety
     """
-    Analyzes the post text based on date, keyword, and location criteria.
+    Analyzes the post text based on date, keyword, and location criteria,
+    applying different location/region logic based on url_type ('feed' or 'board').
     """
+    print(f"Post analysis started for url_type: '{url_type}'")
+
     if not check_dates(post_text):
         print("Post analysis: Date criteria not met.")
         return False
     print("Post analysis: Date criteria MET.")
 
-    if not check_keyword(post_text):
+    if not check_keyword(post_text): # This check is common for all url_types
         print("Post analysis: Keyword criteria not met.")
         return False
     print("Post analysis: Keyword criteria MET.")
 
-    # Location check (simplified: iterates through known campsite names)
-    found_matching_campsite = False
-    for campsite_name, coords in campsite_db.items():
-        if campsite_name in post_text:
-            print(f"Post analysis: Found mention of campsite '{campsite_name}'.")
-            distance = haversine(target_lat, target_lon, coords["lat"], coords["lon"])
-            print(f"Post analysis: Distance to '{campsite_name}' is {distance:.2f} km.")
-            if distance <= max_distance_km:
-                print(f"Post analysis: Campsite '{campsite_name}' is within {max_distance_km} km.")
-                found_matching_campsite = True
-                break
-            else:
-                print(f"Post analysis: Campsite '{campsite_name}' is too far.")
+    # --- Location/Region specific logic based on url_type ---
+    if url_type == "board":
+        print("Post analysis: URL type is 'board'. Skipping location/region check as per new requirements.")
+        # For 'board' URLs, location check is skipped. Only date and keyword matter.
+        return True # Date and Keyword checks already passed
 
-    if not found_matching_campsite:
-        print(f"Post analysis: No mentioned campsites in database found within {max_distance_km} km, or no known campsites mentioned.")
-        return False
-    print("Post analysis: Location criteria MET.")
+    elif url_type == "feed":
+        print("Post analysis: URL type is 'feed'. Applying region-based filtering.")
 
-    return True # All criteria met
+        # Region Check Logic for 'feed'
+        found_matching_region = False
+        mentioned_campsites_in_db = []
+
+        # 1. Check CAMPSITE_DB for mentioned campsites and their regions
+        for campsite_name, camp_info in campsite_db.items():
+            if campsite_name in post_text:
+                mentioned_campsites_in_db.append(campsite_name)
+                print(f"Post analysis (feed): Found mention of campsite '{campsite_name}' from CAMPSITE_DB.")
+                # Check if camp_info has 'region' and if it's in TARGET_REGIONS_FOR_FEED
+                if "region" in camp_info and camp_info["region"] in TARGET_REGIONS_FOR_FEED:
+                    print(f"Post analysis (feed): Campsite '{campsite_name}' is in a target region: {camp_info['region']}.")
+                    found_matching_region = True
+                    break # Found a match, no need to check other DB entries or text keywords
+                else:
+                    print(f"Post analysis (feed): Campsite '{campsite_name}' region ('{camp_info.get('region', 'N/A')}') is not in target regions.")
+
+        # 2. If no match from CAMPSITE_DB, check post_text for region keywords
+        if not found_matching_region and mentioned_campsites_in_db: # Only if DB campsites were mentioned but regions didn't match
+             print(f"Post analysis (feed): Mentioned campsites from DB ({', '.join(mentioned_campsites_in_db)}) were not in target regions. Now checking post text for region keywords.")
+        elif not found_matching_region: # No DB campsites mentioned, or DB is empty
+             print("Post analysis (feed): No campsites from CAMPSITE_DB matched target regions (or no known campsites mentioned). Checking post text for region keywords...")
+
+
+        if not found_matching_region: # Proceed to text search only if DB search didn't yield a regional match
+            # Define broader region keywords including variations
+            region_keywords_to_check = []
+            for region in TARGET_REGIONS_FOR_FEED:
+                region_keywords_to_check.append(region) # e.g., "경기"
+                if region == "경기":
+                    region_keywords_to_check.append("경기도")
+                elif region == "강원":
+                    region_keywords_to_check.append("강원도")
+                elif region == "충청":
+                    region_keywords_to_check.append("충청남북도") # Covers both
+                    region_keywords_to_check.append("충청남도")
+                    region_keywords_to_check.append("충청북도")
+                    region_keywords_to_check.append("충남")
+                    region_keywords_to_check.append("충북")
+
+            # Remove duplicates just in case, though the above logic shouldn't create them
+            region_keywords_to_check = list(set(region_keywords_to_check))
+            # print(f"Debug: Region keywords to check in text: {region_keywords_to_check}")
+
+
+            for region_keyword in region_keywords_to_check:
+                if region_keyword in post_text:
+                    print(f"Post analysis (feed): Found region keyword '{region_keyword}' in post text.")
+                    found_matching_region = True
+                    break # Found a textual match
+
+        if not found_matching_region:
+            print(f"Post analysis (feed): Region criteria not met. Post does not appear to be in {TARGET_REGIONS_FOR_FEED}.")
+            return False
+
+        print("Post analysis (feed): Region criteria MET.")
+        # Original distance check (haversine) is now disabled for 'feed' type.
+        return True # Date, Keyword, and Region checks passed for 'feed'
+
+    else:
+        print(f"Post analysis: Unknown url_type '{url_type}'. Defaulting to False.")
+        return False # Unknown type, filter out
 
 # --- Automation Functions ---
 
@@ -580,42 +660,26 @@ def post_comment(driver, post_identifier, comment_text="저요"):
 def main():
     """Main orchestration function for Naver Cafe automation."""
 
-    # --- Get Credentials at Runtime ---
     print("--- Naver Credentials ---")
-    # It's good practice to ensure these are only assigned if not already set
-    # (e.g., for testing/debugging, one might hardcode temporarily, but runtime input is safer)
-    # However, for this request, we will always prompt.
-
     local_naver_id = input("네이버 아이디를 입력하세요: ")
     local_naver_pw = getpass.getpass("네이버 비밀번호를 입력하세요 (입력 시 화면에 보이지 않습니다): ")
 
+    # (Credential check logic remains the same)
     if not local_naver_id or not local_naver_pw:
         print("아이디 또는 비밀번호가 입력되지 않았습니다. 로그인을 시도할 수 없습니다.")
-        # Decide if script should exit or proceed without login
-        # For now, we'll let it proceed to the login check logic below,
-        # which will then skip login if credentials are truly empty.
-        # This allows testing scraping part anonymously if user just hits Enter.
 
-    # --- Initial Setup ---
     print("Starting Naver Cafe Automation Script...")
-    # Consider adding a longer initial random delay before even starting browser
-    # time.sleep(random.uniform(5, 15))
-
-    driver = setup_driver() # User might need to pass the path to their chromedriver executable
+    driver = setup_driver()
 
     if not driver:
         print("Failed to initialize WebDriver. Exiting.")
         return
 
     logged_in_successfully = False
-    if local_naver_id and local_naver_pw: # Check if user actually entered something
+    if local_naver_id and local_naver_pw:
         print("\nAttempting to log into Naver...")
-        time.sleep(random.uniform(1, 3))
+        time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
         if login_to_naver(driver, local_naver_id, local_naver_pw):
-            # login_to_naver prints success/failure details
-            # A more robust check post-login would be to verify presence of a specific element
-            # that only appears when logged in, or that the URL is no longer the login page.
-            # For now, we trust the basic checks in login_to_naver.
             if "login" not in driver.current_url.lower() and "nidlogin" not in driver.current_url.lower():
                  logged_in_successfully = True
                  print("Verified: Not on a login page after login attempt. Assuming success.")
@@ -625,86 +689,106 @@ def main():
         else:
             print("Login attempt finished with failure indication from login_to_naver.")
             logged_in_successfully = False
-
-        time.sleep(random.uniform(2, 5)) # Delay after login attempt
+        time.sleep(random.uniform(BOARD_SWITCH_DELAY_MIN, BOARD_SWITCH_DELAY_MAX)) # Delay after login attempt
     else:
         print("\nNaver ID or Password not entered. Proceeding without login.")
         logged_in_successfully = False
         print("Note: Scraping and commenting capabilities may be limited or impossible without login.")
-        time.sleep(random.uniform(1, 3))
+        time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
 
-    # --- Main Automation Loop (conceptual - runs once in this script) ---
-    # In a continuous bot, this would be inside a while True loop with longer delays between cycles.
-    # For example:
-    # while True:
-    #     perform_cafe_check_and_actions()
-    #     sleep_duration = random.uniform(300, 900) # e.g., 5 to 15 minutes
-    #     print(f"Waiting for {sleep_duration/60:.2f} minutes before next check...")
-    #     time.sleep(sleep_duration)
+    # --- Main Automation Loop ---
+    try:
+        while True: # Continuous loop
+            print("\n--- Starting new automation cycle ---")
 
-    print("\nStarting Cafe interaction cycle...")
-
-    # --- Navigate to Cafe and Scrape Posts ---
-    if CAFE_URL and CAFE_URL != "https_cafe_naver_com_chocammall": # Basic check for placeholder
-        print(f"Preparing to scrape Cafe: {CAFE_URL}")
-        time.sleep(random.uniform(2, 4)) # "Human-like" pause before navigating
-
-        posts = scrape_cafe_posts(driver, CAFE_URL) # This function has its own internal delays
-
-        if posts:
-            print(f"\nScraping attempt yielded {len(posts)} post(s). Analyzing...")
-            time.sleep(random.uniform(1, 3)) # Pause after scraping before analysis
-
-            for i, p_data in enumerate(posts):
-                print(f"--- Processing Post {i+1}/{len(posts)} (ID: {p_data.get('id', 'N/A')}) ---")
-                # print(f"Post Text Snippet: {p_data['text'][:100]}...") # Already printed in scrape_cafe_posts conceptually
-
-                time.sleep(random.uniform(0.5, 1.5)) # Small delay before analyzing each post
-
-                if analyze_post(p_data['text'], TARGET_LAT, TARGET_LON, CAMPSITE_DB, MAX_DISTANCE_KM):
-                    print(f"POST {i+1} (ID: {p_data.get('id', 'N/A')}) MATCHES ALL CRITERIA!")
-
-                    # Add a more significant "human-like" delay before commenting
-                    # Simulates reading the post and deciding to comment.
-                    pre_comment_delay = random.uniform(5, 15)
-                    print(f"Waiting for {pre_comment_delay:.2f} seconds before attempting to comment...")
-                    time.sleep(pre_comment_delay)
-
-                    print(f"Attempting to post comment on post: {p_data.get('id', 'N/A')}")
-                    if logged_in_successfully:
-                        if post_comment(driver, p_data.get('link') or p_data.get('id'), "저요"):
-                            print(f"Successfully attempted to comment on post {p_data.get('id', 'N/A')}.")
-                            # Wait significantly after a successful comment to avoid rapid action
-                            time.sleep(random.uniform(15, 30))
+            # 1. Process FEED_URL
+            if FEED_URL:
+                print(f"\nProcessing FEED_URL: {FEED_URL}")
+                time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
+                posts_feed = scrape_cafe_posts(driver, FEED_URL)
+                if posts_feed:
+                    print(f"Found {len(posts_feed)} post(s) from FEED_URL. Analyzing...")
+                    time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
+                    for i, p_data in enumerate(posts_feed):
+                        print(f"--- Processing FEED Post {i+1}/{len(posts_feed)} (ID: {p_data.get('id', 'N/A')}) ---")
+                        time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX)) # Small delay before analyzing each post
+                        if analyze_post(p_data['text'], TARGET_LAT, TARGET_LON, CAMPSITE_DB, MAX_DISTANCE_KM, url_type="feed"):
+                            print(f"FEED POST {i+1} (ID: {p_data.get('id', 'N/A')}) MATCHES ALL CRITERIA!")
+                            pre_comment_delay = random.uniform(1, 3) # Shorter pre-comment delay for speed
+                            print(f"Waiting for {pre_comment_delay:.2f} seconds before attempting to comment...")
+                            time.sleep(pre_comment_delay)
+                            if logged_in_successfully:
+                                if post_comment(driver, p_data.get('link') or p_data.get('id'), "저요"):
+                                    print(f"Successfully attempted to comment on FEED post {p_data.get('id', 'N/A')}.")
+                                    time.sleep(random.uniform(5, 10)) # Shorter post-comment delay
+                                else:
+                                    print(f"Failed to comment on FEED post {p_data.get('id', 'N/A')}.")
+                                    time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
+                            else:
+                                print("Skipping comment: Not logged in or login failed.")
+                                time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
                         else:
-                            print(f"Failed to comment on post {p_data.get('id', 'N/A')}.")
-                            time.sleep(random.uniform(3, 7)) # Shorter wait after failed comment
-                    else:
-                        print("Skipping comment: Not logged in or login failed.")
-                        print("Manual intervention would be needed here if post is desirable.")
-                        time.sleep(random.uniform(2, 4))
+                            print(f"FEED Post {i+1} (ID: {p_data.get('id', 'N/A')}) does not match all criteria.")
+                        print("-" * 40)
+                        time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX)) # Delay between processing posts
                 else:
-                    print(f"Post {i+1} (ID: {p_data.get('id', 'N/A')}) does not match all criteria.")
+                    print(f"No posts found or returned from FEED_URL: {FEED_URL}")
+                time.sleep(random.uniform(BOARD_SWITCH_DELAY_MIN, BOARD_SWITCH_DELAY_MAX)) # Delay before moving to boards
+            else:
+                print("FEED_URL is not set. Skipping feed check.")
 
-                print("-" * 40) # Separator for posts
-                # Delay between processing individual posts from the scraped list
-                time.sleep(random.uniform(2, 5))
-        else:
-            print("No posts were scraped or returned from scrape_cafe_posts.")
-            time.sleep(random.uniform(1, 3))
-    else:
-        print("CAFE_URL is not set correctly or is placeholder. Cannot scrape posts.")
-        time.sleep(random.uniform(1, 3))
+            # 2. Process BOARD_URLS
+            if BOARD_URLS:
+                for board_idx, board_url in enumerate(BOARD_URLS):
+                    print(f"\nProcessing BOARD_URL {board_idx+1}/{len(BOARD_URLS)}: {board_url}")
+                    time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
+                    posts_board = scrape_cafe_posts(driver, board_url)
+                    if posts_board:
+                        print(f"Found {len(posts_board)} post(s) from BOARD_URL: {board_url}. Analyzing...")
+                        time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
+                        for i, p_data in enumerate(posts_board):
+                            print(f"--- Processing BOARD Post {i+1}/{len(posts_board)} (ID: {p_data.get('id', 'N/A')}) from {board_url} ---")
+                            time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
+                            if analyze_post(p_data['text'], TARGET_LAT, TARGET_LON, CAMPSITE_DB, MAX_DISTANCE_KM, url_type="board"):
+                                print(f"BOARD POST {i+1} (ID: {p_data.get('id', 'N/A')}) MATCHES ALL CRITERIA!")
+                                pre_comment_delay = random.uniform(1, 3) # Shorter pre-comment delay
+                                print(f"Waiting for {pre_comment_delay:.2f} seconds before attempting to comment...")
+                                time.sleep(pre_comment_delay)
+                                if logged_in_successfully:
+                                    if post_comment(driver, p_data.get('link') or p_data.get('id'), "저요"):
+                                        print(f"Successfully attempted to comment on BOARD post {p_data.get('id', 'N/A')}.")
+                                        time.sleep(random.uniform(5, 10)) # Shorter post-comment delay
+                                    else:
+                                        print(f"Failed to comment on BOARD post {p_data.get('id', 'N/A')}.")
+                                        time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
+                                else:
+                                    print("Skipping comment: Not logged in or login failed.")
+                                    time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX))
+                            else:
+                                print(f"BOARD Post {i+1} (ID: {p_data.get('id', 'N/A')}) does not match all criteria.")
+                            print("-" * 40)
+                            time.sleep(random.uniform(SHORT_DELAY_MIN, SHORT_DELAY_MAX)) # Delay between posts
+                    else:
+                        print(f"No posts found or returned from BOARD_URL: {board_url}")
 
-    print("\nCafe interaction cycle finished.")
+                    if board_idx < len(BOARD_URLS) - 1: # If not the last board URL
+                        print(f"Waiting before switching to next board URL...")
+                        time.sleep(random.uniform(BOARD_SWITCH_DELAY_MIN, BOARD_SWITCH_DELAY_MAX))
+            else:
+                print("BOARD_URLS list is empty. Skipping board checks.")
 
-    # --- End of Conceptual Main Automation Loop ---
+            # 3. Long Rest Period
+            rest_duration = random.uniform(CYCLE_REST_MIN_SECONDS, CYCLE_REST_MAX_SECONDS)
+            print(f"--- Automation cycle finished. Resting for {rest_duration/60:.2f} minutes. ---")
+            time.sleep(rest_duration)
 
-    # Consider adding a longer random delay before closing browser
-    # time.sleep(random.uniform(5, 15))
-
-    teardown_driver(driver)
-    print("Naver Cafe Automation Script finished.")
+    except KeyboardInterrupt:
+        print("\nScript interrupted by user (Ctrl+C).")
+    except Exception as e:
+        print(f"An unexpected error occurred in the main loop: {e}")
+    finally:
+        teardown_driver(driver)
+        print("Naver Cafe Automation Script finished.")
 
 if __name__ == "__main__":
     # --- Direct tests for check_keyword ---
@@ -738,10 +822,19 @@ if __name__ == "__main__":
         print("!!! Some check_keyword direct tests FAILED !!!")
     print("--- End of check_keyword tests ---\n")
 
-    # Existing checks for NAVER_ID, NAVER_PW, CAFE_URL
+    # Existing checks for NAVER_ID, NAVER_PW, CAFE_URL are removed as main prompts for ID/PW
+    # and URL checks are now more specific.
 
-    # Simplified initial check - NAVER_ID/PW will be prompted in main()
-    if CAFE_URL == "https_cafe_naver_com_chocammall" or not CAFE_URL:
-        print("CRITICAL: CAFE_URL is a placeholder or not set. Please set the full correct URL in the script.")
-    else:
+    # Check if essential URLs are configured before running main
+    missing_urls = False
+    if not FEED_URL:
+        print("CRITICAL: FEED_URL is not set. Please configure it in the script.")
+        missing_urls = True
+    if not BOARD_URLS: # Checks if the list is empty
+        print("CRITICAL: BOARD_URLS is empty. Please configure at least one board URL in the script.")
+        missing_urls = True
+
+    if not missing_urls:
         main()
+    else:
+        print("Script cannot start due to missing URL configurations.")
