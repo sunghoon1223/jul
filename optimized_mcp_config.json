@@ -1,0 +1,771 @@
+{
+  "toolsTimeoutSeconds": 300,
+  "globalSettings": {
+    "maxConcurrentRequests": 5,
+    "requestQueueSize": 20,
+    "retryAttempts": 3,
+    "retryDelayMs": 1000,
+    "memoryOptimization": true,
+    "performanceMode": "optimized",
+    "contextContinuity": true,
+    "tokenSaving": true,
+    "immediateContextTracking": true
+  },
+  "mcpServers": {
+    "shrimp-task-manager": {
+      "command": "node",
+      "args": ["C:\\MCP\\mcp-shrimp-task-manager\\dist\\index.js"],
+      "env": {
+        "DATA_DIR": "C:\\xampp\\htdocs\\mysite\\SHRIMP",
+        "TEMPLATES_USE": "templates_en",
+        "ENABLE_GUI": "true",
+        "NODE_OPTIONS": "--max-old-space-size=2048",
+        "MCP_PRIORITY": "1",
+        "CONTEXT_CONTINUITY": "true",
+        "SHORT_MEMORY_INTERVALS": "true",
+        "MEMORY_CHUNK_SIZE": "small"
+      },
+      "autoStart": true,
+      "healthCheck": {
+        "enabled": true,
+        "intervalMs": 30000
+      }
+    },
+    "sylphlab-memory-mcp": {
+      "command": "node",
+      "args": ["C:\\mcp-sylphlab-memory\\dist\\index.js"],
+      "env": {
+        "MEMORY_DIR": "C:\\xampp\\htdocs\\mysite\\logs\\memory\\sylphlab",
+        "GRAPH_CACHE_TTL": "300",
+        "MAX_NODES": "10000",
+        "MAX_EDGES": "50000",
+        "NODE_OPTIONS": "--max-old-space-size=4096",
+        "MCP_PRIORITY": "1",
+        "LATEST_CONTEXT_ONLY": "true",
+        "IMMEDIATE_CONTEXT_MODE": "true",
+        "CONTEXT_WINDOW_SIZE": "1"
+      },
+      "autoStart": true,
+      "healthCheck": {
+        "enabled": true,
+        "intervalMs": 60000
+      }
+    },
+    "rag-memory-mcp": {
+      "command": "node",
+      "args": ["C:\\mcp-rag-memory\\dist\\index.js"],
+      "env": {
+        "MEMORY_DIR": "C:\\xampp\\htdocs\\mysite\\logs\\memory\\rag",
+        "VECTOR_CACHE_TTL": "300",
+        "MAX_DOCUMENTS": "1000",
+        "MAX_CHUNKS": "100000",
+        "EMBEDDING_MODEL": "sentence-transformers",
+        "NODE_OPTIONS": "--max-old-space-size=6144",
+        "MCP_PRIORITY": "1",
+        "SHORT_CONTEXT_MODE": "true",
+        "IMMEDIATE_RECALL": "true",
+        "MEMORY_CHUNK_DURATION": "short"
+      },
+      "autoStart": true,
+      "healthCheck": {
+        "enabled": true,
+        "intervalMs": 60000
+      }
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {
+        "ST_AUTO_ROUTING": "true",
+        "ST_COMPLEXITY_THRESHOLD": "4",
+        "ST_MAX_THOUGHTS": "15",
+        "ST_ENABLE_SUMMARIES": "true",
+        "ST_CACHE_ENABLED": "true",
+        "ST_CONTEXT_AWARE": "true",
+        "MCP_PRIORITY": "1"
+      },
+      "autoStart": true,
+      "healthCheck": {
+        "enabled": true,
+        "intervalMs": 45000
+      }
+    },
+    "edit-file-lines": {
+      "command": "node",
+      "args": [
+        "C:\\mcp-edit-file-lines\\build\\index.js",
+        "C:\\xampp\\htdocs\\mysite"
+      ],
+      "env": {
+        "MCP_EDIT_STATE_TTL": "600000",
+        "MCP_EDIT_BACKUP": "true",
+        "MCP_EDIT_DRY_RUN_DEFAULT": "true",
+        "MCP_EDIT_SECTION_MODE": "true",
+        "MCP_PRIORITY": "2"
+      },
+      "autoStart": true
+    },
+    "text-editor": {
+      "command": "npx",
+      "args": ["mcp-server-text-editor"],
+      "env": {
+        "EDITOR_BACKUP": "true",
+        "EDITOR_AUTO_SAVE": "false",
+        "EDITOR_VERSION_CONTROL": "true",
+        "MCP_PRIORITY": "2"
+      },
+      "autoStart": true
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\xampp\\htdocs\\mysite"
+      ],
+      "env": {
+        "FS_CACHE_ENABLED": "true",
+        "FS_WATCH_ENABLED": "true",
+        "FS_MAX_FILE_SIZE": "50MB",
+        "MCP_PRIORITY": "2"
+      },
+      "autoStart": true
+    },
+    "git": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_server_git",
+        "--repository",
+        "C:\\xampp\\htdocs\\mysite"
+      ],
+      "env": {
+        "GIT_AUTO_COMMIT": "false",
+        "GIT_AUTO_PUSH": "false",
+        "GIT_BRANCH_PROTECTION": "true",
+        "MCP_PRIORITY": "2"
+      },
+      "autoStart": true
+    },
+    "terminal": {
+      "command": "npx",
+      "args": ["-y", "@dillip285/mcp-terminal"],
+      "config": {
+        "allowedCommands": [
+          "npm", "npx", "node", "git", "python", "pip", "pipx", "pipenv",
+          "poetry", "pytest", "tox", "flake8", "pylint", "black", "isort",
+          "mypy", "coverage", "cProfile", "pyinstrument", "ab", "wrk",
+          "siege", "locust", "k6", "hey", "pytest-benchmark", "curl",
+          "http", "ls", "dir", "mysql", "ssh", "scp", "rsync", "chmod", "chown",
+          "ps", "kill", "top", "htop", "systemctl", "service", "netstat", "ss"
+        ],
+        "defaultTimeout": 60000,
+        "maxBufferSize": "10MB",
+        "shellIntegration": true
+      },
+      "env": {
+        "TERM": "xterm-256color",
+        "TERMINAL_SAFE_MODE": "false",
+        "MCP_PRIORITY": "2"
+      },
+      "autoStart": true
+    },
+    "ssh-manager-mcp": {
+      "command": "node",
+      "args": ["C:\\xampp\\htdocs\\mysite\\claude-hybrid-mcp\\src\\ssh-manager-mcp.js"],
+      "env": {
+        "SSH_KEEPALIVE": "60",
+        "SSH_COMPRESSION": "yes",
+        "SSH_POOL_SIZE": "5",
+        "SSH_TIMEOUT": "30000",
+        "SSH_RETRY_ATTEMPTS": "3",
+        "MCP_PRIORITY": "3"
+      },
+      "autoStart": true,
+      "healthCheck": {
+        "enabled": true,
+        "intervalMs": 120000
+      }
+    },
+    "sftp-transfer-mcp": {
+      "command": "node",
+      "args": ["C:\\xampp\\htdocs\\mysite\\claude-hybrid-mcp\\src\\sftp-transfer-mcp.js"],
+      "env": {
+        "SFTP_CONCURRENT_TRANSFERS": "5",
+        "SFTP_BUFFER_SIZE": "65536",
+        "SFTP_RESUME_TRANSFERS": "true",
+        "SFTP_VERIFY_CHECKSUMS": "true",
+        "MCP_PRIORITY": "3"
+      },
+      "autoStart": true
+    },
+    "remote-mysql-mcp": {
+      "command": "node",
+      "args": ["C:\\xampp\\htdocs\\mysite\\claude-hybrid-mcp\\src\\remote-mysql-mcp.js"],
+      "env": {
+        "MYSQL_POOL_SIZE": "10",
+        "MYSQL_TIMEOUT": "60000",
+        "MYSQL_RETRY_ATTEMPTS": "3",
+        "MYSQL_SSL_MODE": "preferred",
+        "MCP_PRIORITY": "3"
+      },
+      "autoStart": true
+    },
+    "server-monitor-mcp": {
+      "command": "node",
+      "args": ["C:\\xampp\\htdocs\\mysite\\claude-hybrid-mcp\\src\\server-monitor-mcp.js"],
+      "env": {
+        "MONITOR_INTERVAL": "30000",
+        "ALERT_THRESHOLD_CPU": "80",
+        "ALERT_THRESHOLD_MEMORY": "85",
+        "ALERT_THRESHOLD_DISK": "90",
+        "MONITOR_HISTORY_SIZE": "1000",
+        "MCP_PRIORITY": "3"
+      },
+      "autoStart": true
+    },
+    "browser-tools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@agentdeskai/browser-tools-mcp@latest"
+      ],
+      "env": {
+        "PUPPETEER_ARGS": "--no-sandbox --disable-dev-shm-usage --disable-gpu",
+        "BROWSER_TIMEOUT": "60000",
+        "BROWSER_HEADLESS": "true",
+        "BROWSER_CACHE_ENABLED": "true",
+        "MCP_PRIORITY": "4"
+      },
+      "autoStart": true
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@executeautomation/playwright-mcp-server"],
+      "env": {
+        "PLAYWRIGHT_BROWSERS_PATH": "0",
+        "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD": "false",
+        "PLAYWRIGHT_HEADLESS": "true",
+        "PLAYWRIGHT_TIMEOUT": "90000",
+        "MCP_PRIORITY": "4"
+      },
+      "autoStart": false
+    },
+    "selenium-playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"],
+      "env": {
+        "SELENIUM_GRID_URL": "http://localhost:4444",
+        "SELENIUM_IMPLICIT_WAIT": "10000",
+        "MCP_PRIORITY": "4"
+      },
+      "autoStart": false
+    },
+    "playwright-stealth": {
+      "command": "npx",
+      "args": ["-y", "@pvinis/playwright-stealth-mcp-server"],
+      "env": {
+        "STEALTH_MODE": "advanced",
+        "STEALTH_USER_AGENT": "random",
+        "STEALTH_VIEWPORT": "random",
+        "MCP_PRIORITY": "4"
+      },
+      "autoStart": false
+    },
+    "magic-ui": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@magicuidesign/mcp@latest"
+      ],
+      "env": {
+        "UI_CACHE_ENABLED": "true",
+        "UI_TEMPLATE_PATH": "C:\\xampp\\htdocs\\mysite\\templates",
+        "UI_COMPONENT_CACHE_TTL": "3600",
+        "UI_PERFORMANCE_MODE": "optimized",
+        "MCP_PRIORITY": "5"
+      },
+      "autoStart": true
+    },
+    "TalkToFigma": {
+      "command": "bunx",
+      "args": [
+        "cursor-talk-to-figma-mcp@latest",
+        "--server=vps.sonnylab.com"
+      ],
+      "env": {
+        "FIGMA_CACHE_TTL": "1800",
+        "FIGMA_RATE_LIMIT": "100",
+        "FIGMA_TIMEOUT": "30000",
+        "MCP_PRIORITY": "5"
+      },
+      "autoStart": false
+    },
+    "Framelink-Figma-MCP": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--stdio"
+      ],
+      "env": {
+        "FIGMA_API_KEY": "${FIGMA_API_KEY}",
+        "FIGMA_RATE_LIMIT": "100",
+        "FIGMA_CACHE_TTL": "3600",
+        "MCP_PRIORITY": "5"
+      },
+      "autoStart": false
+    },
+    "youtube-data-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "youtube-data-mcp-server",
+        "--transport",
+        "stdio"
+      ],
+      "env": {
+        "YOUTUBE_API_KEY": "${YOUTUBE_API_KEY}",
+        "YOUTUBE_CACHE_TTL": "3600",
+        "YOUTUBE_RATE_LIMIT": "1000",
+        "YOUTUBE_QUOTA_LIMIT": "10000",
+        "MCP_PRIORITY": "6"
+      },
+      "autoStart": false
+    },
+    "notion": {
+      "command": "npx",
+      "args": ["-y", "@notionhq/notion-mcp-server"],
+      "env": {
+        "NOTION_API_KEY": "${NOTION_API_KEY}",
+        "NOTION_CACHE_TTL": "1800",
+        "NOTION_RATE_LIMIT": "3",
+        "NOTION_RETRY_ATTEMPTS": "3",
+        "MCP_PRIORITY": "6"
+      },
+      "autoStart": false
+    },
+    "googleSearch": {
+      "command": "npx",
+      "args": ["-y", "g-search-mcp"],
+      "env": {
+        "GOOGLE_SEARCH_CACHE": "true",
+        "GOOGLE_RATE_LIMIT": "100",
+        "GOOGLE_CACHE_TTL": "3600",
+        "GOOGLE_SAFE_SEARCH": "moderate",
+        "MCP_PRIORITY": "6"
+      },
+      "autoStart": false
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest",
+        "--apiKey",
+        "8233d173-8fe0-43de-879d-7aeaf801c70b",
+        "--endpoint",
+        "https://mcp.context7.upstash.io"
+      ],
+      "config": {
+        "defaultTimeout": 120000,
+        "maxRetries": 3,
+        "cacheEnabled": true,
+        "cacheTTL": 7200,
+        "rateLimitEnabled": true
+      },
+      "env": {
+        "CONTEXT7_CACHE_SIZE": "1000",
+        "CONTEXT7_REQUEST_LIMIT": "100",
+        "MCP_PRIORITY": "6"
+      },
+      "autoStart": false
+    },
+    "atlassian-jira-confluence": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@atlassian/mcp-server@latest"
+      ],
+      "env": {
+        "ATLASSIAN_API_TOKEN": "${ATLASSIAN_API_TOKEN}",
+        "ATLASSIAN_DOMAIN": "${ATLASSIAN_DOMAIN}",
+        "ATLASSIAN_EMAIL": "${ATLASSIAN_EMAIL}",
+        "MCP_PRIORITY": "7"
+      },
+      "autoStart": false
+    },
+    "zapier": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@zapier/mcp-server@latest"
+      ],
+      "env": {
+        "ZAPIER_API_KEY": "${ZAPIER_API_KEY}",
+        "ZAPIER_WEBHOOK_SECRET": "${ZAPIER_WEBHOOK_SECRET}",
+        "MCP_PRIORITY": "7"
+      },
+      "autoStart": false
+    },
+    "cloudflare": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cloudflare/mcp-server@latest"
+      ],
+      "env": {
+        "CLOUDFLARE_API_TOKEN": "${CLOUDFLARE_API_TOKEN}",
+        "CLOUDFLARE_ACCOUNT_ID": "${CLOUDFLARE_ACCOUNT_ID}",
+        "MCP_PRIORITY": "7"
+      },
+      "autoStart": false
+    },
+    "sentry": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@sentry/mcp-server@latest"
+      ],
+      "env": {
+        "SENTRY_API_TOKEN": "${SENTRY_API_TOKEN}",
+        "SENTRY_ORG": "${SENTRY_ORG}",
+        "SENTRY_PROJECT": "${SENTRY_PROJECT}",
+        "MCP_PRIORITY": "7"
+      },
+      "autoStart": false
+    },
+    "linear": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@linear/mcp-server@latest"
+      ],
+      "env": {
+        "LINEAR_API_KEY": "${LINEAR_API_KEY}",
+        "LINEAR_TEAM_ID": "${LINEAR_TEAM_ID}",
+        "MCP_PRIORITY": "7"
+      },
+      "autoStart": false
+    }
+  },
+  "mcpClient": {
+    "enabled": true,
+    "performanceOptimizations": {
+      "connectionPooling": true,
+      "requestBatching": true,
+      "responseCompression": true,
+      "keepAliveTimeout": 30000,
+      "contextContinuity": true,
+      "memoryOptimization": true,
+      "immediateContextMode": true
+    },
+    "loadBalancing": {
+      "enabled": true,
+      "strategy": "priority_weighted",
+      "healthCheckInterval": 30000,
+      "failoverEnabled": true
+    },
+    "contextContinuitySystem": {
+      "enabled": true,
+      "latestContextTracking": true,
+      "autoMemorySync": true,
+      "tokenOptimization": true,
+      "immediateMode": true,
+      "shortMemoryChunks": true,
+      "contextWindowSize": 1,
+      "memoryChunkDuration": "1min",
+      "keywords": [
+        "이전 작업", "작업 이어서", "계속해서", "이어가기", "바로 앞",
+        "현재 작업", "최근 작업", "직전 작업", "방금 전", "지금까지",
+        "어디까지 했는지", "진행 상황", "상태 확인", "마지막으로"
+      ]
+    },
+    "triggerKeywords": {
+      "작업관리": ["shrimp-task-manager"],
+      "계획": ["shrimp-task-manager"],
+      "plan": ["shrimp-task-manager"],
+      "task": ["shrimp-task-manager"],
+      "프로젝트": ["shrimp-task-manager"],
+      "project": ["shrimp-task-manager"],
+      "분해": ["shrimp-task-manager"],
+      "split": ["shrimp-task-manager"],
+
+      "지식그래프": ["sylphlab-memory-mcp"],
+      "구조화": ["sylphlab-memory-mcp"],
+      "knowledge": ["sylphlab-memory-mcp"],
+      "graph": ["sylphlab-memory-mcp"],
+      "노드": ["sylphlab-memory-mcp"],
+      "관계": ["sylphlab-memory-mcp"],
+      "엔티티": ["sylphlab-memory-mcp"],
+
+      "벡터검색": ["rag-memory-mcp"],
+      "하이브리드검색": ["rag-memory-mcp"],
+      "컨텍스트": ["rag-memory-mcp"],
+      "context": ["rag-memory-mcp"],
+      "히스토리": ["rag-memory-mcp"],
+      "history": ["rag-memory-mcp"],
+      "문서": ["rag-memory-mcp"],
+      "embedding": ["rag-memory-mcp"],
+
+      "단계별로": ["sequential-thinking"],
+      "체계적으로": ["sequential-thinking"],
+      "논리적으로": ["sequential-thinking"],
+      "차근차근": ["sequential-thinking"],
+      "순서대로": ["sequential-thinking"],
+      "복잡한": ["sequential-thinking"],
+      "분석해": ["sequential-thinking"],
+      "sequential": ["sequential-thinking"],
+      "step by step": ["sequential-thinking"],
+      "thinking": ["sequential-thinking"],
+
+      "편집": ["edit-file-lines"],
+      "edit": ["edit-file-lines"],
+      "수정": ["edit-file-lines"],
+      "modify": ["edit-file-lines"],
+      "라인": ["edit-file-lines"],
+      "line": ["edit-file-lines"],
+      "파일수정": ["edit-file-lines"],
+      "dryrun": ["edit-file-lines"],
+
+      "작성": ["text-editor"],
+      "write": ["text-editor"],
+      "문서작성": ["text-editor"],
+      "텍스트": ["text-editor"],
+      "text": ["text-editor"],
+
+      "폴더": ["filesystem"],
+      "folder": ["filesystem"],
+      "디렉토리": ["filesystem"],
+      "directory": ["filesystem"],
+      "파일": ["filesystem"],
+      "file": ["filesystem"],
+      "읽기": ["filesystem"],
+      "read": ["filesystem"],
+      "목록": ["filesystem"],
+      "list": ["filesystem"],
+
+      "깃": ["git"],
+      "git": ["git"],
+      "커밋": ["git"],
+      "commit": ["git"],
+      "브랜치": ["git"],
+      "branch": ["git"],
+      "버전관리": ["git"],
+      "version": ["git"],
+
+      "터미널": ["terminal"],
+      "terminal": ["terminal"],
+      "명령어": ["terminal"],
+      "command": ["terminal"],
+      "실행": ["terminal"],
+      "execute": ["terminal"],
+      "cmd": ["terminal"],
+      "shell": ["terminal"],
+
+      "ssh": ["ssh-manager-mcp"],
+      "원격": ["ssh-manager-mcp"],
+      "remote": ["ssh-manager-mcp"],
+      "서버": ["ssh-manager-mcp"],
+      "server": ["ssh-manager-mcp"],
+      "연결": ["ssh-manager-mcp"],
+      "connect": ["ssh-manager-mcp"],
+
+      "sftp": ["sftp-transfer-mcp"],
+      "파일전송": ["sftp-transfer-mcp"],
+      "transfer": ["sftp-transfer-mcp"],
+      "업로드": ["sftp-transfer-mcp"],
+      "upload": ["sftp-transfer-mcp"],
+      "다운로드": ["sftp-transfer-mcp"],
+      "download": ["sftp-transfer-mcp"],
+
+      "mysql": ["remote-mysql-mcp"],
+      "데이터베이스": ["remote-mysql-mcp"],
+      "database": ["remote-mysql-mcp"],
+      "쿼리": ["remote-mysql-mcp"],
+      "query": ["remote-mysql-mcp"],
+      "db": ["remote-mysql-mcp"],
+      "sql": ["remote-mysql-mcp"],
+
+      "모니터링": ["server-monitor-mcp"],
+      "monitor": ["server-monitor-mcp"],
+      "상태": ["server-monitor-mcp"],
+      "status": ["server-monitor-mcp"],
+      "성능": ["server-monitor-mcp"],
+      "performance": ["server-monitor-mcp"],
+      "시스템상태": ["server-monitor-mcp"],
+
+      "크롤링": ["browser-tools"],
+      "crawling": ["browser-tools"],
+      "스크래핑": ["browser-tools"],
+      "scraping": ["browser-tools"],
+      "웹": ["browser-tools"],
+      "web": ["browser-tools"],
+      "브라우저": ["browser-tools"],
+      "browser": ["browser-tools"],
+      "스크린샷": ["browser-tools"],
+
+      "테스트": ["playwright"],
+      "test": ["playwright"],
+      "자동화": ["playwright"],
+      "automation": ["playwright"],
+      "e2e": ["playwright"],
+      "UI테스트": ["playwright"],
+      "성능테스트": ["playwright"],
+
+      "UI": ["magic-ui"],
+      "컴포넌트": ["magic-ui"],
+      "component": ["magic-ui"],
+      "디자인": ["magic-ui"],
+      "design": ["magic-ui"],
+      "인터페이스": ["magic-ui"],
+      "interface": ["magic-ui"],
+
+      "피그마": ["TalkToFigma"],
+      "figma": ["TalkToFigma"],
+      "프로토타입": ["TalkToFigma"],
+      "prototype": ["TalkToFigma"],
+
+      "유튜브": ["youtube-data-mcp-server"],
+      "youtube": ["youtube-data-mcp-server"],
+      "동영상": ["youtube-data-mcp-server"],
+      "video": ["youtube-data-mcp-server"],
+
+      "노션": ["notion"],
+      "notion": ["notion"],
+      "협업": ["notion"],
+      "collaboration": ["notion"],
+      "문서화": ["notion"],
+      "documentation": ["notion"],
+
+      "검색": ["googleSearch"],
+      "search": ["googleSearch"],
+      "구글": ["googleSearch"],
+      "google": ["googleSearch"],
+      "정보검색": ["googleSearch"],
+
+      "라이브러리": ["context7"],
+      "library": ["context7"],
+      "기술문서": ["context7"],
+      "docs": ["context7"],
+      "context7": ["context7"],
+      "API문서": ["context7"],
+
+      "지라": ["atlassian-jira-confluence"],
+      "jira": ["atlassian-jira-confluence"],
+      "컨플루언스": ["atlassian-jira-confluence"],
+      "confluence": ["atlassian-jira-confluence"],
+      "이슈": ["atlassian-jira-confluence"],
+      "issue": ["atlassian-jira-confluence"],
+
+      "자피어": ["zapier"],
+      "zapier": ["zapier"],
+      "자동화워크플로우": ["zapier"],
+      "automation": ["zapier"],
+      "워크플로우": ["zapier"],
+      "workflow": ["zapier"],
+
+      "클라우드플레어": ["cloudflare"],
+      "cloudflare": ["cloudflare"],
+      "CDN": ["cloudflare"],
+      "DNS": ["cloudflare"],
+      "보안": ["cloudflare"],
+
+      "센트리": ["sentry"],
+      "sentry": ["sentry"],
+      "오류": ["sentry"],
+      "error": ["sentry"],
+      "버그": ["sentry"],
+      "bug": ["sentry"],
+      "모니터링": ["sentry"],
+
+      "리니어": ["linear"],
+      "linear": ["linear"],
+      "프로젝트관리": ["linear"],
+      "이슈관리": ["linear"]
+    },
+    "fallbackStrategies": {
+      "sylphlab-memory-mcp": ["rag-memory-mcp", "text-editor"],
+      "rag-memory-mcp": ["sylphlab-memory-mcp", "filesystem"],
+      "ssh-manager-mcp": ["terminal", "browser-tools"],
+      "playwright": ["browser-tools", "selenium-playwright"],
+      "browser-tools": ["playwright", "terminal"],
+      "magic-ui": ["text-editor", "notion"],
+      "TalkToFigma": ["Framelink-Figma-MCP", "magic-ui"],
+      "youtube-data-mcp-server": ["googleSearch", "browser-tools"],
+      "notion": ["text-editor", "filesystem"],
+      "context7": ["googleSearch", "browser-tools"],
+      "atlassian-jira-confluence": ["notion", "text-editor"],
+      "zapier": ["terminal", "browser-tools"],
+      "cloudflare": ["terminal", "browser-tools"],
+      "sentry": ["terminal", "browser-tools"],
+      "linear": ["notion", "text-editor"]
+    },
+    "priorityRouting": {
+      "contextContinuity": ["sylphlab-memory-mcp", "rag-memory-mcp"],
+      "fileOperations": ["edit-file-lines", "text-editor", "filesystem"],
+      "projectManagement": ["shrimp-task-manager", "git", "linear"],
+      "remoteOperations": ["ssh-manager-mcp", "sftp-transfer-mcp", "remote-mysql-mcp"],
+      "webAutomation": ["browser-tools", "playwright"],
+      "designWork": ["magic-ui", "TalkToFigma", "Framelink-Figma-MCP"],
+      "informationGathering": ["googleSearch", "context7", "youtube-data-mcp-server"],
+      "teamCollaboration": ["atlassian-jira-confluence", "notion", "linear"],
+      "automation": ["zapier", "cloudflare"],
+      "debugging": ["sentry", "server-monitor-mcp"]
+    }
+  },
+  "logging": {
+    "enabled": true,
+    "level": "warn",
+    "directory": "C:\\xampp\\htdocs\\mysite\\logs\\mcp\\",
+    "rotation": {
+      "enabled": true,
+      "maxSize": "10MB",
+      "maxFiles": 10
+    },
+    "performance": {
+      "enabled": true,
+      "responseTimeTracking": true,
+      "memoryUsageTracking": true,
+      "contextContinuityTracking": true
+    }
+  },
+  "monitoring": {
+    "enabled": true,
+    "metrics": {
+      "responseTime": true,
+      "memoryUsage": true,
+      "cpuUsage": true,
+      "successRate": true,
+      "tokenUsage": true,
+      "contextContinuityRate": true,
+      "immediateContextHitRate": true
+    },
+    "alerts": {
+      "responseTimeThreshold": 5000,
+      "memoryThreshold": "4GB",
+      "cpuThreshold": 70,
+      "successRateThreshold": 95,
+      "tokenWasteThreshold": 1000,
+      "contextMissRate": 10
+    },
+    "dashboards": {
+      "enabled": true,
+      "port": 8080,
+      "authentication": false
+    }
+  },
+  "security": {
+    "enabledSafeguards": true,
+    "allowedDirectories": [
+      "C:\\xampp\\htdocs\\mysite"
+    ],
+    "blockedCommands": [
+      "rm -rf", "del /s", "format", "fdisk"
+    ],
+    "environmentVariableProtection": true
+  }
+}

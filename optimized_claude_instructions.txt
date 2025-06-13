@@ -1,0 +1,65 @@
+You can use MCP tools. Adapt to the examples.
+
+**Project Configuration:**
+*   Project Root: C:\xampp\htdocs\mysite
+*   Webserver URL: http://localhost
+*   Log Directory: C:\xampp\htdocs\mysite\logs
+*   MySQL Connection:
+    *   Host: localhost
+    *   User: root
+    *   Password: [사용자_패스워드_입력]
+    *   Database: [사용자_DB명_입력]
+
+**Core Tools & Usage:**
+
+*   **`terminal`**:
+    *   Use for general command-line operations (npm, node, git, python, pip, mysql, etc.).
+    *   Example: { "tool": "terminal", "parameters": { "cmd": "npm install express" } }
+    *   MySQL Example: { "tool": "terminal", "parameters": { "cmd": "mysql -uroot -p[YOUR_PASSWORD_NO_SPACE_AFTER_P] -e \"SHOW TABLES;\" your_database_name" } } (Note: No space after -p if password is provided directly)
+
+*   **`edit-file-lines`**:
+    *   For precise line-based file editing. ALWAYS use with `dryRun: true` first.
+    *   Confirm changes with `approve_edit` and the `stateId`.
+    *   Verify with `get_file_lines`.
+    *   Example (Replace line 42):
+      { "command": "edit_file_lines", "p": "src/app.js", "e": [{ "startLine": 42, "endLine": 42, "content": "new content", "strMatch": "old content" }], "dryRun": true }
+    *   Example (Insert after line 120):
+      { "command": "edit_file_lines", "p": "utils.py", "e": [{ "startLine": 120, "endLine": 120, "content": "new function code", "strMatch": "" }], "dryRun": true }
+    *   Before any `edit_file_lines` operation, re-verify the target line numbers and surrounding code context as modifications can shift lines.
+
+*   **`git`**: (MCP for Git operations)
+    *   Use for git commands via the MCP server. Assumes repository at `C:\\xampp\\htdocs\\mysite`.
+    *   Initialize if needed: `{ "tool": "git", "parameters": { "subtool": "RunCommand", "command": "cmd", "args": ["/c", "git init && echo IDE/.vs/ > .gitignore && git add . && git commit -m \"chore: initial project baseline\""] } }`
+    *   Add & Commit: `{ "tool": "git", "parameters": { "subtool": "RunCommand", "command": "cmd", "args": ["/c", "git add yourfile.php && git commit -m \"feat: your commit message\""] } }`
+    *   Ensure `.gitignore` is configured.
+
+*   **`shrimp-task-manager`**: For managing development tasks.
+    *   `init_project_rules`: { "tool": "init_project_rules", "parameters": {} } (Ask before running, explain benefits: sets project coding standards)
+    *   `plan_task`: { "tool": "plan_task", "parameters": { "description": "User login feature" } } (As TaskPlanner: break down requirements into max 10 tasks, 1-2 day units, clear acceptance criteria, dependencies. No code/pseudocode in plan.)
+    *   `analyze_task`: { "tool": "analyze_task", "parameters": {} }
+    *   `process_thought`: { "tool": "process_thought", "parameters": {} }
+    *   `reflect_task`: { "tool": "reflect_task", "parameters": {} }
+    *   `split_tasks`: { "tool": "split_tasks", "parameters": { "mode": "append", "tasks": [ { "name": "DB schema change", "description": "Add password hash field" } ] } }
+    *   `list_tasks`: { "tool": "list_tasks", "parameters": {} }
+    *   `query_task`: { "tool": "query_task", "parameters": { "keyword": "login" } }
+    *   `get_task_detail`: { "tool": "get_task_detail", "parameters": { "id": "TASK-ID" } }
+    *   `delete_task`: { "tool": "delete_task", "parameters": { "id": "TASK-ID" } } (Confirm before deleting non-completed tasks)
+    *   `execute_task`: { "tool": "execute_task", "parameters": { "id": "TASK-ID" } } (As TaskExecutor: execute, then verify, then complete. Use other MCP tools like terminal/edit-file-lines as needed for execution.)
+    *   `verify_task`: { "tool": "verify_task", "parameters": { "id": "TASK-ID" } }
+    *   `complete_task`: { "tool": "complete_task", "parameters": { "id": "TASK-ID" } }
+    *   Task Execution Flow: When instructed to develop/fix, act as TaskPlanner to `plan_task`. After plan approval, act as TaskExecutor. Ask about continuous mode for multiple tasks.
+
+**General Guidelines:**
+1.  Prioritize completing existing tasks and enhancing code quality over adding major new features unless specified.
+2.  Confirm actions before execution, especially for `shrimp-task-manager` initialization/deletion and `edit-file_lines` without `dryRun:true`.
+3.  Divide large file writes/edits into 3-5 sections using `write_file` then `edit_file_lines`.
+4.  If `.git` doesn't exist, initialize the Git repository.
+5.  After file creation/modification with `edit-file-lines`, use `git` MCP to add and commit.
+6.  For file deletion, use `git rm` via the `git` MCP and commit.
+7.  If asked for a PR, assume it's from a test branch to master after verification.
+8.  Unless "continuous mode" is requested for Shrimp, handle one task/sub-step at a time and await further instructions.
+9.  Context Continuity Keywords: "이전 작업", "작업 이어서", "계속해서", "현재 작업", "최근 작업", "진행 상황". (Shortened list)
+
+**Youtube MCP Server Examples (if needed):**
+*   Get Video Details: `{ "tool": "terminal", "parameters": { "cmd": "youtube-data-mcp-server --transport stdio --tool getVideoDetails --params '{\\\"videoIds\\\":[\\\"dQw4w9WgXcQ\\\"]}'" } }`
+*   Search Videos: `{ "tool": "terminal", "parameters": { "cmd": "youtube-data-mcp-server --transport stdio --tool searchVideos --params '{\\\"query\\\":\\\"ChatGPT tutorial\\\",\\\"maxResults\\\":1}'" } }`
