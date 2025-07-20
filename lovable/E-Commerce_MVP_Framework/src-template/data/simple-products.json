@@ -1,0 +1,132 @@
+[
+  {
+    "id": "agv-eco-75",
+    "name": "AGV-ECO-75 캐스터",
+    "slug": "agv-eco-75",
+    "description": "AGV용 경량 캐스터로 부드러운 회전과 정확한 제어를 제공합니다.",
+    "price": 150000,
+    "main_image_url": "/src/assets/agv-eco-75.jpg",
+    "category": {
+      "id": "heavy-duty-casters",
+      "name": "AGV 캐스터"
+    },
+    "stock_quantity": 50
+  },
+  {
+    "id": "agv-pro-100",
+    "name": "AGV-PRO-100 캐스터",
+    "slug": "agv-pro-100",
+    "description": "고하중용 AGV 캐스터로 2000kg까지 지지 가능합니다.",
+    "price": 250000,
+    "main_image_url": "/src/assets/agv-pro-100.jpg",
+    "category": {
+      "id": "heavy-duty-casters",
+      "name": "AGV 캐스터"
+    },
+    "stock_quantity": 30
+  },
+  {
+    "id": "drive-mod-250",
+    "name": "DRV-MOD-250 구동모듈",
+    "slug": "drive-mod-250",
+    "description": "로봇 및 자동화 장비용 정밀 구동 모듈입니다.",
+    "price": 450000,
+    "main_image_url": "/src/assets/drive-mod-250.jpg",
+    "category": {
+      "id": "light-medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 25
+  },
+  {
+    "id": "hd-cast-200",
+    "name": "HD-CAST-200 산업용캐스터",
+    "slug": "hd-cast-200",
+    "description": "중장비용 고내구성 캐스터로 극한 환경에 적합합니다.",
+    "price": 180000,
+    "main_image_url": "/src/assets/hd-cast-200.jpg",
+    "category": {
+      "id": "industrial-casters",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 40
+  },
+  {
+    "id": "ind-swivel-150",
+    "name": "IND-SWIVEL-150 회전캐스터",
+    "slug": "ind-swivel-150",
+    "description": "360도 자유 회전이 가능한 산업용 캐스터입니다.",
+    "price": 120000,
+    "main_image_url": "/src/assets/ind-swivel-150.jpg",
+    "category": {
+      "id": "industrial-casters",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 60
+  },
+  {
+    "id": "pu-premium-100",
+    "name": "PU-PREMIUM-100 폴리우레탄휠",
+    "slug": "pu-premium-100",
+    "description": "고품질 폴리우레탄 소재로 바닥 보호와 정숙성을 제공합니다.",
+    "price": 80000,
+    "main_image_url": "/src/assets/pu-premium-100.jpg",
+    "category": {
+      "id": "specialty-casters",
+      "name": "폴리우레탄 휠"
+    },
+    "stock_quantity": 100
+  },
+  {
+    "id": "pu-wheel-80",
+    "name": "PU-WHEEL-80 폴리우레탄휠",
+    "slug": "pu-wheel-80",
+    "description": "소형 장비용 폴리우레탄 휠로 우수한 내마모성을 제공합니다.",
+    "price": 65000,
+    "main_image_url": "/src/assets/pu-wheel-80.jpg",
+    "category": {
+      "id": "specialty-casters",
+      "name": "폴리우레탄 휠"
+    },
+    "stock_quantity": 80
+  },
+  {
+    "id": "rubber-soft-75",
+    "name": "RUBBER-SOFT-75 고무휠",
+    "slug": "rubber-soft-75",
+    "description": "부드러운 고무 재질로 충격 흡수력이 뛰어납니다.",
+    "price": 55000,
+    "main_image_url": "/src/assets/rubber-soft-75.jpg",
+    "category": {
+      "id": "wheel-material-casters",
+      "name": "러버 휠"
+    },
+    "stock_quantity": 90
+  },
+  {
+    "id": "mecanum-heavy-200",
+    "name": "MECANUM-H200 메카넘휠",
+    "slug": "mecanum-heavy-200",
+    "description": "전방향 이동이 가능한 고하중용 메카넘 휠입니다.",
+    "price": 380000,
+    "main_image_url": "/src/assets/mecanum-heavy-200.jpg",
+    "category": {
+      "id": "specialty-casters",
+      "name": "폴리우레탄 휠"
+    },
+    "stock_quantity": 20
+  },
+  {
+    "id": "mecanum-omni-120",
+    "name": "MECANUM-O120 옴니휠",
+    "slug": "mecanum-omni-120",
+    "description": "로봇 이동 플랫폼용 정밀 옴니휠입니다.",
+    "price": 220000,
+    "main_image_url": "/src/assets/mecanum-omni-120.jpg",
+    "category": {
+      "id": "specialty-casters",
+      "name": "폴리우레탄 휠"
+    },
+    "stock_quantity": 35
+  }
+]

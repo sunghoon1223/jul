@@ -1,0 +1,3392 @@
+{
+  "timestamp": "2025-07-18T14:31:02.318Z",
+  "tests": [
+    {
+      "name": "홈페이지 로드",
+      "status": "success",
+      "timestamp": "2025-07-18T14:31:04.447Z"
+    },
+    {
+      "name": "AGV 검색",
+      "status": "success",
+      "details": "8개 결과 표시",
+      "timestamp": "2025-07-18T14:31:07.666Z"
+    }
+  ],
+  "searchResults": {
+    "agv": {
+      "cardsDisplayed": 8,
+      "totalCountDisplayed": 0,
+      "searchPageText": "카테고리[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}모든 제품AGV 캐스터드라이빙 모듈러버 휠메카넘 휠장비용 캐스터중하중 캐스터폴리우레탄 휠\"AGV\" 검색 결과\"AGV\"에 대한 0개의 제품을 찾았습니다상세보기장바구니JP AGV 전용 캐스터 50mm카테고리 없음₩ 220,000재고 있음SKU: JP-1752480107145-3상세보기장바구니JP AGV 구동 캐스터 65mm카테고리 없음₩ 220,000재고 있음SKU: JP-1752480095752-7상세보기장바구니JP 자동화 AGV 캐스터 80mm카테고리 없음₩ 270,000재고 있음SKU: JP-1752480107816-10상세보기장바구니JP AGV 메카넘 캐스터"
+    },
+    "캐스터": {
+      "cardsDisplayed": 12,
+      "timestamp": "2025-07-18T14:31:12.048Z"
+    },
+    "50mm": {
+      "cardsDisplayed": 7,
+      "timestamp": "2025-07-18T14:31:15.124Z"
+    },
+    "JP": {
+      "cardsDisplayed": 12,
+      "timestamp": "2025-07-18T14:31:18.069Z"
+    }
+  },
+  "productCounts": {
+    "allProducts": {
+      "cardsDisplayed": 12,
+      "totalCountDisplayed": 0,
+      "pageText": "카테고리[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}모든 제품AGV 캐스터드라이빙 모듈러버 휠메카넘 휠장비용 캐스터중하중 캐스터폴리우레탄 휠모든 제품총 0개의 제품을 만나보세요상세보기장바구니JP AGV 전용 캐스터 50mm카테고리 없음₩ 220,000재고 있음SKU: JP-1752480107145-3상세보기장바구니JP AGV 구동 캐스터 65mm카테고리 없음₩ 220,000재고 있음SKU: JP-1752480095752-7상세보기장바구니JP 자동화 AGV 캐스터 80mm카테고리 없음₩ 270,000재고 있음SKU: JP-1752480107816-10상세보기장바구니JP AGV 메카넘 캐스터 95mm카테고리 없음₩ "
+    }
+  },
+  "errors": [],
+  "consoleLogs": [
+    {
+      "type": "debug",
+      "text": "[vite] connecting...",
+      "timestamp": "2025-07-18T14:31:02.397Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected.",
+      "timestamp": "2025-07-18T14:31:02.410Z"
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+      "timestamp": "2025-07-18T14:31:02.532Z"
+    },
+    {
+      "type": "log",
+      "text": "🔑 Vite 환경변수에서 API 키 로드됨",
+      "timestamp": "2025-07-18T14:31:02.558Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 환경변수 상태: {isDev: true, mode: development, hasGeminiKey: true, hasSupabaseUrl: true, geminiKeyPrefix: AIzaSyD8AQ}",
+      "timestamp": "2025-07-18T14:31:02.559Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Performance Monitoring Active",
+      "timestamp": "2025-07-18T14:31:02.561Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Current Bundle Mode: development",
+      "timestamp": "2025-07-18T14:31:02.561Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 Development Tools Available",
+      "timestamp": "2025-07-18T14:31:02.562Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:02.575Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:02.599Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:02.615Z"
+    },
+    {
+      "type": "log",
+      "text": "⬆️ ScrollToTop - Navigated to: /",
+      "timestamp": "2025-07-18T14:31:02.626Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:02.627Z"
+    },
+    {
+      "type": "log",
+      "text": "🚪 CartDrawer state: {controlledOpen: false, internalOpen: false, open: false, hasOnOpenChange: true}",
+      "timestamp": "2025-07-18T14:31:02.627Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Header: cart count 업데이트: 0",
+      "timestamp": "2025-07-18T14:31:02.627Z"
+    },
+    {
+      "type": "log",
+      "text": "📭 Header: 장바구니 비어있음",
+      "timestamp": "2025-07-18T14:31:02.627Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:02.627Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:02.628Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:02.629Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "timestamp": "2025-07-18T14:31:02.630Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "timestamp": "2025-07-18T14:31:02.630Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 CartContext: itemsCount 변경됨: 0",
+      "timestamp": "2025-07-18T14:31:02.630Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:02.836Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:02.839Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:02.844Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:02.849Z"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 406 ()",
+      "timestamp": "2025-07-18T14:31:03.805Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:03.823Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 12",
+      "timestamp": "2025-07-18T14:31:03.892Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:03.892Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 FeaturedProducts: Raw products data: [Object, Object]",
+      "timestamp": "2025-07-18T14:31:03.894Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 FeaturedProducts: Category structure check: [Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:03.894Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ FeaturedProducts: Filtered products: 5",
+      "timestamp": "2025-07-18T14:31:03.894Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:03.894Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.894Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.896Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.896Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.896Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.896Z"
+    },
+    {
+      "type": "log",
+      "text": "🛒 장바구니 로드 성공: 0 개 아이템",
+      "timestamp": "2025-07-18T14:31:03.943Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:03.948Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.948Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.948Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.948Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.948Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:03.948Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connecting...",
+      "timestamp": "2025-07-18T14:31:04.485Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected.",
+      "timestamp": "2025-07-18T14:31:04.493Z"
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+      "timestamp": "2025-07-18T14:31:04.580Z"
+    },
+    {
+      "type": "log",
+      "text": "🔑 Vite 환경변수에서 API 키 로드됨",
+      "timestamp": "2025-07-18T14:31:04.591Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 환경변수 상태: {isDev: true, mode: development, hasGeminiKey: true, hasSupabaseUrl: true, geminiKeyPrefix: AIzaSyD8AQ}",
+      "timestamp": "2025-07-18T14:31:04.591Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Performance Monitoring Active",
+      "timestamp": "2025-07-18T14:31:04.592Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Current Bundle Mode: development",
+      "timestamp": "2025-07-18T14:31:04.592Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 Development Tools Available",
+      "timestamp": "2025-07-18T14:31:04.592Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:04.601Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:04.612Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:04.615Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:04.616Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: undefined",
+      "timestamp": "2025-07-18T14:31:04.616Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:04.616Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:04.616Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:04.616Z"
+    },
+    {
+      "type": "log",
+      "text": "⬆️ ScrollToTop - Navigated to: /products",
+      "timestamp": "2025-07-18T14:31:04.621Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:04.622Z"
+    },
+    {
+      "type": "log",
+      "text": "🚪 CartDrawer state: {controlledOpen: false, internalOpen: false, open: false, hasOnOpenChange: true}",
+      "timestamp": "2025-07-18T14:31:04.622Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Header: cart count 업데이트: 0",
+      "timestamp": "2025-07-18T14:31:04.622Z"
+    },
+    {
+      "type": "log",
+      "text": "📭 Header: 장바구니 비어있음",
+      "timestamp": "2025-07-18T14:31:04.622Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:04.622Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:04.622Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:04.622Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "timestamp": "2025-07-18T14:31:04.623Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "timestamp": "2025-07-18T14:31:04.623Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 CartContext: itemsCount 변경됨: 0",
+      "timestamp": "2025-07-18T14:31:04.623Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:04.793Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:04.794Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:04.795Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:04.795Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:04.795Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:04.795Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:04.795Z"
+    },
+    {
+      "type": "log",
+      "text": "🛒 장바구니 로드 성공: 0 개 아이템",
+      "timestamp": "2025-07-18T14:31:04.825Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 12",
+      "timestamp": "2025-07-18T14:31:04.831Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:04.831Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:04.832Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:04.832Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:04.832Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:04.833Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:04.833Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:04.833Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:04.833Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.836Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.839Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.841Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.842Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.844Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.847Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.848Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:04.850Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.851Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.852Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.853Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.854Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:04.857Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:04.858Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:04.858Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:04.858Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:04.859Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:04.859Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:04.859Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:04.859Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:04.859Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.860Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.862Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.864Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.865Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.865Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.866Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.867Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:04.867Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.868Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.868Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.869Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.870Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.908Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.908Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.909Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.910Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.911Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:04.934Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:04.940Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.042Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.042Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:05.043Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.044Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.044Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.045Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: AGV, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:05.753Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:05.754Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:05.754Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:05.754Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:05.757Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:05.757Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:05.759Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 8",
+      "timestamp": "2025-07-18T14:31:05.888Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: AGV, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:05.888Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:05.888Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:05.889Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:05.889Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(8), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:05.889Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 8",
+      "timestamp": "2025-07-18T14:31:05.889Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:05.889Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:05.889Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.890Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.891Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.892Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.892Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.893Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.894Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.895Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:05.896Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: AGV, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(8), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 8",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:05.898Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.899Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.900Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.900Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.900Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.901Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.902Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.903Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:05.903Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.919Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.920Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.920Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.921Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.921Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.922Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:05.922Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:05.923Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:05.962Z"
+    },
+    {
+      "type": "warning",
+      "text": "The resource http://localhost:8080/data/products.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "timestamp": "2025-07-18T14:31:07.738Z"
+    },
+    {
+      "type": "warning",
+      "text": "The resource http://localhost:8080/data/categories.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "timestamp": "2025-07-18T14:31:07.738Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connecting...",
+      "timestamp": "2025-07-18T14:31:07.783Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected.",
+      "timestamp": "2025-07-18T14:31:07.797Z"
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+      "timestamp": "2025-07-18T14:31:07.865Z"
+    },
+    {
+      "type": "log",
+      "text": "🔑 Vite 환경변수에서 API 키 로드됨",
+      "timestamp": "2025-07-18T14:31:07.880Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 환경변수 상태: {isDev: true, mode: development, hasGeminiKey: true, hasSupabaseUrl: true, geminiKeyPrefix: AIzaSyD8AQ}",
+      "timestamp": "2025-07-18T14:31:07.881Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Performance Monitoring Active",
+      "timestamp": "2025-07-18T14:31:07.883Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Current Bundle Mode: development",
+      "timestamp": "2025-07-18T14:31:07.884Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 Development Tools Available",
+      "timestamp": "2025-07-18T14:31:07.884Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:07.889Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:07.901Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:07.903Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:07.904Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: undefined",
+      "timestamp": "2025-07-18T14:31:07.904Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:07.904Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:07.905Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:07.905Z"
+    },
+    {
+      "type": "log",
+      "text": "⬆️ ScrollToTop - Navigated to: /products",
+      "timestamp": "2025-07-18T14:31:07.911Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:07.911Z"
+    },
+    {
+      "type": "log",
+      "text": "🚪 CartDrawer state: {controlledOpen: false, internalOpen: false, open: false, hasOnOpenChange: true}",
+      "timestamp": "2025-07-18T14:31:07.911Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Header: cart count 업데이트: 0",
+      "timestamp": "2025-07-18T14:31:07.912Z"
+    },
+    {
+      "type": "log",
+      "text": "📭 Header: 장바구니 비어있음",
+      "timestamp": "2025-07-18T14:31:07.912Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:07.912Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:07.912Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:07.912Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "timestamp": "2025-07-18T14:31:07.913Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "timestamp": "2025-07-18T14:31:07.913Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 CartContext: itemsCount 변경됨: 0",
+      "timestamp": "2025-07-18T14:31:07.913Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:08.025Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:08.025Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:08.025Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:08.025Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:08.026Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:08.026Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:08.026Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 12",
+      "timestamp": "2025-07-18T14:31:08.038Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:08.040Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:08.040Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:08.040Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:08.040Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:08.042Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:08.042Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:08.042Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:08.042Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.043Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.048Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.054Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.056Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.056Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.059Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.060Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:08.063Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.065Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.067Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.071Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.072Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:08.077Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:08.078Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:08.078Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:08.080Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:08.080Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:08.080Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:08.080Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:08.080Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:08.080Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.081Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.082Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.082Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.083Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.084Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.084Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.085Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:08.086Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.087Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.088Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.089Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.093Z"
+    },
+    {
+      "type": "log",
+      "text": "🛒 장바구니 로드 성공: 0 개 아이템",
+      "timestamp": "2025-07-18T14:31:08.132Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.136Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.137Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.138Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.138Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.140Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.140Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.141Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:08.141Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.142Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.144Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.144Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.145Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:08.170Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.617Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.627Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.639Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:08.648Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.657Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.667Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.677Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.749Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:08.759Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:09.481Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:09.489Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:09.497Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: 캐스터, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:10.038Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:10.038Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:10.038Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:10.038Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:10.038Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:10.038Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:10.042Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 12",
+      "timestamp": "2025-07-18T14:31:10.168Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: 캐스터, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:10.168Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:10.168Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:10.169Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:10.169Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:10.169Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:10.169Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:10.169Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:10.169Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.171Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.173Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.175Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.177Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.179Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.180Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.180Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:10.181Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.182Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.183Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.183Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.184Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:10.186Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: 캐스터, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:10.186Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:10.186Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:10.187Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:10.187Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:10.187Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:10.187Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:10.187Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:10.187Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.187Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.188Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.188Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.189Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.189Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.190Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.190Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:10.191Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.192Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.193Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.194Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.195Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.212Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.213Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.214Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.214Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.215Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.215Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.216Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:10.216Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.216Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.217Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.217Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:10.218Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:10.259Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connecting...",
+      "timestamp": "2025-07-18T14:31:12.098Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected.",
+      "timestamp": "2025-07-18T14:31:12.102Z"
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+      "timestamp": "2025-07-18T14:31:12.273Z"
+    },
+    {
+      "type": "log",
+      "text": "🔑 Vite 환경변수에서 API 키 로드됨",
+      "timestamp": "2025-07-18T14:31:12.284Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 환경변수 상태: {isDev: true, mode: development, hasGeminiKey: true, hasSupabaseUrl: true, geminiKeyPrefix: AIzaSyD8AQ}",
+      "timestamp": "2025-07-18T14:31:12.285Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Performance Monitoring Active",
+      "timestamp": "2025-07-18T14:31:12.286Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Current Bundle Mode: development",
+      "timestamp": "2025-07-18T14:31:12.286Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 Development Tools Available",
+      "timestamp": "2025-07-18T14:31:12.286Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:12.291Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:12.302Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:12.303Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:12.304Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: undefined",
+      "timestamp": "2025-07-18T14:31:12.304Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:12.304Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:12.304Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:12.304Z"
+    },
+    {
+      "type": "log",
+      "text": "⬆️ ScrollToTop - Navigated to: /products",
+      "timestamp": "2025-07-18T14:31:12.312Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:12.312Z"
+    },
+    {
+      "type": "log",
+      "text": "🚪 CartDrawer state: {controlledOpen: false, internalOpen: false, open: false, hasOnOpenChange: true}",
+      "timestamp": "2025-07-18T14:31:12.313Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Header: cart count 업데이트: 0",
+      "timestamp": "2025-07-18T14:31:12.313Z"
+    },
+    {
+      "type": "log",
+      "text": "📭 Header: 장바구니 비어있음",
+      "timestamp": "2025-07-18T14:31:12.313Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:12.313Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:12.313Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:12.313Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "timestamp": "2025-07-18T14:31:12.314Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "timestamp": "2025-07-18T14:31:12.314Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 CartContext: itemsCount 변경됨: 0",
+      "timestamp": "2025-07-18T14:31:12.315Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:12.421Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:12.421Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:12.421Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:12.422Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:12.422Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:12.422Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:12.422Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 12",
+      "timestamp": "2025-07-18T14:31:12.457Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:12.457Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:12.457Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:12.457Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:12.457Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:12.458Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:12.458Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:12.458Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:12.458Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.460Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.462Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.465Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.466Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.468Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.469Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.472Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:12.473Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.474Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.475Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.476Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.478Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:12.480Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:12.481Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:12.481Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:12.481Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:12.481Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:12.481Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:12.481Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:12.481Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:12.481Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.482Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.483Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.483Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.484Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.484Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.485Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.486Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:12.487Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.488Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.489Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.490Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.491Z"
+    },
+    {
+      "type": "log",
+      "text": "🛒 장바구니 로드 성공: 0 개 아이템",
+      "timestamp": "2025-07-18T14:31:12.515Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.519Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.522Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.522Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.523Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.523Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.524Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.524Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:12.525Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.525Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.525Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.526Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.526Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:12.531Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.531Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.536Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.546Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.554Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:12.556Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.563Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:12.572Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: 50mm, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:13.113Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:13.114Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:13.114Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:13.114Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:13.114Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:13.114Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:13.116Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:13.261Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: 50mm, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:13.262Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:13.263Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:13.263Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:13.263Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(7), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:13.263Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 7",
+      "timestamp": "2025-07-18T14:31:13.263Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:13.263Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:13.264Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.264Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+      "timestamp": "2025-07-18T14:31:13.266Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.274Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.274Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.274Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.275Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.278Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:13.279Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: 50mm, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:13.280Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:13.280Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:13.280Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:13.280Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(7), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:13.281Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 7",
+      "timestamp": "2025-07-18T14:31:13.281Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:13.281Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:13.281Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.281Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+      "timestamp": "2025-07-18T14:31:13.282Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.282Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.284Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.284Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.285Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.286Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.301Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:13.346Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+      "timestamp": "2025-07-18T14:31:13.366Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.367Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.371Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.372Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.372Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:13.374Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connecting...",
+      "timestamp": "2025-07-18T14:31:15.166Z"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected.",
+      "timestamp": "2025-07-18T14:31:15.172Z"
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+      "timestamp": "2025-07-18T14:31:15.220Z"
+    },
+    {
+      "type": "log",
+      "text": "🔑 Vite 환경변수에서 API 키 로드됨",
+      "timestamp": "2025-07-18T14:31:15.232Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 환경변수 상태: {isDev: true, mode: development, hasGeminiKey: true, hasSupabaseUrl: true, geminiKeyPrefix: AIzaSyD8AQ}",
+      "timestamp": "2025-07-18T14:31:15.232Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Performance Monitoring Active",
+      "timestamp": "2025-07-18T14:31:15.233Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Current Bundle Mode: development",
+      "timestamp": "2025-07-18T14:31:15.233Z"
+    },
+    {
+      "type": "log",
+      "text": "🔧 Development Tools Available",
+      "timestamp": "2025-07-18T14:31:15.233Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:15.238Z"
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "timestamp": "2025-07-18T14:31:15.247Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:15.249Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:15.250Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: undefined",
+      "timestamp": "2025-07-18T14:31:15.250Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:15.250Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:15.250Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:15.250Z"
+    },
+    {
+      "type": "log",
+      "text": "⬆️ ScrollToTop - Navigated to: /products",
+      "timestamp": "2025-07-18T14:31:15.254Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:15.254Z"
+    },
+    {
+      "type": "log",
+      "text": "🚪 CartDrawer state: {controlledOpen: false, internalOpen: false, open: false, hasOnOpenChange: true}",
+      "timestamp": "2025-07-18T14:31:15.254Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Header: cart count 업데이트: 0",
+      "timestamp": "2025-07-18T14:31:15.254Z"
+    },
+    {
+      "type": "log",
+      "text": "📭 Header: 장바구니 비어있음",
+      "timestamp": "2025-07-18T14:31:15.254Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "timestamp": "2025-07-18T14:31:15.254Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:15.255Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:15.255Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "timestamp": "2025-07-18T14:31:15.255Z"
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "timestamp": "2025-07-18T14:31:15.255Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 CartContext: itemsCount 변경됨: 0",
+      "timestamp": "2025-07-18T14:31:15.256Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:15.354Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:15.355Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:15.355Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:15.355Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:15.355Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:15.355Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:15.355Z"
+    },
+    {
+      "type": "log",
+      "text": "🛒 장바구니 로드 성공: 0 개 아이템",
+      "timestamp": "2025-07-18T14:31:15.383Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 12",
+      "timestamp": "2025-07-18T14:31:15.404Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:15.404Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:15.405Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:15.405Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:15.405Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:15.405Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:15.405Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:15.405Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:15.405Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.407Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.410Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.412Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.413Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.413Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.414Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.416Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:15.416Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.417Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.419Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.420Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.422Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:15.424Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:15.425Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:15.425Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:15.426Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:15.426Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:15.426Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:15.426Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:15.426Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:15.426Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.426Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.427Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.427Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.428Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.428Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.428Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.429Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:15.429Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.430Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.430Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.431Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.432Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.435Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.436Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.437Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.460Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.460Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.461Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:15.471Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:15.474Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.481Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.490Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.501Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.511Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:15.519Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: JP, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:16.057Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:16.057Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:16.057Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:16.057Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: undefined",
+      "timestamp": "2025-07-18T14:31:16.058Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ ProductListPage loading...",
+      "timestamp": "2025-07-18T14:31:16.058Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading products from Supabase...",
+      "timestamp": "2025-07-18T14:31:16.061Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Products loaded from Supabase: 12",
+      "timestamp": "2025-07-18T14:31:16.178Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: JP, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:16.178Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:16.178Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:16.178Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:16.178Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:16.179Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:16.179Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:16.179Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:16.179Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.180Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.180Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.181Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.182Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.183Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.184Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.185Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:16.185Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.186Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.186Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.187Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.187Z"
+    },
+    {
+      "type": "log",
+      "text": "🔄 Loading categories from Supabase...",
+      "timestamp": "2025-07-18T14:31:16.189Z"
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: JP, page: 1, limit: 12}",
+      "timestamp": "2025-07-18T14:31:16.190Z"
+    },
+    {
+      "type": "log",
+      "text": "🔍 ProductListPage - categorySlug: undefined",
+      "timestamp": "2025-07-18T14:31:16.190Z"
+    },
+    {
+      "type": "log",
+      "text": "📋 Categories: [Object, Object, Object, Object, Object, Object, Object]",
+      "timestamp": "2025-07-18T14:31:16.190Z"
+    },
+    {
+      "type": "log",
+      "text": "🎯 Current category: undefined",
+      "timestamp": "2025-07-18T14:31:16.190Z"
+    },
+    {
+      "type": "log",
+      "text": "📦 Products response: {data: Array(12), count: 0, hasMore: false}",
+      "timestamp": "2025-07-18T14:31:16.190Z"
+    },
+    {
+      "type": "log",
+      "text": "📊 Products count: 12",
+      "timestamp": "2025-07-18T14:31:16.190Z"
+    },
+    {
+      "type": "log",
+      "text": "⏳ Loading state: false",
+      "timestamp": "2025-07-18T14:31:16.191Z"
+    },
+    {
+      "type": "log",
+      "text": "🔢 Total count: 0",
+      "timestamp": "2025-07-18T14:31:16.191Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.192Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.192Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.192Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.192Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.193Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.193Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.193Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:16.194Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.194Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.194Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.196Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.196Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.211Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.211Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.212Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.212Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.212Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.213Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.213Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "timestamp": "2025-07-18T14:31:16.213Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.214Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.214Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.215Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "timestamp": "2025-07-18T14:31:16.215Z"
+    },
+    {
+      "type": "log",
+      "text": "✅ Categories loaded from Supabase: 7",
+      "timestamp": "2025-07-18T14:31:16.251Z"
+    }
+  ],
+  "networkRequests": [
+    {
+      "url": "http://localhost:8080/products",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:07.670Z"
+    },
+    {
+      "url": "http://localhost:8080/data/products.json",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:07.882Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:07.967Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&offset=0&limit=12",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:08.002Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/cart_items?select=*%2Cproduct%3Aproducts%28*%29&cart_id=eq.90f61c34-a22a-4af6-b082-ad9204a84890",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:08.018Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&or=%28name.ilike.%25%EC%BA%90%EC%8A%A4%ED%84%B0%25%2Cdescription.ilike.%25%EC%BA%90%EC%8A%A4%ED%84%B0%25%2Csku.ilike.%25%EC%BA%90%EC%8A%A4%ED%84%B0%25%29",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:10.054Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&or=%28name.ilike.%25%EC%BA%90%EC%8A%A4%ED%84%B0%25%2Cdescription.ilike.%25%EC%BA%90%EC%8A%A4%ED%84%B0%25%2Csku.ilike.%25%EC%BA%90%EC%8A%A4%ED%84%B0%25%29&offset=0&limit=12",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:10.111Z"
+    },
+    {
+      "url": "http://localhost:8080/products",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:12.051Z"
+    },
+    {
+      "url": "http://localhost:8080/data/products.json",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:12.286Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:12.382Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&offset=0&limit=12",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:12.419Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/cart_items?select=*%2Cproduct%3Aproducts%28*%29&cart_id=eq.90f61c34-a22a-4af6-b082-ad9204a84890",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:12.428Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&or=%28name.ilike.%2550mm%25%2Cdescription.ilike.%2550mm%25%2Csku.ilike.%2550mm%25%29",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:13.123Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&or=%28name.ilike.%2550mm%25%2Cdescription.ilike.%2550mm%25%2Csku.ilike.%2550mm%25%29&offset=0&limit=12",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:13.184Z"
+    },
+    {
+      "url": "http://localhost:8080/products",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:15.128Z"
+    },
+    {
+      "url": "http://localhost:8080/data/products.json",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:15.233Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:15.321Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/cart_items?select=*%2Cproduct%3Aproducts%28*%29&cart_id=eq.90f61c34-a22a-4af6-b082-ad9204a84890",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:15.353Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&offset=0&limit=12",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:15.366Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&or=%28name.ilike.%25JP%25%2Cdescription.ilike.%25JP%25%2Csku.ilike.%25JP%25%29",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:16.073Z"
+    },
+    {
+      "url": "https://bjqadhzkoxdwyfsglrvq.supabase.co/rest/v1/products?select=*&is_published=eq.true&or=%28name.ilike.%25JP%25%2Cdescription.ilike.%25JP%25%2Csku.ilike.%25JP%25%29&offset=0&limit=12",
+      "method": "GET",
+      "timestamp": "2025-07-18T14:31:16.119Z"
+    }
+  ]
+}

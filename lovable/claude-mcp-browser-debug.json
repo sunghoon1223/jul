@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "playwright-debug": {
+      "command": "node",
+      "args": ["scripts/debug-with-playwright.mjs"],
+      "env": {
+        "PLAYWRIGHT_BROWSERS_PATH": "0",
+        "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD": "false",
+        "PLAYWRIGHT_HEADLESS": "true",
+        "PLAYWRIGHT_TIMEOUT": "60000",
+        "DEBUG_MODE": "true",
+        "CONSOLE_CAPTURE": "true",
+        "ERROR_CAPTURE": "true",
+        "SCREENSHOT_ON_ERROR": "true"
+      },
+      "autoStart": false
+    },
+    "browser-tools-extended": {
+      "command": "npx",
+      "args": ["-y", "@agentdeskai/browser-tools-mcp@1.2.0"],
+      "env": {
+        "PUPPETEER_ARGS": "--no-sandbox --disable-dev-shm-usage --disable-gpu --disable-web-security",
+        "BROWSER_TIMEOUT": "90000",
+        "BROWSER_HEADLESS": "true",
+        "BROWSER_CACHE_ENABLED": "true",
+        "CONSOLE_LOGGING": "true",
+        "ERROR_HANDLING": "detailed"
+      },
+      "autoStart": true
+    }
+  }
+}

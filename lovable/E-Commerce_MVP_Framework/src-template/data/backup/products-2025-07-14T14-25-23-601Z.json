@@ -1,0 +1,974 @@
+[
+  {
+    "id": "prod_1752480084979_0",
+    "name": "温州巨匠智能科技有限公司",
+    "price": 0,
+    "slug": "wenzhou-jujang-zhinen-keji-youxian-gongsi",
+    "description": "Industrial caster product",
+    "stock_quantity": 100,
+    "manufacturer": "温州巨匠智能科技有限公司",
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg"
+    ],
+    "category_id": "cat_1",
+    "created_at": "2025-07-14T08:01:24.979Z",
+    "sku": "JP-1752480084979-0",
+    "features": null
+  },
+  {
+    "id": "prod_1752480085314_1",
+    "name": "Product 2",
+    "price": 0,
+    "slug": "product-2",
+    "description": "Industrial caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg"
+    ],
+    "category_id": "cat_1",
+    "created_at": "2025-07-14T08:01:25.314Z",
+    "sku": "JP-1752480085314-1",
+    "features": null
+  },
+  {
+    "id": "prod_1752480085560_2",
+    "name": "Product 3",
+    "price": 0,
+    "slug": "product-3",
+    "description": "Industrial caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_1",
+    "created_at": "2025-07-14T08:01:25.560Z",
+    "sku": "JP-1752480085560-2",
+    "features": null
+  },
+  {
+    "id": "prod_1752480088338_0",
+    "name": "52x13mm-B1",
+    "price": 0,
+    "slug": "52x13mm-b1",
+    "description": "Industrial caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_1",
+    "created_at": "2025-07-14T08:01:28.338Z",
+    "sku": "JP-1752480088338-0",
+    "features": null
+  },
+  {
+    "id": "prod_1752480088743_1",
+    "name": "52x13mm-B1",
+    "price": 0,
+    "slug": "52x13mm-b1-1",
+    "description": "Industrial caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYopOuu4gEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgmuHEoQYopOuu4gEwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_1",
+    "created_at": "2025-07-14T08:01:28.743Z",
+    "sku": "JP-1752480088743-1",
+    "features": null
+  },
+  {
+    "id": "prod_1752480088914_2",
+    "name": "52x13mm-B1",
+    "price": 0,
+    "slug": "52x13mm-b1-2",
+    "description": "Industrial caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYozID-qAUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgmuHEoQYozID-qAUwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_1",
+    "created_at": "2025-07-14T08:01:28.914Z",
+    "sku": "JP-1752480088914-2",
+    "features": null
+  },
+  {
+    "id": "prod_1752480088914_3",
+    "name": "Product 4",
+    "price": 0,
+    "slug": "product-4",
+    "description": "Industrial caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgn_nDoQYo3Ku5WjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn_nDoQYo3Ku5WjCgBjigBg.jpg"
+    ],
+    "category_id": "cat_1",
+    "created_at": "2025-07-14T08:01:28.914Z",
+    "sku": "JP-1752480088914-3",
+    "features": null
+  },
+  {
+    "id": "prod_1752480089119_4",
+    "name": "73x15mm-B1",
+    "price": 0,
+    "slug": "73x15mm-b1",
+    "description": "Industrial caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgn_nDoQYozvLO4gYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn_nDoQYozvLO4gYwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_1",
+    "created_at": "2025-07-14T08:01:29.119Z",
+    "sku": "JP-1752480089119-4",
+    "features": null
+  },
+  {
+    "id": "prod_1752480092040_0",
+    "name": "120x50mm-B1",
+    "price": 0,
+    "slug": "120x50mm-b1",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgobHIoQYo-OP1rwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgobHIoQYo-OP1rwEwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:32.040Z",
+    "sku": "JP-1752480092040-0",
+    "features": null
+  },
+  {
+    "id": "prod_1752480094923_0",
+    "name": "28x22mm",
+    "price": 0,
+    "slug": "28x22mm",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgosK8uAYo0KbNoAYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgosK8uAYo0KbNoAYwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:34.923Z",
+    "sku": "JP-1752480094923-0",
+    "features": null
+  },
+  {
+    "id": "prod_1752480095150_1",
+    "name": "28x22mm",
+    "price": 0,
+    "slug": "28x22mm-1",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgouDqwAYonMCEjwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgouDqwAYonMCEjwQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:35.150Z",
+    "sku": "JP-1752480095150-1",
+    "features": null
+  },
+  {
+    "id": "prod_1752480095473_2",
+    "name": "28x22mm",
+    "price": 0,
+    "slug": "28x22mm-2",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgp9CcrQYottCERDCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgp9CcrQYottCERDCgBjigBg.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:35.473Z",
+    "sku": "JP-1752480095473-2",
+    "features": null
+  },
+  {
+    "id": "prod_1752480095473_3",
+    "name": "Product 4",
+    "price": 0,
+    "slug": "product-4-1",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgp__drQYosKjMngcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgp__drQYosKjMngcwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:35.473Z",
+    "sku": "JP-1752480095473-3",
+    "features": null
+  },
+  {
+    "id": "prod_1752480095605_4",
+    "name": "36x11mm",
+    "price": 0,
+    "slug": "36x11mm",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgqIaiqgYo4qWMiQEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqIaiqgYo4qWMiQEwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:35.605Z",
+    "sku": "JP-1752480095605-4",
+    "features": null
+  },
+  {
+    "id": "prod_1752480095605_5",
+    "name": "Product 8",
+    "price": 0,
+    "slug": "product-8",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgqs_drQYo0KWaqgEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqs_drQYo0KWaqgEwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:35.605Z",
+    "sku": "JP-1752480095605-5",
+    "features": null
+  },
+  {
+    "id": "prod_1752480095752_6",
+    "name": "40x15mm",
+    "price": 0,
+    "slug": "40x15mm",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:35.752Z",
+    "sku": "JP-1752480095752-6",
+    "features": null
+  },
+  {
+    "id": "prod_1752480095752_7",
+    "name": "Product 12",
+    "price": 0,
+    "slug": "product-12",
+    "description": "Medical & Healthcare caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgrqXdtAYosNmpiQIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgrqXdtAYosNmpiQIwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_2",
+    "created_at": "2025-07-14T08:01:35.752Z",
+    "sku": "JP-1752480095752-7",
+    "features": null
+  },
+  {
+    "id": "prod_1752480098746_0",
+    "name": "58x25mm",
+    "price": 0,
+    "slug": "58x25mm",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgruOhrQYo7N__zQMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgruOhrQYo7N__zQMwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:38.746Z",
+    "sku": "JP-1752480098746-0",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099113_1",
+    "name": "58x25mm",
+    "price": 0,
+    "slug": "58x25mm-1",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgrvHkuQYorN-17QQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgrvHkuQYorN-17QQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.113Z",
+    "sku": "JP-1752480099113-1",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099332_2",
+    "name": "58x25mm",
+    "price": 0,
+    "slug": "58x25mm-2",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgssgjYswYovtPnqQMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgssgjYswYovtPnqQMwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.332Z",
+    "sku": "JP-1752480099332-2",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099332_3",
+    "name": "Product 4",
+    "price": 0,
+    "slug": "product-4-2",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgta-EoQYo87KthQcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgta-EoQYo87KthQcwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.332Z",
+    "sku": "JP-1752480099332-3",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099477_4",
+    "name": "60x20mm-B1",
+    "price": 0,
+    "slug": "60x20mm-b1",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAguIzDoQYoorL4hAcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAguIzDoQYoorL4hAcwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.477Z",
+    "sku": "JP-1752480099477-4",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099477_5",
+    "name": "Product 8",
+    "price": 0,
+    "slug": "product-8-1",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.477Z",
+    "sku": "JP-1752480099477-5",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099608_6",
+    "name": "60x20mm-B2",
+    "price": 0,
+    "slug": "60x20mm-b2",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgv83ctAYowu3B3wUwlwY4jgc.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgv83ctAYowu3B3wUwlwY4jgc.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.608Z",
+    "sku": "JP-1752480099608-6",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099608_7",
+    "name": "Product 12",
+    "price": 0,
+    "slug": "product-12-1",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgwLyYpQYokPbemAQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgwLyYpQYokPbemAQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.608Z",
+    "sku": "JP-1752480099608-7",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099749_8",
+    "name": "60x21mm-B1",
+    "price": 0,
+    "slug": "60x21mm-b1",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgxPjCoQYot-OuwgcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgxPjCoQYot-OuwgcwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.749Z",
+    "sku": "JP-1752480099749-8",
+    "features": null
+  },
+  {
+    "id": "prod_1752480099749_9",
+    "name": "Product 16",
+    "price": 0,
+    "slug": "product-16",
+    "description": "Office & Furniture caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgypWqqAYo0PPz9QYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgypWqqAYo0PPz9QYwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_3",
+    "created_at": "2025-07-14T08:01:39.749Z",
+    "sku": "JP-1752480099749-9",
+    "features": null
+  },
+  {
+    "id": "prod_1752480100929_10",
+    "name": "60x27.5mm",
+    "price": 0,
+    "slug": "60x27-5mm",
+    "description": "Material Handling caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgyuS1owYo2uOqUzCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgyuS1owYo2uOqUzCgBjigBg.jpg"
+    ],
+    "category_id": "cat_4",
+    "created_at": "2025-07-14T08:01:40.929Z",
+    "sku": "JP-1752480100929-10",
+    "features": null
+  },
+  {
+    "id": "prod_1752480100929_11",
+    "name": "Product 20",
+    "price": 0,
+    "slug": "product-20",
+    "description": "Material Handling caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgzLq1owYohu6i7QMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzLq1owYohu6i7QMwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_4",
+    "created_at": "2025-07-14T08:01:40.929Z",
+    "sku": "JP-1752480100929-11",
+    "features": null
+  },
+  {
+    "id": "prod_1752480101261_12",
+    "name": "65x30mm",
+    "price": 0,
+    "slug": "65x30mm",
+    "description": "Material Handling caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgz_y_oQYokP3KowQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgz_y_oQYokP3KowQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_4",
+    "created_at": "2025-07-14T08:01:41.261Z",
+    "sku": "JP-1752480101261-12",
+    "features": null
+  },
+  {
+    "id": "prod_1752480101261_13",
+    "name": "Product 24",
+    "price": 0,
+    "slug": "product-24",
+    "description": "Material Handling caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_4",
+    "created_at": "2025-07-14T08:01:41.261Z",
+    "sku": "JP-1752480101261-13",
+    "features": null
+  },
+  {
+    "id": "prod_1752480101406_14",
+    "name": "65x30mm",
+    "price": 0,
+    "slug": "65x30mm-1",
+    "description": "Material Handling caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYosIqK_gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYosIqK_gQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_4",
+    "created_at": "2025-07-14T08:01:41.406Z",
+    "sku": "JP-1752480101406-14",
+    "features": null
+  },
+  {
+    "id": "prod_1752480101406_15",
+    "name": "Product 28",
+    "price": 0,
+    "slug": "product-28",
+    "description": "Material Handling caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYos_Xi-gcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYos_Xi-gcwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_4",
+    "created_at": "2025-07-14T08:01:41.406Z",
+    "sku": "JP-1752480101406-15",
+    "features": null
+  },
+  {
+    "id": "prod_1752480102681_16",
+    "name": "65x50mm",
+    "price": 0,
+    "slug": "65x50mm",
+    "description": "Material Handling caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgzqzcsQYomK7N6AUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzqzcsQYomK7N6AUwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_4",
+    "created_at": "2025-07-14T08:01:42.681Z",
+    "sku": "JP-1752480102681-16",
+    "features": null
+  },
+  {
+    "id": "prod_1752480102681_17",
+    "name": "Product 32",
+    "price": 0,
+    "slug": "product-32",
+    "description": "Material Handling caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAgzrjEoQYosOTfsgMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzrjEoQYosOTfsgMwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_4",
+    "created_at": "2025-07-14T08:01:42.681Z",
+    "sku": "JP-1752480102681-17",
+    "features": null
+  },
+  {
+    "id": "prod_1752480106794_0",
+    "name": "110x40mm-B1",
+    "price": 0,
+    "slug": "110x40mm-b1",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:46.794Z",
+    "sku": "JP-1752480106794-0",
+    "features": null
+  },
+  {
+    "id": "prod_1752480106988_1",
+    "name": "110x40mm-B1",
+    "price": 0,
+    "slug": "110x40mm-b1-1",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg1KHDoQYousOAODCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1KHDoQYousOAODCgBjigBg.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:46.988Z",
+    "sku": "JP-1752480106988-1",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107145_2",
+    "name": "110x40mm-B1",
+    "price": 0,
+    "slug": "110x40mm-b1-2",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:47.145Z",
+    "sku": "JP-1752480107145-2",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107145_3",
+    "name": "Product 4",
+    "price": 0,
+    "slug": "product-4-3",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:47.145Z",
+    "sku": "JP-1752480107145-3",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107299_4",
+    "name": "110x42mm-B1",
+    "price": 0,
+    "slug": "110x42mm-b1",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:47.299Z",
+    "sku": "JP-1752480107299-4",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107299_5",
+    "name": "Product 8",
+    "price": 0,
+    "slug": "product-8-2",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:47.299Z",
+    "sku": "JP-1752480107299-5",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107518_6",
+    "name": "112x40mm-B1",
+    "price": 0,
+    "slug": "112x40mm-b1",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:47.518Z",
+    "sku": "JP-1752480107518-6",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107518_7",
+    "name": "Product 12",
+    "price": 0,
+    "slug": "product-12-2",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg3-rEugYon5XGywEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3-rEugYon5XGywEwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:47.518Z",
+    "sku": "JP-1752480107518-7",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107681_8",
+    "name": "120x72mm-B1",
+    "price": 0,
+    "slug": "120x72mm-b1",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg3PifvgYo35jC6wEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3PifvgYo35jC6wEwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:47.681Z",
+    "sku": "JP-1752480107681-8",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107681_9",
+    "name": "Product 16",
+    "price": 0,
+    "slug": "product-16-1",
+    "description": "Specialty & Custom caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_5",
+    "created_at": "2025-07-14T08:01:47.681Z",
+    "sku": "JP-1752480107681-9",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107816_10",
+    "name": "120x72mm-B2",
+    "price": 0,
+    "slug": "120x72mm-b2",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:47.816Z",
+    "sku": "JP-1752480107816-10",
+    "features": null
+  },
+  {
+    "id": "prod_1752480107816_11",
+    "name": "Product 20",
+    "price": 0,
+    "slug": "product-20-1",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg4OTDoQYo0N-6rgcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4OTDoQYo0N-6rgcwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:47.816Z",
+    "sku": "JP-1752480107816-11",
+    "features": null
+  },
+  {
+    "id": "prod_1752480108001_12",
+    "name": "125x28mm-B1",
+    "price": 0,
+    "slug": "125x28mm-b1",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:48.001Z",
+    "sku": "JP-1752480108001-12",
+    "features": null
+  },
+  {
+    "id": "prod_1752480108001_13",
+    "name": "Product 24",
+    "price": 0,
+    "slug": "product-24-1",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:48.001Z",
+    "sku": "JP-1752480108001-13",
+    "features": null
+  },
+  {
+    "id": "prod_1752480108178_14",
+    "name": "125x38mm-B1",
+    "price": 0,
+    "slug": "125x38mm-b1",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:48.178Z",
+    "sku": "JP-1752480108178-14",
+    "features": null
+  },
+  {
+    "id": "prod_1752480108178_15",
+    "name": "Product 28",
+    "price": 0,
+    "slug": "product-28-1",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:48.178Z",
+    "sku": "JP-1752480108178-15",
+    "features": null
+  },
+  {
+    "id": "prod_1752480108178_16",
+    "name": "Product 32",
+    "price": 0,
+    "slug": "product-32-1",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:48.178Z",
+    "sku": "JP-1752480108178-16",
+    "features": null
+  },
+  {
+    "id": "prod_1752480108178_17",
+    "name": "Product 36",
+    "price": 0,
+    "slug": "product-36",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg76i-oQYowsX3AzCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg76i-oQYowsX3AzCgBjigBg.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:48.178Z",
+    "sku": "JP-1752480108178-17",
+    "features": null
+  },
+  {
+    "id": "prod_1752480108178_18",
+    "name": "Product 40",
+    "price": 0,
+    "slug": "product-40",
+    "description": "High Performance caster product",
+    "stock_quantity": 100,
+    "manufacturer": null,
+    "is_published": true,
+    "main_image_url": "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg"
+    ],
+    "category_id": "cat_6",
+    "created_at": "2025-07-14T08:01:48.178Z",
+    "sku": "JP-1752480108178-18",
+    "features": null
+  }
+]

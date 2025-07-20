@@ -1,0 +1,95 @@
+{
+  "toolsTimeoutSeconds": 300,
+  "globalSettings": {
+    "maxConcurrentRequests": 5,
+    "requestQueueSize": 20,
+    "retryAttempts": 3,
+    "retryDelayMs": 1000,
+    "memoryOptimization": true,
+    "performanceMode": "optimized",
+    "contextContinuity": true,
+    "tokenSaving": true,
+    "immediateContextTracking": true
+  },
+  "mcpServers": {
+    "context7": {
+      "command": "bunx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "description": "고급 컨텍스트 관리",
+      "env": {
+        "MCP_PRIORITY": "1"
+      }
+    },
+    "edit-file-lines": {
+      "command": "node",
+      "args": [
+        "/mnt/c/MCP/mcp-edit-file-lines/build/index.js",
+        "/mnt/c/MYCLAUDE_PROJECT/jul/lovable"
+      ],
+      "description": "라인 기반 파일 편집 도구",
+      "env": {
+        "MCP_PRIORITY": "2"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/mnt/c/MYCLAUDE_PROJECT/jul/lovable"
+      ],
+      "description": "파일 시스템 접근 및 탐색"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@executeautomation/playwright-mcp-server"],
+      "env": {
+        "PLAYWRIGHT_HEADLESS": "false",
+        "PLAYWRIGHT_TIMEOUT": "90000",
+        "MCP_PRIORITY": "2"
+      },
+      "description": "Playwright를 이용한 브라우저 자동화"
+    },
+    "sequential-thinking": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "description": "체계적 사고 프로세스 지원",
+      "env": {
+        "ST_AUTO_ROUTING": "true",
+        "ST_COMPLEXITY_THRESHOLD": "4",
+        "ST_MAX_THOUGHTS": "15",
+        "ST_ENABLE_SUMMARIES": "true",
+        "ST_CACHE_ENABLED": "true",
+        "ST_CONTEXT_AWARE": "true",
+        "MCP_PRIORITY": "1"
+      },
+      "autoStart": true,
+      "healthCheck": {
+        "enabled": true,
+        "intervalMs": 45000
+      }
+    },
+    "shrimp-task-manager": {
+      "command": "node",
+      "args": [
+        "/mnt/c/MCP/mcp-shrimp-task-manager/dist/index.js"
+      ],
+      "env": {
+        "DATA_DIR": "/mnt/c/MYCLAUDE_PROJECT/jul/lovable/SHRIMP",
+        "TEMPLATES_USE": "templates_en",
+        "ENABLE_GUI": "true",
+        "NODE_OPTIONS": "--max-old-space-size=2048",
+        "MCP_PRIORITY": "1",
+        "CONTEXT_CONTINUITY": "true",
+        "SHORT_MEMORY_INTERVALS": "true",
+        "MEMORY_CHUNK_SIZE": "small"
+      },
+      "description": "작업 관리 및 프로젝트 계획",
+      "autoStart": true,
+      "healthCheck": {
+        "enabled": true,
+        "intervalMs": 30000
+      }
+    }
+  }
+}

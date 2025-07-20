@@ -1,0 +1,931 @@
+{
+  "timestamp": "2025-07-17T16:07:50.793Z",
+  "url": "https://studio-sb.com",
+  "testResults": {
+    "productsLoadingState": {
+      "hasLoadingElements": false,
+      "loadingTexts": []
+    },
+    "elements__grid___div": {
+      "count": 30,
+      "details": {
+        "tagName": "DIV",
+        "className": "text-white space-y-6 animate-fade-in-up",
+        "id": "",
+        "textContent": "AGV 캐스터 솔루션자동화 설비를 위한 정밀 캐스터무인 운반차량(AGV)에 최적화된 고성능 캐스터로 자동화 시스템의 효율성을 극대화하세요.AGV 캐스터 보기",
+        "innerHTML": "<div><h1 class=\"text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight\">AGV 캐스터 솔루션</h1><h2 class=\"text-xl md:text-2xl text-amber-400 font-semibold mb-6\">자동화 설비를 위한 정밀 캐스터</h2></div><p class=\"t",
+        "hasButtons": false,
+        "buttonTexts": [],
+        "children": 3
+      }
+    },
+    "elements__class___card__": {
+      "count": 17,
+      "details": {
+        "tagName": "DIV",
+        "className": "bg-card border-t shadow-sm",
+        "id": "",
+        "textContent": "전체 메뉴회사소개AGV 캐스터장비용 캐스터폴리우레탄 휠러버 휠드라이빙 모듈공지사항고객지원",
+        "innerHTML": "<div class=\"container mx-auto px-4\"><nav class=\"hidden md:flex items-center h-14 relative\"><div class=\"relative\"><button class=\"flex items-center text-base font-semibold text-foreground hover:text-pri",
+        "hasButtons": true,
+        "buttonTexts": [
+          "전체 메뉴"
+        ],
+        "children": 1
+      }
+    },
+    "cartAnalysis": [
+      {
+        "selector": "button:has(svg[class*=\"cart\"])",
+        "tagName": "BUTTON",
+        "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 w-10 relative hover:bg-yellow-50 hover:text-yellow-600 transition-colors",
+        "id": "",
+        "textContent": "",
+        "isClickable": true,
+        "hasClickHandler": true,
+        "isVisible": true,
+        "boundingRect": {
+          "x": 1603.984375,
+          "y": 69,
+          "width": 40,
+          "height": 40,
+          "top": 69,
+          "right": 1643.984375,
+          "bottom": 109,
+          "left": 1603.984375
+        },
+        "outerHTML": "<button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-"
+      },
+      {
+        "selector": "[class*=\"cart\"]",
+        "tagName": "svg",
+        "className": {},
+        "id": "",
+        "textContent": "",
+        "isClickable": false,
+        "hasClickHandler": false,
+        "isVisible": true,
+        "boundingRect": {
+          "x": 1615.984375,
+          "y": 81,
+          "width": 16,
+          "height": 16,
+          "top": 81,
+          "right": 1631.984375,
+          "bottom": 97,
+          "left": 1615.984375
+        },
+        "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucid"
+      },
+      {
+        "selector": "svg[class*=\"cart\"]",
+        "tagName": "svg",
+        "className": {},
+        "id": "",
+        "textContent": "",
+        "isClickable": false,
+        "hasClickHandler": false,
+        "isVisible": true,
+        "boundingRect": {
+          "x": 1615.984375,
+          "y": 81,
+          "width": 16,
+          "height": 16,
+          "top": 81,
+          "right": 1631.984375,
+          "bottom": 97,
+          "left": 1615.984375
+        },
+        "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucid"
+      },
+      {
+        "selector": "button:has(.lucide-shopping-cart)",
+        "tagName": "BUTTON",
+        "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 w-10 relative hover:bg-yellow-50 hover:text-yellow-600 transition-colors",
+        "id": "",
+        "textContent": "",
+        "isClickable": true,
+        "hasClickHandler": true,
+        "isVisible": true,
+        "boundingRect": {
+          "x": 1603.984375,
+          "y": 69,
+          "width": 40,
+          "height": 40,
+          "top": 69,
+          "right": 1643.984375,
+          "bottom": 109,
+          "left": 1603.984375
+        },
+        "outerHTML": "<button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-"
+      }
+    ],
+    "productCards": [
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "",
+          "id": "root",
+          "textContent": "고객지원품질보증대리점로그인회원가입관리자한국어🇰🇷CASTER전체 메뉴회사소개AGV 캐스터장비용 캐스터폴리우레탄 휠러버 휠드라이빙 모듈공지사항고객지원AGV 캐스터 솔루션자동화 설비를 위한 정밀 캐스터무인 운반차량(AGV)에 최적화된 고성능 캐스터로 자동화 시스템의 효율",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": true,
+          "buttonCount": 36,
+          "buttonTexts": [
+            "로그인",
+            "관리자",
+            "한국어🇰🇷"
+          ]
+        },
+        "cartButton": {
+          "text": "",
+          "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 w-10 relative hover:bg-yellow-50 hover:text-yellow-600 transition-colors",
+          "disabled": false,
+          "isVisible": true
+        }
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "min-h-screen flex flex-col",
+          "id": "",
+          "textContent": "고객지원품질보증대리점로그인회원가입관리자한국어🇰🇷CASTER전체 메뉴회사소개AGV 캐스터장비용 캐스터폴리우레탄 휠러버 휠드라이빙 모듈공지사항고객지원AGV 캐스터 솔루션자동화 설비를 위한 정밀 캐스터무인 운반차량(AGV)에 최적화된 고성능 캐스터로 자동화 시스템의 효율",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": true,
+          "buttonCount": 36,
+          "buttonTexts": [
+            "로그인",
+            "관리자",
+            "한국어🇰🇷"
+          ]
+        },
+        "cartButton": {
+          "text": "",
+          "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 w-10 relative hover:bg-yellow-50 hover:text-yellow-600 transition-colors",
+          "disabled": false,
+          "isVisible": true
+        }
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "bg-steel text-white text-sm border-b border-steel-light/20",
+          "id": "",
+          "textContent": "고객지원품질보증대리점로그인회원가입관리자한국어🇰🇷",
+          "hasImage": false,
+          "hasButton": true,
+          "hasPrice": true,
+          "buttonCount": 3,
+          "buttonTexts": [
+            "로그인",
+            "관리자",
+            "한국어🇰🇷"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "container mx-auto px-4",
+          "id": "",
+          "textContent": "고객지원품질보증대리점로그인회원가입관리자한국어🇰🇷",
+          "hasImage": false,
+          "hasButton": true,
+          "hasPrice": true,
+          "buttonCount": 3,
+          "buttonTexts": [
+            "로그인",
+            "관리자",
+            "한국어🇰🇷"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "flex justify-between items-center h-12",
+          "id": "",
+          "textContent": "고객지원품질보증대리점로그인회원가입관리자한국어🇰🇷",
+          "hasImage": false,
+          "hasButton": true,
+          "hasPrice": true,
+          "buttonCount": 3,
+          "buttonTexts": [
+            "로그인",
+            "관리자",
+            "한국어🇰🇷"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "bg-card border-t shadow-sm",
+          "id": "",
+          "textContent": "전체 메뉴회사소개AGV 캐스터장비용 캐스터폴리우레탄 휠러버 휠드라이빙 모듈공지사항고객지원",
+          "hasImage": false,
+          "hasButton": true,
+          "hasPrice": true,
+          "buttonCount": 1,
+          "buttonTexts": [
+            "전체 메뉴"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "container mx-auto px-4",
+          "id": "",
+          "textContent": "전체 메뉴회사소개AGV 캐스터장비용 캐스터폴리우레탄 휠러버 휠드라이빙 모듈공지사항고객지원",
+          "hasImage": false,
+          "hasButton": true,
+          "hasPrice": true,
+          "buttonCount": 1,
+          "buttonTexts": [
+            "전체 메뉴"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "min-h-screen bg-background",
+          "id": "",
+          "textContent": "AGV 캐스터 솔루션자동화 설비를 위한 정밀 캐스터무인 운반차량(AGV)에 최적화된 고성능 캐스터로 자동화 시스템의 효율성을 극대화하세요.AGV 캐스터 보기메카넘 휠 기술360도 전방향 이동로봇공학의 혁신을 이끄는 메카넘 휠 기술로 무한한 이동의 자유를 경험하세요.메카",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": true,
+          "buttonCount": 26,
+          "buttonTexts": [
+            "",
+            "",
+            ""
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "absolute inset-0 transition-all duration-1000 ease-in-out opacity-0 translate-x-full",
+          "id": "",
+          "textContent": "AGV 캐스터 솔루션자동화 설비를 위한 정밀 캐스터무인 운반차량(AGV)에 최적화된 고성능 캐스터로 자동화 시스템의 효율성을 극대화하세요.AGV 캐스터 보기",
+          "hasImage": true,
+          "hasButton": false,
+          "hasPrice": false,
+          "buttonCount": 0,
+          "buttonTexts": []
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "absolute inset-0 transition-all duration-1000 ease-in-out opacity-100 translate-x-0",
+          "id": "",
+          "textContent": "메카넘 휠 기술360도 전방향 이동로봇공학의 혁신을 이끄는 메카넘 휠 기술로 무한한 이동의 자유를 경험하세요.메카넘 휠 보기",
+          "hasImage": true,
+          "hasButton": false,
+          "hasPrice": false,
+          "buttonCount": 0,
+          "buttonTexts": []
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "absolute inset-0 transition-all duration-1000 ease-in-out opacity-0 translate-x-full",
+          "id": "",
+          "textContent": "CUSTOM SOLUTIONS고객 요구사항에 맞춤 설계된 특별한 캐스터 제작 서비스설계부터 제작까지 원스톱 서비스로 고객만의 특별한 캐스터를 제작해드립니다.상담 신청하기",
+          "hasImage": true,
+          "hasButton": false,
+          "hasPrice": true,
+          "buttonCount": 0,
+          "buttonTexts": []
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "absolute inset-0 transition-all duration-1000 ease-in-out opacity-0 translate-x-full",
+          "id": "",
+          "textContent": "품질 보증 시스템ISO 9001 인증엄격한 품질 관리 시스템과 20년 노하우로 최상의 제품 품질을 보장합니다.품질 보증 보기",
+          "hasImage": true,
+          "hasButton": false,
+          "hasPrice": false,
+          "buttonCount": 0,
+          "buttonTexts": []
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "absolute inset-0 transition-all duration-1000 ease-in-out opacity-0 translate-x-full",
+          "id": "",
+          "textContent": "산업용 캐스터 전문JP캐스터AGV부터 메카넘 휠까지, 20년 경험의 캐스터 전문 기업. 최고 품질의 산업용 캐스터 솔루션을 제공합니다.제품 카탈로그 보기",
+          "hasImage": true,
+          "hasButton": false,
+          "hasPrice": false,
+          "buttonCount": 0,
+          "buttonTexts": []
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "container mx-auto px-4",
+          "id": "",
+          "textContent": "제품 카테고리산업용 캐스터와 휠의 전문 제조업체로서 다양한 분야에 최적화된 고품질 제품을 제공합니다AGV 캐스터무인 운반차량(AGV) 전용 고성능 캐스터8 Products제품 보기장비용 캐스터산업용 장비 및 기계용 고내구성 캐스터7 Products제품 보기중하중 캐스터",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": false,
+          "buttonCount": 8,
+          "buttonTexts": [
+            "제품 보기",
+            "제품 보기",
+            "제품 보기"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+          "id": "",
+          "textContent": "AGV 캐스터무인 운반차량(AGV) 전용 고성능 캐스터8 Products제품 보기장비용 캐스터산업용 장비 및 기계용 고내구성 캐스터7 Products제품 보기중하중 캐스터고하중 지지용 초중량 캐스터7 Products제품 보기폴리우레탄 휠고성능 폴리우레탄 소재 휠 및 캐",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": false,
+          "buttonCount": 7,
+          "buttonTexts": [
+            "제품 보기",
+            "제품 보기",
+            "제품 보기"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "rounded-lg text-card-foreground group cursor-pointer border-0 bg-white shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 hover:scale-105",
+          "id": "",
+          "textContent": "AGV 캐스터무인 운반차량(AGV) 전용 고성능 캐스터8 Products제품 보기",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": false,
+          "buttonCount": 1,
+          "buttonTexts": [
+            "제품 보기"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "p-8 relative",
+          "id": "",
+          "textContent": "AGV 캐스터무인 운반차량(AGV) 전용 고성능 캐스터8 Products제품 보기",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": false,
+          "buttonCount": 1,
+          "buttonTexts": [
+            "제품 보기"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "relative z-10",
+          "id": "",
+          "textContent": "AGV 캐스터무인 운반차량(AGV) 전용 고성능 캐스터8 Products제품 보기",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": false,
+          "buttonCount": 1,
+          "buttonTexts": [
+            "제품 보기"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "flex items-start space-x-5",
+          "id": "",
+          "textContent": "AGV 캐스터무인 운반차량(AGV) 전용 고성능 캐스터8 Products제품 보기",
+          "hasImage": true,
+          "hasButton": true,
+          "hasPrice": false,
+          "buttonCount": 1,
+          "buttonTexts": [
+            "제품 보기"
+          ]
+        },
+        "cartButton": null
+      },
+      {
+        "element": {
+          "tagName": "DIV",
+          "className": "flex-1",
+          "id": "",
+          "textContent": "AGV 캐스터무인 운반차량(AGV) 전용 고성능 캐스터8 Products제품 보기",
+          "hasImage": false,
+          "hasButton": true,
+          "hasPrice": false,
+          "buttonCount": 1,
+          "buttonTexts": [
+            "제품 보기"
+          ]
+        },
+        "cartButton": null
+      }
+    ],
+    "initialCartState": {
+      "cartCount": 0,
+      "localStorage": {
+        "cart": null,
+        "cartItems": null
+      }
+    },
+    "finalCartState": {
+      "cartCount": 0,
+      "localStorage": {
+        "cart": null,
+        "cartItems": null
+      }
+    },
+    "cartCountChanged": false
+  },
+  "consoleLogs": [
+    {
+      "type": "log",
+      "text": "🔧 환경변수 상태: {isDev: true, mode: production, hasGeminiKey: true, hasSupabaseUrl: true, geminiKeyPrefix: AIzaSyD8AQ}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 169788
+      },
+      "timestamp": 1752768472008
+    },
+    {
+      "type": "log",
+      "text": "🎯 Performance Monitoring Active",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 168751
+      },
+      "timestamp": 1752768472009
+    },
+    {
+      "type": "log",
+      "text": "📦 Current Bundle Mode: production",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 168799
+      },
+      "timestamp": 1752768472009
+    },
+    {
+      "type": "log",
+      "text": "🔧 Development Tools Available",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 168851
+      },
+      "timestamp": 1752768472009
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 276,
+        "columnNumber": 45725
+      },
+      "timestamp": 1752768472015
+    },
+    {
+      "type": "log",
+      "text": "🔴 No valid admin session found initially",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 276,
+        "columnNumber": 45725
+      },
+      "timestamp": 1752768472033
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10823
+      },
+      "timestamp": 1752768472045
+    },
+    {
+      "type": "log",
+      "text": "⬆️ ScrollToTop - Navigated to: /",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 276,
+        "columnNumber": 115126
+      },
+      "timestamp": 1752768472064
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 276,
+        "columnNumber": 45983
+      },
+      "timestamp": 1752768472064
+    },
+    {
+      "type": "log",
+      "text": "🛒 새로운 장바구니를 시작합니다.",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 276,
+        "columnNumber": 56936
+      },
+      "timestamp": 1752768472064
+    },
+    {
+      "type": "log",
+      "text": "🛒 새로운 장바구니를 시작합니다.",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 276,
+        "columnNumber": 56936
+      },
+      "timestamp": 1752768472064
+    },
+    {
+      "type": "log",
+      "text": "🔄 useAdmin effect running, current state: {isAdmin: false, adminUser: null, loading: false, error: null}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 276,
+        "columnNumber": 45983
+      },
+      "timestamp": 1752768472065
+    },
+    {
+      "type": "log",
+      "text": "🔄 Trying to load categories from Supabase...",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 25144
+      },
+      "timestamp": 1752768472065
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ Supabase connection failed for categories, using JSON fallback: Supabase not configured, using fallback",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 25267
+      },
+      "timestamp": 1752768472065
+    },
+    {
+      "type": "log",
+      "text": "🔄 Trying to load products from Supabase...",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10823
+      },
+      "timestamp": 1752768472065
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ Supabase connection failed, using JSON fallback: Supabase not configured, using fallback",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10904
+      },
+      "timestamp": 1752768472066
+    },
+    {
+      "type": "log",
+      "text": "Falling back to JSON files...",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10823
+      },
+      "timestamp": 1752768472066
+    },
+    {
+      "type": "log",
+      "text": "🛒 새로운 장바구니를 시작합니다.",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 276,
+        "columnNumber": 56936
+      },
+      "timestamp": 1752768472067
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "location": {
+        "url": "https://studio-sb.com/assets/react-vendor-CDDNJYej.js",
+        "lineNumber": 200,
+        "columnNumber": 6672
+      },
+      "timestamp": 1752768472068
+    },
+    {
+      "type": "warning",
+      "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "location": {
+        "url": "https://studio-sb.com/assets/react-vendor-CDDNJYej.js",
+        "lineNumber": 200,
+        "columnNumber": 6672
+      },
+      "timestamp": 1752768472068
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10823
+      },
+      "timestamp": 1752768472184
+    },
+    {
+      "type": "log",
+      "text": "✅ Loaded categories from local JSON fallback",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 25500
+      },
+      "timestamp": 1752768472196
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10823
+      },
+      "timestamp": 1752768472207
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10823
+      },
+      "timestamp": 1752768472224
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472225
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472226
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472226
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472227
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472227
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10823
+      },
+      "timestamp": 1752768472250
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472251
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472251
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472251
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472251
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472251
+    },
+    {
+      "type": "log",
+      "text": "🚀 useProducts called with: {categorySlug: undefined, searchTerm: undefined, page: 1, limit: 12}",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 10823
+      },
+      "timestamp": 1752768472254
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472255
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472255
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472255
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472255
+    },
+    {
+      "type": "log",
+      "text": "✅ Local image path found: /images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "location": {
+        "url": "https://studio-sb.com/assets/index-CJICXetd.js",
+        "lineNumber": 311,
+        "columnNumber": 13783
+      },
+      "timestamp": 1752768472255
+    },
+    {
+      "type": "verbose",
+      "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o",
+      "location": {
+        "url": "https://studio-sb.com/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "timestamp": 1752768481276
+    }
+  ],
+  "errors": [],
+  "networkRequests": [
+    {
+      "url": "https://studio-sb.com/data/products.json",
+      "method": "GET",
+      "headers": {
+        "origin": "https://studio-sb.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://studio-sb.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": 1752768472009
+    },
+    {
+      "url": "https://studio-sb.com/data/products.json",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://studio-sb.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": 1752768472067
+    }
+  ],
+  "mainError": {
+    "message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button:has(svg[class*=\"cart\"])').first()\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 w-10 relative hover:bg-yellow-50 hover:text-yellow-600 transition-colors\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-state=\"open\" aria-hidden=\"true\" data-aria-hidden=\"true\" class=\"fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0\"></div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-state=\"open\" aria-hidden=\"true\" data-aria-hidden=\"true\" class=\"fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0\"></div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    57 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div data-state=\"open\" aria-hidden=\"true\" data-aria-hidden=\"true\" class=\"fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0\"></div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+    "stack": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button:has(svg[class*=\"cart\"])').first()\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 w-10 relative hover:bg-yellow-50 hover:text-yellow-600 transition-colors\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-state=\"open\" aria-hidden=\"true\" data-aria-hidden=\"true\" class=\"fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0\"></div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-state=\"open\" aria-hidden=\"true\" data-aria-hidden=\"true\" class=\"fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0\"></div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    57 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div data-state=\"open\" aria-hidden=\"true\" data-aria-hidden=\"true\" class=\"fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0\"></div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at detailedCartTest (/mnt/c/MYCLAUDE_PROJECT/jul/lovable/detailed-cart-test.mjs:333:34)"
+  }
+}

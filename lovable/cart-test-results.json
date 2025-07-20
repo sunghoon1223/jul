@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-18T14:04:46.256Z",
+  "tests": [
+    {
+      "name": "홈페이지 로드",
+      "status": "success",
+      "timestamp": "2025-07-18T14:04:48.010Z"
+    },
+    {
+      "name": "제품 목록 확인",
+      "status": "failed",
+      "error": "제품 카드를 찾을 수 없음",
+      "timestamp": "2025-07-18T14:05:28.005Z"
+    }
+  ],
+  "errors": [],
+  "cartItems": [],
+  "summary": {
+    "totalTests": 2,
+    "successTests": 1,
+    "failedTests": 1,
+    "totalErrors": 0,
+    "cartItemsFound": 0
+  }
+}

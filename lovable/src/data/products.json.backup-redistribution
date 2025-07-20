@@ -1,0 +1,4196 @@
+[
+  {
+    "id": "prod_1752480107145_3",
+    "name": "JP 폴리우레탄 회전 캐스터 140mm",
+    "slug": "폴리우레탄-회전-캐스터-140mm",
+    "description": "JP 폴리우레탄 회전 캐스터 140mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107145-3",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_agv",
+    "created_at": "2025-07-14T08:01:47.145Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2200kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "140mm",
+      "wheel_width": "70mm",
+      "overall_height": "170mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480095752_7",
+    "name": "JP 러버 휠 방진 캐스터 150mm",
+    "slug": "러버-휠-방진-캐스터-150mm",
+    "description": "JP 러버 휠 방진 캐스터 150mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480095752-7",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_agv",
+    "created_at": "2025-07-14T08:01:35.752Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "550kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "150mm",
+      "wheel_width": "75mm",
+      "overall_height": "175mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107816_10",
+    "name": "JP 폴리우레탄 브레이크 캐스터 210mm",
+    "slug": "폴리우레탄-브레이크-캐스터-210mm",
+    "description": "JP 폴리우레탄 브레이크 캐스터 210mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107816-10",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "120mm",
+      "wheel_width": "72mm",
+      "overall_height": "150mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgl5WjrQYotKirgQMwoAY4oAY!300x300.jpg",
+    "category_id": "cat_agv",
+    "created_at": "2025-07-14T08:01:47.816Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgl5WjrQYotKirgQMwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2900kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "210mm",
+      "wheel_width": "105mm",
+      "overall_height": "240mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480100929_10",
+    "name": "JP 러버 휠 쿠션 캐스터 260mm",
+    "slug": "러버-휠-쿠션-캐스터-260mm",
+    "description": "JP 러버 휠 쿠션 캐스터 260mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480100929-10",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgmvuhrQYon620iwYwoAY4oAY!300x300.jpg",
+    "category_id": "cat_agv",
+    "created_at": "2025-07-14T08:01:40.929Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgmvuhrQYon620iwYwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "880kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "260mm",
+      "wheel_width": "130mm",
+      "overall_height": "285mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107816_11",
+    "name": "JP 폴리우레탄 볼 캐스터 220mm",
+    "slug": "폴리우레탄-볼-캐스터-220mm",
+    "description": "JP 폴리우레탄 볼 캐스터 220mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107816-11",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_agv",
+    "created_at": "2025-07-14T08:01:47.816Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "3000kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "220mm",
+      "wheel_width": "110mm",
+      "overall_height": "250mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107518_6",
+    "name": "JP 폴리우레탄 볼 캐스터 170mm",
+    "slug": "폴리우레탄-볼-캐스터-170mm",
+    "description": "JP 폴리우레탄 볼 캐스터 170mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107518-6",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "112mm",
+      "wheel_width": "40mm",
+      "overall_height": "142mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg19LNoQYoluLC9QIwoAY4oAY!300x300.jpg",
+    "category_id": "cat_agv",
+    "created_at": "2025-07-14T08:01:47.518Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg19LNoQYoluLC9QIwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2500kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "170mm",
+      "wheel_width": "85mm",
+      "overall_height": "200mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480100929_11",
+    "name": "JP 러버 휠 범용 캐스터 270mm",
+    "slug": "러버-휠-범용-캐스터-270mm",
+    "description": "JP 러버 휠 범용 캐스터 270mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480100929-11",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_agv",
+    "created_at": "2025-07-14T08:01:40.929Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "910kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "270mm",
+      "wheel_width": "135mm",
+      "overall_height": "295mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099113_1",
+    "name": "JP 러버 휠 범용 캐스터 170mm",
+    "slug": "러버-휠-범용-캐스터-170mm",
+    "description": "JP 러버 휠 범용 캐스터 170mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099113-1",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "58mm",
+      "wheel_width": "25mm",
+      "overall_height": "88mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgq8-IoQYoiPnjvgMwoAY4oAY!300x300.jpg",
+    "category_id": "cat_agv",
+    "created_at": "2025-07-14T08:01:39.113Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgq8-IoQYoiPnjvgMwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "610kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "170mm",
+      "wheel_width": "85mm",
+      "overall_height": "195mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480095605_5",
+    "name": "JP 러버 휠 경하중 캐스터 130mm",
+    "slug": "러버-휠-경하중-캐스터-130mm",
+    "description": "JP 러버 휠 경하중 캐스터 130mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480095605-5",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_industrial",
+    "created_at": "2025-07-14T08:01:35.605Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "490kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "130mm",
+      "wheel_width": "65mm",
+      "overall_height": "155mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099477_5",
+    "name": "JP 러버 휠 쿠션 캐스터 210mm",
+    "slug": "러버-휠-쿠션-캐스터-210mm",
+    "description": "JP 러버 휠 쿠션 캐스터 210mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099477-5",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_industrial",
+    "created_at": "2025-07-14T08:01:39.477Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "730kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "210mm",
+      "wheel_width": "105mm",
+      "overall_height": "235mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480101406_15",
+    "name": "JP 러버 휠 쿠션 캐스터 310mm",
+    "slug": "러버-휠-쿠션-캐스터-310mm",
+    "description": "JP 러버 휠 쿠션 캐스터 310mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480101406-15",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_industrial",
+    "created_at": "2025-07-14T08:01:41.406Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "1030kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "310mm",
+      "wheel_width": "155mm",
+      "overall_height": "335mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480102681_16",
+    "name": "JP 러버 휠 범용 캐스터 320mm",
+    "slug": "러버-휠-범용-캐스터-320mm",
+    "description": "JP 러버 휠 범용 캐스터 320mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480102681-16",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "65mm",
+      "wheel_width": "50mm",
+      "overall_height": "95mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg57PXqQYoyfqj5gcwoAY4oAY!300x300.jpg",
+    "category_id": "cat_industrial",
+    "created_at": "2025-07-14T08:01:42.681Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg57PXqQYoyfqj5gcwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "1060kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "320mm",
+      "wheel_width": "160mm",
+      "overall_height": "345mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480101406_14",
+    "name": "JP 러버 휠 방진 캐스터 300mm",
+    "slug": "러버-휠-방진-캐스터-300mm",
+    "description": "JP 러버 휠 방진 캐스터 300mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480101406-14",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "65mm",
+      "wheel_width": "30mm",
+      "overall_height": "95mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg8MnZswYoltDl4QEwoAY4oAY!300x300.jpg",
+    "category_id": "cat_industrial",
+    "created_at": "2025-07-14T08:01:41.406Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg8MnZswYoltDl4QEwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "1000kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "300mm",
+      "wheel_width": "150mm",
+      "overall_height": "325mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480092040_0",
+    "name": "JP 산업용 특수 캐스터  120mm",
+    "slug": "산업용-특수-캐스터--120mm",
+    "description": "JP 산업용 특수 캐스터  120mm는 특수 산업 환경에 최적화된 캐스터입니다. 정밀한 베어링 시스템과 특수 소재로 제작되어 자동화 장비, 정밀 기계, 의료 장비 등 고품질이 요구되는 분야에서 사용됩니다. 안정적인 성능과 긴 수명을 보장합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480092040-0",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "120mm",
+      "wheel_width": "50mm",
+      "overall_height": "150mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY!300x300.jpg",
+    "category_id": "cat_industrial",
+    "created_at": "2025-07-14T08:01:32.040Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.95,
+      "method": "size_modifier_removed",
+      "matched_file": "ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY!300x300.jpg"
+    },
+    "features": {
+      "load_capacity": "1100kg",
+      "wheel_material": "특수 복합 소재",
+      "bearing_type": "정밀 볼 베어링",
+      "temperature_range": "-20°C ~ +100°C",
+      "floor_protection": "특수 환경 대응",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "120mm",
+      "wheel_width": "60mm",
+      "overall_height": "155mm"
+    },
+    "technical_specs": {
+      "category": "cat_specialty",
+      "application": "Medical equipment, Food service, Clean room",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107299_4",
+    "name": "JP 폴리우레탄 고정 캐스터 150mm",
+    "slug": "폴리우레탄-고정-캐스터-150mm",
+    "description": "JP 폴리우레탄 고정 캐스터 150mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107299-4",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "110mm",
+      "wheel_width": "42mm",
+      "overall_height": "140mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg4v3XqQYogMzAzwQwoAY4oAY!300x300.jpg",
+    "category_id": "cat_industrial",
+    "created_at": "2025-07-14T08:01:47.299Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg4v3XqQYogMzAzwQwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2300kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "150mm",
+      "wheel_width": "75mm",
+      "overall_height": "180mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107299_5",
+    "name": "JP 폴리우레탄 브레이크 캐스터 160mm",
+    "slug": "폴리우레탄-브레이크-캐스터-160mm",
+    "description": "JP 폴리우레탄 브레이크 캐스터 160mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107299-5",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_heavy_duty",
+    "created_at": "2025-07-14T08:01:47.299Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2400kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "160mm",
+      "wheel_width": "80mm",
+      "overall_height": "190mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480084979_0",
+    "name": "JP 폴리우레탄 중하중 캐스터  100mm",
+    "slug": "폴리우레탄-중하중-캐스터--100mm",
+    "description": "JP 폴리우레탄 중하중 캐스터  100mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480084979-0",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "100mm",
+      "wheel_width": "32mm",
+      "overall_height": "125mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/4/ABUIABAEGAAg8t_yogYo9ufU4wIwxgM41AI.png",
+    "category_id": "cat_heavy_duty",
+    "created_at": "2025-07-14T08:01:24.979Z",
+    "updated_at": "2025-07-15T09:12:26.403Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/4/ABUIABAEGAAg8t_yogYo9ufU4wIwxgM41AI.png",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "1800kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "100mm",
+      "wheel_width": "50mm",
+      "overall_height": "130mm"
+    },
+    "technical_specs": {
+      "category": "cat_polyurethane",
+      "application": "물류창고, 제조업, 중량 운반 장비",
+      "warranty": "24 months",
+      "origin": "Korea",
+      "quality_standard": "ISO 9001, KS 표준"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480108178_14",
+    "name": "JP 폴리우레탄 고정 캐스터 250mm",
+    "slug": "폴리우레탄-고정-캐스터-250mm",
+    "description": "JP 폴리우레탄 고정 캐스터 250mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480108178-14",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "125mm",
+      "wheel_width": "38mm",
+      "overall_height": "155mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYoivy9oAIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYoivy9oAIwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg_83OoQYo6br9hAIwoAY4oAY!300x300.jpg",
+    "category_id": "cat_heavy_duty",
+    "created_at": "2025-07-14T08:01:48.178Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAglcbEoQYoivy9oAIwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg_83OoQYo6br9hAIwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "3300kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "250mm",
+      "wheel_width": "125mm",
+      "overall_height": "280mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480108001_12",
+    "name": "JP 폴리우레탄 중하중 캐스터 230mm",
+    "slug": "폴리우레탄-중하중-캐스터-230mm",
+    "description": "JP 폴리우레탄 중하중 캐스터 230mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480108001-12",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "125mm",
+      "wheel_width": "28mm",
+      "overall_height": "155mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg-JejrQYoxdbwhQQwoAY4oAY!300x300.jpg",
+    "category_id": "cat_heavy_duty",
+    "created_at": "2025-07-14T08:01:48.001Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg-JejrQYoxdbwhQQwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "3100kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "230mm",
+      "wheel_width": "115mm",
+      "overall_height": "260mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480095473_2",
+    "name": "JP 러버 휠 방진 캐스터 100mm",
+    "slug": "러버-휠-방진-캐스터-100mm",
+    "description": "JP 러버 휠 방진 캐스터 100mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480095473-2",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "28mm",
+      "wheel_width": "22mm",
+      "overall_height": "58mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg!300x300.jpg",
+    "category_id": "cat_heavy_duty",
+    "created_at": "2025-07-14T08:01:35.473Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.95,
+      "method": "size_modifier_removed",
+      "matched_file": "ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg!300x300.jpg"
+    },
+    "features": {
+      "load_capacity": "400kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "100mm",
+      "wheel_width": "50mm",
+      "overall_height": "125mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099749_8",
+    "name": "JP 러버 휠 소음방지 캐스터 240mm",
+    "slug": "러버-휠-소음방지-캐스터-240mm",
+    "description": "JP 러버 휠 소음방지 캐스터 240mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099749-8",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "60mm",
+      "wheel_width": "21mm",
+      "overall_height": "90mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg8oCerQYor56a7QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg8oCerQYor56a7QUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg5fahrQYomNjOwAUwoAY4oAY!300x300.jpg",
+    "category_id": "cat_heavy_duty",
+    "created_at": "2025-07-14T08:01:39.749Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg8oCerQYor56a7QUwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg5fahrQYomNjOwAUwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "820kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "240mm",
+      "wheel_width": "120mm",
+      "overall_height": "265mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480088743_1",
+    "name": "JP 강철 강철 캐스터 90mm",
+    "slug": "강철-강철-캐스터-90mm",
+    "description": "JP 강철 강철 캐스터 90mm는 강철 주조로 제작된 초중하중 캐스터입니다. 극한의 하중 조건에서도 안정적인 성능을 제공하며, 건설 현장, 항만 장비, 중공업 분야에서 광범위하게 사용됩니다. 강화된 베어링 시스템으로 장기간 사용 가능합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480088743-1",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "52mm",
+      "wheel_width": "13mm",
+      "overall_height": "82mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgw67ovwYoy-e26QcwoAY4oAY!300x300.jpg",
+    "category_id": "cat_heavy_duty",
+    "created_at": "2025-07-14T08:01:28.743Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgw67ovwYoy-e26QcwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "4700kg",
+      "wheel_material": "강철 주조 (Cast Steel)",
+      "bearing_type": "테이퍼 롤러 베어링",
+      "temperature_range": "-30°C ~ +150°C",
+      "floor_protection": "내구성 우선 설계",
+      "swivel_type": "레이스웨이 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "정기 윤활 필요",
+      "certification": "초중량 등급",
+      "wheel_diameter": "90mm",
+      "wheel_width": "45mm",
+      "overall_height": "130mm"
+    },
+    "technical_specs": {
+      "category": "cat_heavy_duty",
+      "application": "Construction, Port equipment, Heavy machinery",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099332_2",
+    "name": "JP 러버 휠 경하중 캐스터 180mm",
+    "slug": "러버-휠-경하중-캐스터-180mm",
+    "description": "JP 러버 휠 경하중 캐스터 180mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099332-2",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "58mm",
+      "wheel_width": "25mm",
+      "overall_height": "88mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgq8-IoQYoiPnjvgMwoAY4oAY!300x300.jpg",
+    "category_id": "cat_polyurethane",
+    "created_at": "2025-07-14T08:01:39.332Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgq8-IoQYoiPnjvgMwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "640kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "180mm",
+      "wheel_width": "90mm",
+      "overall_height": "205mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480095605_4",
+    "name": "JP 러버 휠 범용 캐스터 120mm",
+    "slug": "러버-휠-범용-캐스터-120mm",
+    "description": "JP 러버 휠 범용 캐스터 120mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480095605-4",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "36mm",
+      "wheel_width": "11mm",
+      "overall_height": "66mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg!300x300.jpg",
+    "category_id": "cat_polyurethane",
+    "created_at": "2025-07-14T08:01:35.605Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.95,
+      "method": "size_modifier_removed",
+      "matched_file": "ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg!300x300.jpg"
+    },
+    "features": {
+      "load_capacity": "460kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "120mm",
+      "wheel_width": "60mm",
+      "overall_height": "145mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107681_8",
+    "name": "JP 폴리우레탄 회전 캐스터 190mm",
+    "slug": "폴리우레탄-회전-캐스터-190mm",
+    "description": "JP 폴리우레탄 회전 캐스터 190mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107681-8",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "120mm",
+      "wheel_width": "72mm",
+      "overall_height": "150mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgivydrQYowI7A3wEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgivydrQYowI7A3wEwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg9f2irQYopNvWywIwoAY4oAY!300x300.jpg",
+    "category_id": "cat_polyurethane",
+    "created_at": "2025-07-14T08:01:47.681Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgivydrQYowI7A3wEwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg9f2irQYopNvWywIwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2700kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "190mm",
+      "wheel_width": "95mm",
+      "overall_height": "220mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480095150_1",
+    "name": "JP 러버 휠 소음방지 캐스터 90mm",
+    "slug": "러버-휠-소음방지-캐스터-90mm",
+    "description": "JP 러버 휠 소음방지 캐스터 90mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480095150-1",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "28mm",
+      "wheel_width": "22mm",
+      "overall_height": "58mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg!300x300.jpg",
+    "category_id": "cat_polyurethane",
+    "created_at": "2025-07-14T08:01:35.150Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.95,
+      "method": "size_modifier_removed",
+      "matched_file": "ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg!300x300.jpg"
+    },
+    "features": {
+      "load_capacity": "370kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "90mm",
+      "wheel_width": "45mm",
+      "overall_height": "115mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099608_6",
+    "name": "JP 러버 휠 범용 캐스터 220mm",
+    "slug": "러버-휠-범용-캐스터-220mm",
+    "description": "JP 러버 휠 범용 캐스터 220mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099608-6",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "60mm",
+      "wheel_width": "20mm",
+      "overall_height": "90mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg76i-oQYowsX3AzCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg76i-oQYowsX3AzCgBjigBg.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgt76jtAYos7jrnAEwoAY4oAY!300x300.jpg",
+    "category_id": "cat_polyurethane",
+    "created_at": "2025-07-14T08:01:39.608Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg76i-oQYowsX3AzCgBjigBg.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgt76jtAYos7jrnAEwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "760kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "220mm",
+      "wheel_width": "110mm",
+      "overall_height": "245mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480085560_2",
+    "name": "JP 폴리우레탄 고정 캐스터  150mm",
+    "slug": "폴리우레탄-고정-캐스터--150mm",
+    "description": "JP 폴리우레탄 고정 캐스터  150mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480085560-2",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//0.ss.508sys.com/image/loading/dot.gif",
+    "category_id": "cat_polyurethane",
+    "created_at": "2025-07-14T08:01:25.560Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//0.ss.508sys.com/image/loading/dot.gif",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2300kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "150mm",
+      "wheel_width": "75mm",
+      "overall_height": "180mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480088914_2",
+    "name": "JP 강철 플랫폼 캐스터 100mm",
+    "slug": "강철-플랫폼-캐스터-100mm",
+    "description": "JP 강철 플랫폼 캐스터 100mm는 강철 주조로 제작된 초중하중 캐스터입니다. 극한의 하중 조건에서도 안정적인 성능을 제공하며, 건설 현장, 항만 장비, 중공업 분야에서 광범위하게 사용됩니다. 강화된 베어링 시스템으로 장기간 사용 가능합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480088914-2",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "52mm",
+      "wheel_width": "13mm",
+      "overall_height": "82mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgw67ovwYoy-e26QcwoAY4oAY!300x300.jpg",
+    "category_id": "cat_polyurethane",
+    "created_at": "2025-07-14T08:01:28.914Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgw67ovwYoy-e26QcwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "5000kg",
+      "wheel_material": "강철 주조 (Cast Steel)",
+      "bearing_type": "테이퍼 롤러 베어링",
+      "temperature_range": "-30°C ~ +150°C",
+      "floor_protection": "내구성 우선 설계",
+      "swivel_type": "레이스웨이 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "정기 윤활 필요",
+      "certification": "초중량 등급",
+      "wheel_diameter": "100mm",
+      "wheel_width": "50mm",
+      "overall_height": "140mm"
+    },
+    "technical_specs": {
+      "category": "cat_heavy_duty",
+      "application": "Construction, Port equipment, Heavy machinery",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480094923_0",
+    "name": "JP 러버 휠 경하중 캐스터  28mm",
+    "slug": "러버-휠-경하중-캐스터--28mm",
+    "description": "JP 러버 휠 경하중 캐스터  28mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480094923-0",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "28mm",
+      "wheel_width": "22mm",
+      "overall_height": "58mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg!300x300.jpg",
+    "category_id": "cat_polyurethane",
+    "created_at": "2025-07-14T08:01:34.923Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.95,
+      "method": "size_modifier_removed",
+      "matched_file": "ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg!300x300.jpg"
+    },
+    "features": {
+      "load_capacity": "184kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "28mm",
+      "wheel_width": "14mm",
+      "overall_height": "53mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480106988_1",
+    "name": "JP 폴리우레탄 볼 캐스터 120mm",
+    "slug": "폴리우레탄-볼-캐스터-120mm",
+    "description": "JP 폴리우레탄 볼 캐스터 120mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480106988-1",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "110mm",
+      "wheel_width": "40mm",
+      "overall_height": "140mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgmqvOoQYogteg-QEwoAY4oAY!300x300.jpg",
+    "category_id": "cat_rubber",
+    "created_at": "2025-07-14T08:01:46.988Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgmqvOoQYogteg-QEwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2000kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "120mm",
+      "wheel_width": "60mm",
+      "overall_height": "150mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480108001_13",
+    "name": "JP 폴리우레탄 회전 캐스터 240mm",
+    "slug": "폴리우레탄-회전-캐스터-240mm",
+    "description": "JP 폴리우레탄 회전 캐스터 240mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480108001-13",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYo4pvOywIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYo4pvOywIwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_rubber",
+    "created_at": "2025-07-14T08:01:48.001Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAglcbEoQYo4pvOywIwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "3200kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "240mm",
+      "wheel_width": "120mm",
+      "overall_height": "270mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480101261_12",
+    "name": "JP 러버 휠 경하중 캐스터 280mm",
+    "slug": "러버-휠-경하중-캐스터-280mm",
+    "description": "JP 러버 휠 경하중 캐스터 280mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480101261-12",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "65mm",
+      "wheel_width": "30mm",
+      "overall_height": "95mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg_bnbsQYoqPXM5wUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_bnbsQYoqPXM5wUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgxrHzwgYovMaNsAcwoAY4oAY!300x300.jpg",
+    "category_id": "cat_rubber",
+    "created_at": "2025-07-14T08:01:41.261Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg_bnbsQYoqPXM5wUwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgxrHzwgYovMaNsAcwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "940kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "280mm",
+      "wheel_width": "140mm",
+      "overall_height": "305mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099332_3",
+    "name": "JP 러버 휠 소음방지 캐스터 190mm",
+    "slug": "러버-휠-소음방지-캐스터-190mm",
+    "description": "JP 러버 휠 소음방지 캐스터 190mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099332-3",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_rubber",
+    "created_at": "2025-07-14T08:01:39.332Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "670kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "190mm",
+      "wheel_width": "95mm",
+      "overall_height": "215mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480089119_4",
+    "name": "JP 강철 카트 캐스터 120mm",
+    "slug": "강철-카트-캐스터-120mm",
+    "description": "JP 강철 카트 캐스터 120mm는 강철 주조로 제작된 초중하중 캐스터입니다. 극한의 하중 조건에서도 안정적인 성능을 제공하며, 건설 현장, 항만 장비, 중공업 분야에서 광범위하게 사용됩니다. 강화된 베어링 시스템으로 장기간 사용 가능합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480089119-4",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "73mm",
+      "wheel_width": "15mm",
+      "overall_height": "103mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg3-rEugYon5XGywEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3-rEugYon5XGywEwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg4LuTtwYo-tLygQQwoAY4oAY!300x300.jpg",
+    "category_id": "cat_rubber",
+    "created_at": "2025-07-14T08:01:29.119Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg3-rEugYon5XGywEwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg4LuTtwYo-tLygQQwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "5600kg",
+      "wheel_material": "강철 주조 (Cast Steel)",
+      "bearing_type": "테이퍼 롤러 베어링",
+      "temperature_range": "-30°C ~ +150°C",
+      "floor_protection": "내구성 우선 설계",
+      "swivel_type": "레이스웨이 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "정기 윤활 필요",
+      "certification": "초중량 등급",
+      "wheel_diameter": "120mm",
+      "wheel_width": "60mm",
+      "overall_height": "160mm"
+    },
+    "technical_specs": {
+      "category": "cat_heavy_duty",
+      "application": "Construction, Port equipment, Heavy machinery",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480106794_0",
+    "name": "JP 폴리우레탄 브레이크 캐스터 110mm",
+    "slug": "폴리우레탄-브레이크-캐스터-110mm",
+    "description": "JP 폴리우레탄 브레이크 캐스터 110mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480106794-0",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "110mm",
+      "wheel_width": "40mm",
+      "overall_height": "140mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgmqvOoQYogteg-QEwoAY4oAY!300x300.jpg",
+    "category_id": "cat_rubber",
+    "created_at": "2025-07-14T08:01:46.794Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgmqvOoQYogteg-QEwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "1900kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "110mm",
+      "wheel_width": "55mm",
+      "overall_height": "140mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107518_7",
+    "name": "JP 폴리우레탄 중하중 캐스터 180mm",
+    "slug": "폴리우레탄-중하중-캐스터-180mm",
+    "description": "JP 폴리우레탄 중하중 캐스터 180mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107518-7",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgiuW6uQYokK7n6gMw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiuW6uQYokK7n6gMw3BE43BE.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_rubber",
+    "created_at": "2025-07-14T08:01:47.518Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgiuW6uQYokK7n6gMw3BE43BE.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2600kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "180mm",
+      "wheel_width": "90mm",
+      "overall_height": "210mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480095473_3",
+    "name": "JP 러버 휠 쿠션 캐스터 110mm",
+    "slug": "러버-휠-쿠션-캐스터-110mm",
+    "description": "JP 러버 휠 쿠션 캐스터 110mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480095473-3",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg3PifvgYo35jC6wEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3PifvgYo35jC6wEwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_rubber",
+    "created_at": "2025-07-14T08:01:35.473Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg3PifvgYo35jC6wEwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "430kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "110mm",
+      "wheel_width": "55mm",
+      "overall_height": "135mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480088338_0",
+    "name": "JP 강철 초중하중 캐스터  52mm",
+    "slug": "강철-초중하중-캐스터--52mm",
+    "description": "JP 강철 초중하중 캐스터  52mm는 강철 주조로 제작된 초중하중 캐스터입니다. 극한의 하중 조건에서도 안정적인 성능을 제공하며, 건설 현장, 항만 장비, 중공업 분야에서 광범위하게 사용됩니다. 강화된 베어링 시스템으로 장기간 사용 가능합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480088338-0",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "52mm",
+      "wheel_width": "13mm",
+      "overall_height": "82mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgw67ovwYoy-e26QcwoAY4oAY!300x300.jpg",
+    "category_id": "cat_mecanum",
+    "created_at": "2025-07-14T08:01:28.338Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgw67ovwYoy-e26QcwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "3560kg",
+      "wheel_material": "강철 주조 (Cast Steel)",
+      "bearing_type": "테이퍼 롤러 베어링",
+      "temperature_range": "-30°C ~ +150°C",
+      "floor_protection": "내구성 우선 설계",
+      "swivel_type": "레이스웨이 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "정기 윤활 필요",
+      "certification": "초중량 등급",
+      "wheel_diameter": "52mm",
+      "wheel_width": "26mm",
+      "overall_height": "92mm"
+    },
+    "technical_specs": {
+      "category": "cat_heavy_duty",
+      "application": "Construction, Port equipment, Heavy machinery",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099749_9",
+    "name": "JP 러버 휠 방진 캐스터 250mm",
+    "slug": "러버-휠-방진-캐스터-250mm",
+    "description": "JP 러버 휠 방진 캐스터 250mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099749-9",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg9LHIoQYo6-nOsgMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg9LHIoQYo6-nOsgMwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_mecanum",
+    "created_at": "2025-07-14T08:01:39.749Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg9LHIoQYo6-nOsgMwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "850kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "250mm",
+      "wheel_width": "125mm",
+      "overall_height": "275mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480095752_6",
+    "name": "JP 러버 휠 소음방지 캐스터 140mm",
+    "slug": "러버-휠-소음방지-캐스터-140mm",
+    "description": "JP 러버 휠 소음방지 캐스터 140mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480095752-6",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "40mm",
+      "wheel_width": "15mm",
+      "overall_height": "70mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY!300x300.jpg",
+    "category_id": "cat_mecanum",
+    "created_at": "2025-07-14T08:01:35.752Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.95,
+      "method": "size_modifier_removed",
+      "matched_file": "ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY!300x300.jpg"
+    },
+    "features": {
+      "load_capacity": "520kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "140mm",
+      "wheel_width": "70mm",
+      "overall_height": "165mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480101261_13",
+    "name": "JP 러버 휠 소음방지 캐스터 290mm",
+    "slug": "러버-휠-소음방지-캐스터-290mm",
+    "description": "JP 러버 휠 소음방지 캐스터 290mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480101261-13",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_mecanum",
+    "created_at": "2025-07-14T08:01:41.261Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "970kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "290mm",
+      "wheel_width": "145mm",
+      "overall_height": "315mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099477_4",
+    "name": "JP 러버 휠 방진 캐스터 200mm",
+    "slug": "러버-휠-방진-캐스터-200mm",
+    "description": "JP 러버 휠 방진 캐스터 200mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099477-4",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "60mm",
+      "wheel_width": "20mm",
+      "overall_height": "90mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg-NKVugYors-enAMwoAY4oAY!300x300.jpg",
+    "category_id": "cat_mecanum",
+    "created_at": "2025-07-14T08:01:39.477Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAg-NKVugYors-enAMwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "700kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "200mm",
+      "wheel_width": "100mm",
+      "overall_height": "225mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480099608_7",
+    "name": "JP 러버 휠 경하중 캐스터 230mm",
+    "slug": "러버-휠-경하중-캐스터-230mm",
+    "description": "JP 러버 휠 경하중 캐스터 230mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480099608-7",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_mecanum",
+    "created_at": "2025-07-14T08:01:39.608Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "790kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "230mm",
+      "wheel_width": "115mm",
+      "overall_height": "255mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107145_2",
+    "name": "JP 폴리우레탄 중하중 캐스터 130mm",
+    "slug": "폴리우레탄-중하중-캐스터-130mm",
+    "description": "JP 폴리우레탄 중하중 캐스터 130mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107145-2",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "110mm",
+      "wheel_width": "40mm",
+      "overall_height": "140mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgmqvOoQYogteg-QEwoAY4oAY!300x300.jpg",
+    "category_id": "cat_drive_module",
+    "created_at": "2025-07-14T08:01:47.145Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgmqvOoQYogteg-QEwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2100kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "130mm",
+      "wheel_width": "65mm",
+      "overall_height": "160mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480098746_0",
+    "name": "JP 러버 휠 쿠션 캐스터 160mm",
+    "slug": "러버-휠-쿠션-캐스터-160mm",
+    "description": "JP 러버 휠 쿠션 캐스터 160mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480098746-0",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "58mm",
+      "wheel_width": "25mm",
+      "overall_height": "88mm"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg4OTDoQYo0N-6rgcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4OTDoQYo0N-6rgcwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgq8-IoQYoiPnjvgMwoAY4oAY!300x300.jpg",
+    "category_id": "cat_drive_module",
+    "created_at": "2025-07-14T08:01:38.746Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg4OTDoQYo0N-6rgcwoAY4oAY.jpg",
+      "original_url": "http://www.jpcaster.cn//25412776.s21i.faiusr.com/2/ABUIABACGAAgq8-IoQYoiPnjvgMwoAY4oAY!300x300.jpg",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "580kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "160mm",
+      "wheel_width": "80mm",
+      "overall_height": "185mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480085314_1",
+    "name": "JP 폴리우레탄 회전 캐스터  125mm",
+    "slug": "폴리우레탄-회전-캐스터--125mm",
+    "description": "JP 폴리우레탄 회전 캐스터  125mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480085314-1",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg1KHDoQYousOAODCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1KHDoQYousOAODCgBjigBg.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "http://www.jpcaster.cn//0.ss.508sys.com/image/loading/dot.gif",
+    "category_id": "cat_drive_module",
+    "created_at": "2025-07-14T08:01:25.314Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg1KHDoQYousOAODCgBjigBg.jpg",
+      "original_url": "http://www.jpcaster.cn//0.ss.508sys.com/image/loading/dot.gif",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2050kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "125mm",
+      "wheel_width": "62mm",
+      "overall_height": "155mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480107681_9",
+    "name": "JP 폴리우레탄 고정 캐스터 200mm",
+    "slug": "폴리우레탄-고정-캐스터-200mm",
+    "description": "JP 폴리우레탄 고정 캐스터 200mm는 고품질 폴리우레탄 소재로 제작된 산업용 캐스터입니다. 우수한 내마모성과 바닥 보호 기능을 제공하며, 제조업 및 물류 환경에서 안정적인 성능을 발휘합니다. 중하중 지지력과 원활한 회전 성능으로 작업 효율성을 극대화합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480107681-9",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAgjc2jqQYo8Iyj8gMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgjc2jqQYo8Iyj8gMwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_drive_module",
+    "created_at": "2025-07-14T08:01:47.681Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAgjc2jqQYo8Iyj8gMwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "2800kg",
+      "wheel_material": "고급 폴리우레탄 (95A 경도)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-20°C ~ +80°C",
+      "floor_protection": "바닥 보호 (Non-marking)",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "산업용 등급",
+      "wheel_diameter": "200mm",
+      "wheel_width": "100mm",
+      "overall_height": "230mm"
+    },
+    "technical_specs": {
+      "category": "cat_industrial",
+      "application": "Manufacturing, Warehouse, Factory equipment",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480088914_3",
+    "name": "JP 강철 트롤리 캐스터 110mm",
+    "slug": "강철-트롤리-캐스터-110mm",
+    "description": "JP 강철 트롤리 캐스터 110mm는 강철 주조로 제작된 초중하중 캐스터입니다. 극한의 하중 조건에서도 안정적인 성능을 제공하며, 건설 현장, 항만 장비, 중공업 분야에서 광범위하게 사용됩니다. 강화된 베어링 시스템으로 장기간 사용 가능합니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480088914-3",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_drive_module",
+    "created_at": "2025-07-14T08:01:28.914Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "5300kg",
+      "wheel_material": "강철 주조 (Cast Steel)",
+      "bearing_type": "테이퍼 롤러 베어링",
+      "temperature_range": "-30°C ~ +150°C",
+      "floor_protection": "내구성 우선 설계",
+      "swivel_type": "레이스웨이 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "정기 윤활 필요",
+      "certification": "초중량 등급",
+      "wheel_diameter": "110mm",
+      "wheel_width": "55mm",
+      "overall_height": "150mm"
+    },
+    "technical_specs": {
+      "category": "cat_heavy_duty",
+      "application": "Construction, Port equipment, Heavy machinery",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  },
+  {
+    "id": "prod_1752480102681_17",
+    "name": "JP 러버 휠 경하중 캐스터 330mm",
+    "slug": "러버-휠-경하중-캐스터-330mm",
+    "description": "JP 러버 휠 경하중 캐스터 330mm는 천연 고무 소재로 제작된 소음 방지 캐스터입니다. 뛰어난 쿠션 효과와 충격 흡수 능력으로 조용한 작업 환경을 조성합니다. 바닥 보호 기능이 우수하여 사무실, 병원, 학교 등 소음에 민감한 환경에 최적화되어 있습니다.",
+    "price": 0,
+    "sale_price": null,
+    "sku": "JP-1752480102681-17",
+    "stock_quantity": 100,
+    "stock_status": "instock",
+    "weight": null,
+    "dimensions": {
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications"
+    },
+    "manufacturer": "JP Caster",
+    "main_image_url": "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg"
+    ],
+    "is_published": true,
+    "tags": [],
+    "source_url": "",
+    "category_id": "cat_drive_module",
+    "created_at": "2025-07-14T08:01:42.681Z",
+    "updated_at": "2025-07-15T09:00:56.532Z",
+    "match_info": {
+      "confidence": 0.5,
+      "method": "assigned_unused",
+      "matched_file": "ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg",
+      "original_url": "",
+      "reason": "assigned_from_unused_pool"
+    },
+    "features": {
+      "load_capacity": "1090kg",
+      "wheel_material": "천연 고무 (Shore A 60)",
+      "bearing_type": "볼 베어링",
+      "temperature_range": "-10°C ~ +60°C",
+      "floor_protection": "바닥 보호 및 소음 방지",
+      "swivel_type": "킹핀 타입",
+      "mounting_type": "플레이트 방식",
+      "brake_option": "브레이크 옵션 가능",
+      "maintenance": "저유지보수",
+      "certification": "일반용 등급",
+      "wheel_diameter": "330mm",
+      "wheel_width": "165mm",
+      "overall_height": "355mm"
+    },
+    "technical_specs": {
+      "category": "cat_light_medium",
+      "application": "Office furniture, Light equipment, General purpose",
+      "warranty": "12 months",
+      "origin": "China",
+      "quality_standard": "ISO 9001"
+    },
+    "pricing": {
+      "price_type": "quote_based",
+      "min_order_quantity": 50,
+      "bulk_discount": "Available for orders over 500 units",
+      "delivery_time": "2-3 weeks",
+      "payment_terms": "T/T, L/C"
+    },
+    "quality": {
+      "quality_control": "Strict QC process",
+      "testing_standards": "Load test, Durability test, Material analysis",
+      "certifications": [
+        "ISO 9001",
+        "CE marking",
+        "RoHS compliant"
+      ],
+      "warranty_period": "12 months"
+    },
+    "shipping": {
+      "packaging": "Carton box with protective padding",
+      "shipping_methods": [
+        "Air freight",
+        "Sea freight",
+        "Express delivery"
+      ],
+      "lead_time": "15-20 working days",
+      "port_of_shipment": "Shanghai/Ningbo"
+    }
+  }
+]

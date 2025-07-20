@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-07-16T11-09-19-195Z",
+  "created_at": "2025-07-16T11:09:19.785Z",
+  "backup_type": "image_integration_preparation",
+  "files_backed_up": [
+    "src/data/products.json",
+    "public/images/"
+  ],
+  "restore_commands": [
+    "cp src/data/products.json.backup-2025-07-16T11-09-19-195Z src/data/products.json",
+    "rm -rf public/images && cp -r public/images-backup-2025-07-16T11-09-19-195Z public/images"
+  ],
+  "verification": {
+    "products_json_backup": "src/data/products.json.backup-2025-07-16T11-09-19-195Z",
+    "images_folder_backup": "public/images-backup-2025-07-16T11-09-19-195Z"
+  }
+}

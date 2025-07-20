@@ -1,0 +1,3440 @@
+[
+  {
+    "id": "prod_1752480084979_0",
+    "name": "温州巨匠智能科技有限公司",
+    "slug": "product-1-0",
+    "description": "温州巨匠智能科技有限公司 from Industrial Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480084979-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_1",
+    "main_image_url": "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYos_Xi-gcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:24.979Z",
+    "updated_at": "2025-07-14T14:25:22.774Z"
+  },
+  {
+    "id": "prod_1752480085314_1",
+    "name": "Product 2",
+    "slug": "product-2-1",
+    "description": "Professional caster product from Industrial Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480085314-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_1",
+    "main_image_url": "/images/ABUIABAEGAAg_-yrvQYo3N-UlAQwoAY4oAY.png",
+    "image_urls": [
+      "/images/ABUIABACGAAgivydrQYowI7A3wEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:25.314Z",
+    "updated_at": "2025-07-14T14:25:22.777Z"
+  },
+  {
+    "id": "prod_1752480085560_2",
+    "name": "Product 3",
+    "slug": "product-3-2",
+    "description": "Professional caster product from Industrial Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480085560-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_1",
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgwLyYpQYokPbemAQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:25.560Z",
+    "updated_at": "2025-07-14T14:25:22.781Z"
+  },
+  {
+    "id": "prod_1752480088338_0",
+    "name": "52x13mm-B1",
+    "slug": "52x13mm-b1-3",
+    "description": "52x13mm-B1 from Heavy Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480088338-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_2",
+    "main_image_url": "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:28.338Z",
+    "updated_at": "2025-07-14T14:25:22.785Z"
+  },
+  {
+    "id": "prod_1752480088743_1",
+    "name": "52x13mm-B1",
+    "slug": "52x13mm-b1-4",
+    "description": "52x13mm-B1 from Heavy Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480088743-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_2",
+    "main_image_url": "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgobHIoQYo-OP1rwEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:28.743Z",
+    "updated_at": "2025-07-14T14:25:22.789Z"
+  },
+  {
+    "id": "prod_1752480088914_2",
+    "name": "52x13mm-B1",
+    "slug": "52x13mm-b1-5",
+    "description": "52x13mm-B1 from Heavy Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480088914-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_2",
+    "main_image_url": "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgm4P6ugYo3MijhgUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:28.914Z",
+    "updated_at": "2025-07-14T14:25:22.793Z"
+  },
+  {
+    "id": "prod_1752480088914_3",
+    "name": "Product 4",
+    "slug": "product-4-6",
+    "description": "Professional caster product from Heavy Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480088914-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_2",
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:28.914Z",
+    "updated_at": "2025-07-14T14:25:22.796Z"
+  },
+  {
+    "id": "prod_1752480089119_4",
+    "name": "73x15mm-B1",
+    "slug": "73x15mm-b1-7",
+    "description": "73x15mm-B1 from Heavy Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480089119-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_2",
+    "main_image_url": "/images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgv83ctAYowu3B3wUwlwY4jgc.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:29.119Z",
+    "updated_at": "2025-07-14T14:25:22.799Z"
+  },
+  {
+    "id": "prod_1752480092040_0",
+    "name": "120x50mm-B1",
+    "slug": "120x50mm-b1-8",
+    "description": "120x50mm-B1 from Medical Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480092040-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_3",
+    "main_image_url": "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:32.040Z",
+    "updated_at": "2025-07-14T14:25:22.803Z"
+  },
+  {
+    "id": "prod_1752480094923_0",
+    "name": "28x22mm",
+    "slug": "28x22mm-9",
+    "description": "28x22mm from Light Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480094923-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_4",
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:34.923Z",
+    "updated_at": "2025-07-14T14:25:22.807Z"
+  },
+  {
+    "id": "prod_1752480095150_1",
+    "name": "28x22mm",
+    "slug": "28x22mm-10",
+    "description": "28x22mm from Light Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480095150-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_4",
+    "main_image_url": "/images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgyuS1owYo2uOqUzCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:35.150Z",
+    "updated_at": "2025-07-14T14:25:22.810Z"
+  },
+  {
+    "id": "prod_1752480095473_2",
+    "name": "28x22mm",
+    "slug": "28x22mm-11",
+    "description": "28x22mm from Light Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480095473-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_4",
+    "main_image_url": "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgmqLDoQYooLrGxAIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:35.473Z",
+    "updated_at": "2025-07-14T14:25:22.813Z"
+  },
+  {
+    "id": "prod_1752480095473_3",
+    "name": "Product 4",
+    "slug": "product-4-12",
+    "description": "Professional caster product from Light Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480095473-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_4",
+    "main_image_url": "/images/ABUIABACGAAgn_nDoQYo3Ku5WjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:35.473Z",
+    "updated_at": "2025-07-14T14:25:22.817Z"
+  },
+  {
+    "id": "prod_1752480095605_4",
+    "name": "36x11mm",
+    "slug": "36x11mm-13",
+    "description": "36x11mm from Light Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480095605-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_4",
+    "main_image_url": "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:35.605Z",
+    "updated_at": "2025-07-14T14:25:22.821Z"
+  },
+  {
+    "id": "prod_1752480095605_5",
+    "name": "Product 8",
+    "slug": "product-8-14",
+    "description": "Professional caster product from Light Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480095605-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_4",
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYozID-qAUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnK_SuAYogLDO4AYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:35.605Z",
+    "updated_at": "2025-07-14T14:25:22.825Z"
+  },
+  {
+    "id": "prod_1752480095752_6",
+    "name": "40x15mm",
+    "slug": "40x15mm-15",
+    "description": "40x15mm from Light Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480095752-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_4",
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:35.752Z",
+    "updated_at": "2025-07-14T14:25:22.829Z"
+  },
+  {
+    "id": "prod_1752480095752_7",
+    "name": "Product 12",
+    "slug": "product-12-16",
+    "description": "Professional caster product from Light Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480095752-7",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_4",
+    "main_image_url": "/images/ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:35.752Z",
+    "updated_at": "2025-07-14T14:25:22.833Z"
+  },
+  {
+    "id": "prod_1752480098746_0",
+    "name": "58x25mm",
+    "slug": "58x25mm-17",
+    "description": "58x25mm from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480098746-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgzrjEoQYosOTfsgMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn_nDoQYozvLO4gYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:38.746Z",
+    "updated_at": "2025-07-14T14:25:22.837Z"
+  },
+  {
+    "id": "prod_1752480099113_1",
+    "name": "58x25mm",
+    "slug": "58x25mm-18",
+    "description": "58x25mm from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099113-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.113Z",
+    "updated_at": "2025-07-14T14:25:22.840Z"
+  },
+  {
+    "id": "prod_1752480099332_2",
+    "name": "58x25mm",
+    "slug": "58x25mm-19",
+    "description": "58x25mm from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099332-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3PifvgYo35jC6wEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.332Z",
+    "updated_at": "2025-07-14T14:25:22.844Z"
+  },
+  {
+    "id": "prod_1752480099332_3",
+    "name": "Product 4",
+    "slug": "product-4-20",
+    "description": "Professional caster product from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099332-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAguIzDoQYoorL4hAcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.332Z",
+    "updated_at": "2025-07-14T14:25:22.849Z"
+  },
+  {
+    "id": "prod_1752480099477_4",
+    "name": "60x20mm-B1",
+    "slug": "60x20mm-b1-21",
+    "description": "60x20mm-B1 from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099477-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgruOhrQYo7N__zQMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.477Z",
+    "updated_at": "2025-07-14T14:25:22.853Z"
+  },
+  {
+    "id": "prod_1752480099477_5",
+    "name": "Product 8",
+    "slug": "product-8-22",
+    "description": "Professional caster product from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099477-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.477Z",
+    "updated_at": "2025-07-14T14:25:22.857Z"
+  },
+  {
+    "id": "prod_1752480099608_6",
+    "name": "60x20mm-B2",
+    "slug": "60x20mm-b2-23",
+    "description": "60x20mm-B2 from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099608-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgqs_drQYo0KWaqgEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.608Z",
+    "updated_at": "2025-07-14T14:25:22.862Z"
+  },
+  {
+    "id": "prod_1752480099608_7",
+    "name": "Product 12",
+    "slug": "product-12-24",
+    "description": "Professional caster product from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099608-7",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgrvHkuQYorN-17QQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnKbusAYo8s213gMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.608Z",
+    "updated_at": "2025-07-14T14:25:22.865Z"
+  },
+  {
+    "id": "prod_1752480099749_8",
+    "name": "60x21mm-B1",
+    "slug": "60x21mm-b1-25",
+    "description": "60x21mm-B1 from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099749-8",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgoJnxwAYomLD-rwIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgoJnxwAYomLD-rwIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.749Z",
+    "updated_at": "2025-07-14T14:25:22.868Z"
+  },
+  {
+    "id": "prod_1752480099749_9",
+    "name": "Product 16",
+    "slug": "product-16-26",
+    "description": "Professional caster product from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480099749-9",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABAEGAAg_-yrvQYo-NzaBzCgBjigBg.png",
+    "image_urls": [
+      "/images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:39.749Z",
+    "updated_at": "2025-07-14T14:25:22.872Z"
+  },
+  {
+    "id": "prod_1752480100929_10",
+    "name": "60x27.5mm",
+    "slug": "60x275mm-27",
+    "description": "60x27.5mm from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480100929-10",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:40.929Z",
+    "updated_at": "2025-07-14T14:25:22.876Z"
+  },
+  {
+    "id": "prod_1752480100929_11",
+    "name": "Product 20",
+    "slug": "product-20-28",
+    "description": "Professional caster product from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480100929-11",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgn_nDoQYozvLO4gYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYos_Xi-gcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:40.929Z",
+    "updated_at": "2025-07-14T14:25:22.880Z"
+  },
+  {
+    "id": "prod_1752480101261_12",
+    "name": "65x30mm",
+    "slug": "65x30mm-29",
+    "description": "65x30mm from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480101261-12",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgrvHkuQYorN-17QQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:41.261Z",
+    "updated_at": "2025-07-14T14:25:22.884Z"
+  },
+  {
+    "id": "prod_1752480101261_13",
+    "name": "Product 24",
+    "slug": "product-24-30",
+    "description": "Professional caster product from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480101261-13",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgv83ctAYowu3B3wUwlwY4jgc.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:41.261Z",
+    "updated_at": "2025-07-14T14:25:22.889Z"
+  },
+  {
+    "id": "prod_1752480101406_14",
+    "name": "65x30mm",
+    "slug": "65x30mm-31",
+    "description": "65x30mm from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480101406-14",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgoJnxwAYomLD-rwIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:41.406Z",
+    "updated_at": "2025-07-14T14:25:22.893Z"
+  },
+  {
+    "id": "prod_1752480101406_15",
+    "name": "Product 28",
+    "slug": "product-28-32",
+    "description": "Professional caster product from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480101406-15",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgnKbusAYo8s213gMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:41.406Z",
+    "updated_at": "2025-07-14T14:25:22.896Z"
+  },
+  {
+    "id": "prod_1752480102681_16",
+    "name": "65x50mm",
+    "slug": "65x50mm-33",
+    "description": "65x50mm from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480102681-16",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAgzrjEoQYosOTfsgMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:42.681Z",
+    "updated_at": "2025-07-14T14:25:22.900Z"
+  },
+  {
+    "id": "prod_1752480102681_17",
+    "name": "Product 32",
+    "slug": "product-32-34",
+    "description": "Professional caster product from Medium Duty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480102681-17",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_5",
+    "main_image_url": "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:42.681Z",
+    "updated_at": "2025-07-14T14:25:22.903Z"
+  },
+  {
+    "id": "prod_1752480106794_0",
+    "name": "110x40mm-B1",
+    "slug": "110x40mm-b1-35",
+    "description": "110x40mm-B1 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480106794-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:46.794Z",
+    "updated_at": "2025-07-14T14:25:22.907Z"
+  },
+  {
+    "id": "prod_1752480106988_1",
+    "name": "110x40mm-B1",
+    "slug": "110x40mm-b1-36",
+    "description": "110x40mm-B1 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480106988-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:46.988Z",
+    "updated_at": "2025-07-14T14:25:22.910Z"
+  },
+  {
+    "id": "prod_1752480107145_2",
+    "name": "110x40mm-B1",
+    "slug": "110x40mm-b1-37",
+    "description": "110x40mm-B1 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107145-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.145Z",
+    "updated_at": "2025-07-14T14:25:22.913Z"
+  },
+  {
+    "id": "prod_1752480107145_3",
+    "name": "Product 4",
+    "slug": "product-4-38",
+    "description": "Professional caster product from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107145-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnK_SuAYogLDO4AYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.145Z",
+    "updated_at": "2025-07-14T14:25:22.916Z"
+  },
+  {
+    "id": "prod_1752480107299_4",
+    "name": "110x42mm-B1",
+    "slug": "110x42mm-b1-39",
+    "description": "110x42mm-B1 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107299-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgobHIoQYo-OP1rwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgouDqwAYonMCEjwQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.299Z",
+    "updated_at": "2025-07-14T14:25:22.920Z"
+  },
+  {
+    "id": "prod_1752480107299_5",
+    "name": "Product 8",
+    "slug": "product-8-40",
+    "description": "Professional caster product from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107299-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYos_Xi-gcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.299Z",
+    "updated_at": "2025-07-14T14:25:22.924Z"
+  },
+  {
+    "id": "prod_1752480107518_6",
+    "name": "112x40mm-B1",
+    "slug": "112x40mm-b1-41",
+    "description": "112x40mm-B1 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107518-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.518Z",
+    "updated_at": "2025-07-14T14:25:22.927Z"
+  },
+  {
+    "id": "prod_1752480107518_7",
+    "name": "Product 12",
+    "slug": "product-12-42",
+    "description": "Professional caster product from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107518-7",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzrjEoQYosOTfsgMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.518Z",
+    "updated_at": "2025-07-14T14:25:22.930Z"
+  },
+  {
+    "id": "prod_1752480107681_8",
+    "name": "120x72mm-B1",
+    "slug": "120x72mm-b1-43",
+    "description": "120x72mm-B1 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107681-8",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.681Z",
+    "updated_at": "2025-07-14T14:25:22.934Z"
+  },
+  {
+    "id": "prod_1752480107681_9",
+    "name": "Product 16",
+    "slug": "product-16-44",
+    "description": "Professional caster product from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107681-9",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgiuW6uQYokK7n6gMw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn6X0rwYo6pfDBTCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.681Z",
+    "updated_at": "2025-07-14T14:25:22.938Z"
+  },
+  {
+    "id": "prod_1752480107816_10",
+    "name": "120x72mm-B2",
+    "slug": "120x72mm-b2-45",
+    "description": "120x72mm-B2 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107816-10",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.816Z",
+    "updated_at": "2025-07-14T14:25:22.944Z"
+  },
+  {
+    "id": "prod_1752480107816_11",
+    "name": "Product 20",
+    "slug": "product-20-46",
+    "description": "Professional caster product from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480107816-11",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1KHDoQYousOAODCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:47.816Z",
+    "updated_at": "2025-07-14T14:25:22.948Z"
+  },
+  {
+    "id": "prod_1752480108001_12",
+    "name": "125x28mm-B1",
+    "slug": "125x28mm-b1-47",
+    "description": "125x28mm-B1 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480108001-12",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:48.001Z",
+    "updated_at": "2025-07-14T14:25:22.952Z"
+  },
+  {
+    "id": "prod_1752480108001_13",
+    "name": "Product 24",
+    "slug": "product-24-48",
+    "description": "Professional caster product from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480108001-13",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgosK8uAYo0KbNoAYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:48.001Z",
+    "updated_at": "2025-07-14T14:25:22.956Z"
+  },
+  {
+    "id": "prod_1752480108178_14",
+    "name": "125x38mm-B1",
+    "slug": "125x38mm-b1-49",
+    "description": "125x38mm-B1 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480108178-14",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgrvHkuQYorN-17QQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgmuHEoQYopOuu4gEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:48.178Z",
+    "updated_at": "2025-07-14T14:25:22.960Z"
+  },
+  {
+    "id": "prod_1752480108178_15",
+    "name": "Product 28",
+    "slug": "product-28-50",
+    "description": "Professional caster product from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480108178-15",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:48.178Z",
+    "updated_at": "2025-07-14T14:25:22.963Z"
+  },
+  {
+    "id": "prod_1752480108320_16",
+    "name": "125x38mm-B2",
+    "slug": "125x38mm-b2-51",
+    "description": "125x38mm-B2 from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480108320-16",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAgzLq1owYohu6i7QMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgmuHEoQYozID-qAUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:48.320Z",
+    "updated_at": "2025-07-14T14:25:22.966Z"
+  },
+  {
+    "id": "prod_1752480108320_17",
+    "name": "Product 32",
+    "slug": "product-32-52",
+    "description": "Professional caster product from Heavy Duty Industrial category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480108320-17",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_6",
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABAEGAAg_-yrvQYo3N-UlAQwoAY4oAY.png"
+    ],
+    "created_at": "2025-07-14T08:01:48.320Z",
+    "updated_at": "2025-07-14T14:25:22.971Z"
+  },
+  {
+    "id": "prod_1752480111356_0",
+    "name": "152x42mm-B1",
+    "slug": "152x42mm-b1-53",
+    "description": "152x42mm-B1 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480111356-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:51.356Z",
+    "updated_at": "2025-07-14T14:25:22.977Z"
+  },
+  {
+    "id": "prod_1752480111536_1",
+    "name": "152x42mm-B1",
+    "slug": "152x42mm-b1-54",
+    "description": "152x42mm-B1 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480111536-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:51.536Z",
+    "updated_at": "2025-07-14T14:25:22.982Z"
+  },
+  {
+    "id": "prod_1752480111667_2",
+    "name": "152x42mm-B1",
+    "slug": "152x42mm-b1-55",
+    "description": "152x42mm-B1 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480111667-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:51.667Z",
+    "updated_at": "2025-07-14T14:25:22.986Z"
+  },
+  {
+    "id": "prod_1752480111667_3",
+    "name": "Product 4",
+    "slug": "product-4-56",
+    "description": "Professional caster product from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480111667-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAgzLq1owYohu6i7QMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:51.667Z",
+    "updated_at": "2025-07-14T14:25:22.992Z"
+  },
+  {
+    "id": "prod_1752480111813_4",
+    "name": "152x42mm-B2",
+    "slug": "152x42mm-b2-57",
+    "description": "152x42mm-B2 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480111813-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:51.813Z",
+    "updated_at": "2025-07-14T14:25:22.996Z"
+  },
+  {
+    "id": "prod_1752480111813_5",
+    "name": "Product 8",
+    "slug": "product-8-58",
+    "description": "Professional caster product from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480111813-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgxPjCoQYot-OuwgcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:51.813Z",
+    "updated_at": "2025-07-14T14:25:23.001Z"
+  },
+  {
+    "id": "prod_1752480111988_6",
+    "name": "152x42mm-B3",
+    "slug": "152x42mm-b3-59",
+    "description": "152x42mm-B3 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480111988-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgypWqqAYo0PPz9QYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:51.988Z",
+    "updated_at": "2025-07-14T14:25:23.006Z"
+  },
+  {
+    "id": "prod_1752480111988_7",
+    "name": "Product 12",
+    "slug": "product-12-60",
+    "description": "Professional caster product from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480111988-7",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAguIzDoQYoorL4hAcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:51.988Z",
+    "updated_at": "2025-07-14T14:25:23.010Z"
+  },
+  {
+    "id": "prod_1752480112123_8",
+    "name": "152x46mm-B1",
+    "slug": "152x46mm-b1-61",
+    "description": "152x46mm-B1 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112123-8",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.123Z",
+    "updated_at": "2025-07-14T14:25:23.015Z"
+  },
+  {
+    "id": "prod_1752480112123_9",
+    "name": "Product 16",
+    "slug": "product-16-62",
+    "description": "Professional caster product from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112123-9",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.123Z",
+    "updated_at": "2025-07-14T14:25:23.020Z"
+  },
+  {
+    "id": "prod_1752480112258_10",
+    "name": "152x50.8mm",
+    "slug": "152x508mm-63",
+    "description": "152x50.8mm from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112258-10",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAgyuS1owYo2uOqUzCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgrvHkuQYorN-17QQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.258Z",
+    "updated_at": "2025-07-14T14:25:23.024Z"
+  },
+  {
+    "id": "prod_1752480112258_11",
+    "name": "Product 20",
+    "slug": "product-20-64",
+    "description": "Professional caster product from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112258-11",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg8oCerQYor56a7QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn_nDoQYo3Ku5WjCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.258Z",
+    "updated_at": "2025-07-14T14:25:23.028Z"
+  },
+  {
+    "id": "prod_1752480112442_12",
+    "name": "160x40mm-B1",
+    "slug": "160x40mm-b1-65",
+    "description": "160x40mm-B1 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112442-12",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.442Z",
+    "updated_at": "2025-07-14T14:25:23.032Z"
+  },
+  {
+    "id": "prod_1752480112442_13",
+    "name": "Product 24",
+    "slug": "product-24-66",
+    "description": "Professional caster product from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112442-13",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAgjc2jqQYo8Iyj8gMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgrqXdtAYosNmpiQIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.442Z",
+    "updated_at": "2025-07-14T14:25:23.036Z"
+  },
+  {
+    "id": "prod_1752480112599_14",
+    "name": "160x40mm-B2",
+    "slug": "160x40mm-b2-67",
+    "description": "160x40mm-B2 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112599-14",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.599Z",
+    "updated_at": "2025-07-14T14:25:23.041Z"
+  },
+  {
+    "id": "prod_1752480112599_15",
+    "name": "Product 28",
+    "slug": "product-28-68",
+    "description": "Professional caster product from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112599-15",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.599Z",
+    "updated_at": "2025-07-14T14:25:23.046Z"
+  },
+  {
+    "id": "prod_1752480112743_16",
+    "name": "160x40mm-B3",
+    "slug": "160x40mm-b3-69",
+    "description": "160x40mm-B3 from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112743-16",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.743Z",
+    "updated_at": "2025-07-14T14:25:23.050Z"
+  },
+  {
+    "id": "prod_1752480112743_17",
+    "name": "Product 32",
+    "slug": "product-32-70",
+    "description": "Professional caster product from Swivel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480112743-17",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_7",
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYopOuu4gEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgwLyYpQYokPbemAQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:52.743Z",
+    "updated_at": "2025-07-14T14:25:23.055Z"
+  },
+  {
+    "id": "prod_1752480115435_0",
+    "name": "205x50mm-B1",
+    "slug": "205x50mm-b1-71",
+    "description": "205x50mm-B1 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480115435-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgn_nDoQYozvLO4gYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnK_SuAYogLDO4AYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:55.435Z",
+    "updated_at": "2025-07-14T14:25:23.059Z"
+  },
+  {
+    "id": "prod_1752480115640_1",
+    "name": "205x50mm-B1",
+    "slug": "205x50mm-b1-72",
+    "description": "205x50mm-B1 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480115640-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgouDqwAYonMCEjwQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:55.640Z",
+    "updated_at": "2025-07-14T14:25:23.064Z"
+  },
+  {
+    "id": "prod_1752480115806_2",
+    "name": "205x50mm-B1",
+    "slug": "205x50mm-b1-73",
+    "description": "205x50mm-B1 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480115806-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAg76i-oQYowsX3AzCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:55.806Z",
+    "updated_at": "2025-07-14T14:25:23.071Z"
+  },
+  {
+    "id": "prod_1752480115806_3",
+    "name": "Product 4",
+    "slug": "product-4-74",
+    "description": "Professional caster product from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480115806-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYos_Xi-gcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgwLyYpQYokPbemAQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:55.806Z",
+    "updated_at": "2025-07-14T14:25:23.075Z"
+  },
+  {
+    "id": "prod_1752480115968_4",
+    "name": "220x40mm-B1",
+    "slug": "220x40mm-b1-75",
+    "description": "220x40mm-B1 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480115968-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgm4P6ugYo3MijhgUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:55.968Z",
+    "updated_at": "2025-07-14T14:25:23.079Z"
+  },
+  {
+    "id": "prod_1752480115968_5",
+    "name": "Product 8",
+    "slug": "product-8-76",
+    "description": "Professional caster product from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480115968-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:55.968Z",
+    "updated_at": "2025-07-14T14:25:23.083Z"
+  },
+  {
+    "id": "prod_1752480116190_6",
+    "name": "225x40mm-B1",
+    "slug": "225x40mm-b1-77",
+    "description": "225x40mm-B1 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480116190-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4OTDoQYo0N-6rgcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:56.190Z",
+    "updated_at": "2025-07-14T14:25:23.088Z"
+  },
+  {
+    "id": "prod_1752480116191_7",
+    "name": "Product 12",
+    "slug": "product-12-78",
+    "description": "Professional caster product from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480116191-7",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAguIzDoQYoorL4hAcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnK_SuAYogLDO4AYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:56.191Z",
+    "updated_at": "2025-07-14T14:25:23.092Z"
+  },
+  {
+    "id": "prod_1752480116585_8",
+    "name": "230x75mm-B2",
+    "slug": "230x75mm-b2-79",
+    "description": "230x75mm-B2 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480116585-8",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgnK_SuAYogLDO4AYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:56.585Z",
+    "updated_at": "2025-07-14T14:25:23.097Z"
+  },
+  {
+    "id": "prod_1752480116585_9",
+    "name": "Product 16",
+    "slug": "product-16-80",
+    "description": "Professional caster product from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480116585-9",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgyuS1owYo2uOqUzCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn6X0rwYo6pfDBTCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:56.585Z",
+    "updated_at": "2025-07-14T14:25:23.102Z"
+  },
+  {
+    "id": "prod_1752480116782_10",
+    "name": "230x82mm-B1",
+    "slug": "230x82mm-b1-81",
+    "description": "230x82mm-B1 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480116782-10",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnK_SuAYogLDO4AYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:56.782Z",
+    "updated_at": "2025-07-14T14:25:23.106Z"
+  },
+  {
+    "id": "prod_1752480116782_11",
+    "name": "Product 20",
+    "slug": "product-20-82",
+    "description": "Professional caster product from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480116782-11",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgzLq1owYohu6i7QMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:56.782Z",
+    "updated_at": "2025-07-14T14:25:23.110Z"
+  },
+  {
+    "id": "prod_1752480116972_12",
+    "name": "235x85mm-B1",
+    "slug": "235x85mm-b1-83",
+    "description": "235x85mm-B1 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480116972-12",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgypWqqAYo0PPz9QYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:56.972Z",
+    "updated_at": "2025-07-14T14:25:23.114Z"
+  },
+  {
+    "id": "prod_1752480116972_13",
+    "name": "Product 24",
+    "slug": "product-24-84",
+    "description": "Professional caster product from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480116972-13",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgoJnxwAYomLD-rwIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:56.972Z",
+    "updated_at": "2025-07-14T14:25:23.119Z"
+  },
+  {
+    "id": "prod_1752480117105_14",
+    "name": "250x40mm-B1",
+    "slug": "250x40mm-b1-85",
+    "description": "250x40mm-B1 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480117105-14",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgn_nDoQYo3Ku5WjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:57.105Z",
+    "updated_at": "2025-07-14T14:25:23.123Z"
+  },
+  {
+    "id": "prod_1752480117105_15",
+    "name": "Product 28",
+    "slug": "product-28-86",
+    "description": "Professional caster product from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480117105-15",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:57.105Z",
+    "updated_at": "2025-07-14T14:25:23.128Z"
+  },
+  {
+    "id": "prod_1752480117294_16",
+    "name": "250x40mm-B2",
+    "slug": "250x40mm-b2-87",
+    "description": "250x40mm-B2 from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480117294-16",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:57.294Z",
+    "updated_at": "2025-07-14T14:25:23.132Z"
+  },
+  {
+    "id": "prod_1752480117294_17",
+    "name": "Product 32",
+    "slug": "product-32-88",
+    "description": "Professional caster product from Fixed Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480117294-17",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_8",
+    "main_image_url": "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:01:57.294Z",
+    "updated_at": "2025-07-14T14:25:23.137Z"
+  },
+  {
+    "id": "prod_1752480120046_0",
+    "name": "300x100mm",
+    "slug": "300x100mm-89",
+    "description": "300x100mm from Brake Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480120046-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_9",
+    "main_image_url": "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:00.046Z",
+    "updated_at": "2025-07-14T14:25:23.141Z"
+  },
+  {
+    "id": "prod_1752480120242_1",
+    "name": "300x100mm",
+    "slug": "300x100mm-90",
+    "description": "300x100mm from Brake Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480120242-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_9",
+    "main_image_url": "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgp__drQYosKjMngcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:00.242Z",
+    "updated_at": "2025-07-14T14:25:23.146Z"
+  },
+  {
+    "id": "prod_1752480120386_2",
+    "name": "300x100mm",
+    "slug": "300x100mm-91",
+    "description": "300x100mm from Brake Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480120386-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_9",
+    "main_image_url": "/images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgxPjCoQYot-OuwgcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:00.386Z",
+    "updated_at": "2025-07-14T14:25:23.150Z"
+  },
+  {
+    "id": "prod_1752480120386_3",
+    "name": "Product 4",
+    "slug": "product-4-92",
+    "description": "Professional caster product from Brake Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480120386-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_9",
+    "main_image_url": "/images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:00.386Z",
+    "updated_at": "2025-07-14T14:25:23.155Z"
+  },
+  {
+    "id": "prod_1752480120630_4",
+    "name": "300x110mm-B1",
+    "slug": "300x110mm-b1-93",
+    "description": "300x110mm-B1 from Brake Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480120630-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_9",
+    "main_image_url": "/images/ABUIABACGAAgouDqwAYonMCEjwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnK_SuAYogLDO4AYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:00.630Z",
+    "updated_at": "2025-07-14T14:25:23.159Z"
+  },
+  {
+    "id": "prod_1752480120630_5",
+    "name": "Product 8",
+    "slug": "product-8-94",
+    "description": "Professional caster product from Brake Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480120630-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_9",
+    "main_image_url": "/images/ABUIABAEGAAgn_eqvQYo9Ij14AEwoAY4oAY.png",
+    "image_urls": [
+      "/images/ABUIABACGAAgypWqqAYo0PPz9QYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:00.630Z",
+    "updated_at": "2025-07-14T14:25:23.163Z"
+  },
+  {
+    "id": "prod_1752480120891_6",
+    "name": "350x70mm-B1",
+    "slug": "350x70mm-b1-95",
+    "description": "350x70mm-B1 from Brake Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480120891-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_9",
+    "main_image_url": "/images/ABUIABACGAAgobHIoQYo-OP1rwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:00.891Z",
+    "updated_at": "2025-07-14T14:25:23.167Z"
+  },
+  {
+    "id": "prod_1752480124126_0",
+    "name": "麦克纳姆轮单轮34*54",
+    "slug": "3454-96",
+    "description": "麦克纳姆轮单轮34*54 from Specialty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480124126-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_10",
+    "main_image_url": "/images/ABUIABACGAAgrqXdtAYosNmpiQIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgmuHEoQYozID-qAUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:04.126Z",
+    "updated_at": "2025-07-14T14:25:23.172Z"
+  },
+  {
+    "id": "prod_1752480124336_1",
+    "name": "麦克纳姆轮单轮34*54",
+    "slug": "3454-97",
+    "description": "麦克纳姆轮单轮34*54 from Specialty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480124336-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_10",
+    "main_image_url": "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgxPjCoQYot-OuwgcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:04.336Z",
+    "updated_at": "2025-07-14T14:25:23.176Z"
+  },
+  {
+    "id": "prod_1752480124703_2",
+    "name": "麦克纳姆轮单轮34*54",
+    "slug": "3454-98",
+    "description": "麦克纳姆轮单轮34*54 from Specialty Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480124703-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_10",
+    "main_image_url": "/images/ABUIABACGAAgzLq1owYohu6i7QMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnK_SuAYogLDO4AYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:04.703Z",
+    "updated_at": "2025-07-14T14:25:23.180Z"
+  },
+  {
+    "id": "prod_1752480127308_0",
+    "name": "EQ033ZS",
+    "slug": "eq033zs-99",
+    "description": "EQ033ZS from Custom Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480127308-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_11",
+    "main_image_url": "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYo4pvOywIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:07.308Z",
+    "updated_at": "2025-07-14T14:25:23.185Z"
+  },
+  {
+    "id": "prod_1752480130040_0",
+    "name": "EQ035",
+    "slug": "eq035-100",
+    "description": "EQ035 from Furniture Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480130040-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_12",
+    "main_image_url": "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:10.040Z",
+    "updated_at": "2025-07-14T14:25:23.189Z"
+  },
+  {
+    "id": "prod_1752480130289_1",
+    "name": "EQ035",
+    "slug": "eq035-101",
+    "description": "EQ035 from Furniture Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480130289-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_12",
+    "main_image_url": "/images/ABUIABACGAAg3-rEugYon5XGywEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:10.289Z",
+    "updated_at": "2025-07-14T14:25:23.194Z"
+  },
+  {
+    "id": "prod_1752480130456_2",
+    "name": "EQ035",
+    "slug": "eq035-102",
+    "description": "EQ035 from Furniture Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480130456-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_12",
+    "main_image_url": "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:10.456Z",
+    "updated_at": "2025-07-14T14:25:23.198Z"
+  },
+  {
+    "id": "prod_1752480133348_0",
+    "name": "EQ053TJ (CPU)",
+    "slug": "eq053tj-cpu-103",
+    "description": "EQ053TJ (CPU) from Cart Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480133348-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_13",
+    "main_image_url": "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:13.348Z",
+    "updated_at": "2025-07-14T14:25:23.203Z"
+  },
+  {
+    "id": "prod_1752480133502_1",
+    "name": "EQ053TJ (CPU)",
+    "slug": "eq053tj-cpu-104",
+    "description": "EQ053TJ (CPU) from Cart Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480133502-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_13",
+    "main_image_url": "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:13.502Z",
+    "updated_at": "2025-07-14T14:25:23.207Z"
+  },
+  {
+    "id": "prod_1752480133647_2",
+    "name": "EQ053TJ (CPU)",
+    "slug": "eq053tj-cpu-105",
+    "description": "EQ053TJ (CPU) from Cart Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480133647-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_13",
+    "main_image_url": "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgypWqqAYo0PPz9QYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:13.647Z",
+    "updated_at": "2025-07-14T14:25:23.211Z"
+  },
+  {
+    "id": "prod_1752480133647_3",
+    "name": "Product 4",
+    "slug": "product-4-106",
+    "description": "Professional caster product from Cart Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480133647-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_13",
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYopOuu4gEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgz_y_oQYokP3KowQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:13.647Z",
+    "updated_at": "2025-07-14T14:25:23.216Z"
+  },
+  {
+    "id": "prod_1752480133782_4",
+    "name": "EQ053TJ(ESD)",
+    "slug": "eq053tjesd-107",
+    "description": "EQ053TJ(ESD) from Cart Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480133782-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_13",
+    "main_image_url": "/images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:13.782Z",
+    "updated_at": "2025-07-14T14:25:23.221Z"
+  },
+  {
+    "id": "prod_1752480133782_5",
+    "name": "Product 8",
+    "slug": "product-8-108",
+    "description": "Professional caster product from Cart Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480133782-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_13",
+    "main_image_url": "/images/ABUIABACGAAg_bnbsQYoqPXM5wUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgrvHkuQYorN-17QQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:13.782Z",
+    "updated_at": "2025-07-14T14:25:23.225Z"
+  },
+  {
+    "id": "prod_1752480133914_6",
+    "name": "EQ053TJ（PAESD）",
+    "slug": "eq053tjpaesd-109",
+    "description": "EQ053TJ（PAESD） from Cart Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480133914-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_13",
+    "main_image_url": "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnKbusAYo8s213gMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:13.914Z",
+    "updated_at": "2025-07-14T14:25:23.229Z"
+  },
+  {
+    "id": "prod_1752480133914_7",
+    "name": "Product 12",
+    "slug": "product-12-110",
+    "description": "Professional caster product from Cart Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480133914-7",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_13",
+    "main_image_url": "/images/ABUIABACGAAgwLyYpQYokPbemAQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:13.914Z",
+    "updated_at": "2025-07-14T14:25:23.233Z"
+  },
+  {
+    "id": "prod_1752480137862_0",
+    "name": "EQ053CYZD",
+    "slug": "eq053cyzd-111",
+    "description": "EQ053CYZD from Trolley Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480137862-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_14",
+    "main_image_url": "/images/ABUIABACGAAgzrjEoQYosOTfsgMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgmuHEoQYopOuu4gEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:17.862Z",
+    "updated_at": "2025-07-14T14:25:23.238Z"
+  },
+  {
+    "id": "prod_1752480138087_1",
+    "name": "EQ053CYZD",
+    "slug": "eq053cyzd-112",
+    "description": "EQ053CYZD from Trolley Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480138087-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_14",
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYopOuu4gEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:18.087Z",
+    "updated_at": "2025-07-14T14:25:23.243Z"
+  },
+  {
+    "id": "prod_1752480138861_2",
+    "name": "EQ053CYZD",
+    "slug": "eq053cyzd-113",
+    "description": "EQ053CYZD from Trolley Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480138861-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_14",
+    "main_image_url": "/images/ABUIABAEGAAg_-yrvQYo3N-UlAQwoAY4oAY.png",
+    "image_urls": [
+      "/images/ABUIABACGAAguIzDoQYoorL4hAcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:18.861Z",
+    "updated_at": "2025-07-14T14:25:23.248Z"
+  },
+  {
+    "id": "prod_1752480138862_3",
+    "name": "Product 4",
+    "slug": "product-4-114",
+    "description": "Professional caster product from Trolley Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480138862-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_14",
+    "main_image_url": "/images/ABUIABACGAAgssjYswYovtPnqQMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg9LHIoQYo6-nOsgMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:18.862Z",
+    "updated_at": "2025-07-14T14:25:23.252Z"
+  },
+  {
+    "id": "prod_1752480139103_4",
+    "name": "EQ053CYZD",
+    "slug": "eq053cyzd-115",
+    "description": "EQ053CYZD from Trolley Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480139103-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_14",
+    "main_image_url": "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:19.103Z",
+    "updated_at": "2025-07-14T14:25:23.257Z"
+  },
+  {
+    "id": "prod_1752480139103_5",
+    "name": "Product 8",
+    "slug": "product-8-116",
+    "description": "Professional caster product from Trolley Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480139103-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_14",
+    "main_image_url": "/images/ABUIABACGAAgn_nDoQYozvLO4gYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:19.103Z",
+    "updated_at": "2025-07-14T14:25:23.262Z"
+  },
+  {
+    "id": "prod_1752480139325_6",
+    "name": "EQ053CYZD",
+    "slug": "eq053cyzd-117",
+    "description": "EQ053CYZD from Trolley Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480139325-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_14",
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYosIqK_gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:19.325Z",
+    "updated_at": "2025-07-14T14:25:23.266Z"
+  },
+  {
+    "id": "prod_1752480141998_0",
+    "name": "EQ055",
+    "slug": "eq055-118",
+    "description": "EQ055 from Platform Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480141998-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_15",
+    "main_image_url": "/images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgwLyYpQYokPbemAQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:21.998Z",
+    "updated_at": "2025-07-14T14:25:23.270Z"
+  },
+  {
+    "id": "prod_1752480142200_1",
+    "name": "EQ055",
+    "slug": "eq055-119",
+    "description": "EQ055 from Platform Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480142200-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_15",
+    "main_image_url": "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgrvHkuQYorN-17QQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:22.200Z",
+    "updated_at": "2025-07-14T14:25:23.274Z"
+  },
+  {
+    "id": "prod_1752480144961_0",
+    "name": "EQ065",
+    "slug": "eq065-120",
+    "description": "EQ065 from Door Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480144961-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_16",
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYosIqK_gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:24.961Z",
+    "updated_at": "2025-07-14T14:25:23.279Z"
+  },
+  {
+    "id": "prod_1752480145158_1",
+    "name": "EQ065",
+    "slug": "eq065-121",
+    "description": "EQ065 from Door Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480145158-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_16",
+    "main_image_url": "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:25.158Z",
+    "updated_at": "2025-07-14T14:25:23.283Z"
+  },
+  {
+    "id": "prod_1752480147841_0",
+    "name": "EQ063WM",
+    "slug": "eq063wm-122",
+    "description": "EQ063WM from Equipment Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480147841-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_17",
+    "main_image_url": "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:27.841Z",
+    "updated_at": "2025-07-14T14:25:23.287Z"
+  },
+  {
+    "id": "prod_1752480148023_1",
+    "name": "EQ063WM",
+    "slug": "eq063wm-123",
+    "description": "EQ063WM from Equipment Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480148023-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_17",
+    "main_image_url": "/images/ABUIABACGAAguIzDoQYoorL4hAcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgv83ctAYowu3B3wUwlwY4jgc.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:28.023Z",
+    "updated_at": "2025-07-14T14:25:23.291Z"
+  },
+  {
+    "id": "prod_1752480149196_2",
+    "name": "EQ063WM",
+    "slug": "eq063wm-124",
+    "description": "EQ063WM from Equipment Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480149196-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_17",
+    "main_image_url": "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:29.196Z",
+    "updated_at": "2025-07-14T14:25:23.296Z"
+  },
+  {
+    "id": "prod_1752480152052_0",
+    "name": "EQ093",
+    "slug": "eq093-125",
+    "description": "EQ093 from Machine Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480152052-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_18",
+    "main_image_url": "/images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:32.052Z",
+    "updated_at": "2025-07-14T14:25:23.300Z"
+  },
+  {
+    "id": "prod_1752480152260_1",
+    "name": "EQ093",
+    "slug": "eq093-126",
+    "description": "EQ093 from Machine Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480152260-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_18",
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYozID-qAUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgrqXdtAYosNmpiQIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:32.260Z",
+    "updated_at": "2025-07-14T14:25:23.304Z"
+  },
+  {
+    "id": "prod_1752480154914_0",
+    "name": "SS013",
+    "slug": "ss013-127",
+    "description": "SS013 from Pneumatic Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480154914-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_19",
+    "main_image_url": "/images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:34.914Z",
+    "updated_at": "2025-07-14T14:25:23.308Z"
+  },
+  {
+    "id": "prod_1752480155127_1",
+    "name": "SS013",
+    "slug": "ss013-128",
+    "description": "SS013 from Pneumatic Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480155127-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_19",
+    "main_image_url": "/images/ABUIABAEGAAg_-yrvQYo-NzaBzCgBjigBg.png",
+    "image_urls": [
+      "/images/ABUIABAEGAAg_-yrvQYo3N-UlAQwoAY4oAY.png"
+    ],
+    "created_at": "2025-07-14T08:02:35.127Z",
+    "updated_at": "2025-07-14T14:25:23.312Z"
+  },
+  {
+    "id": "prod_1752480155309_2",
+    "name": "SS013",
+    "slug": "ss013-129",
+    "description": "SS013 from Pneumatic Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480155309-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_19",
+    "main_image_url": "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:35.309Z",
+    "updated_at": "2025-07-14T14:25:23.316Z"
+  },
+  {
+    "id": "prod_1752480155309_3",
+    "name": "Product 4",
+    "slug": "product-4-130",
+    "description": "Professional caster product from Pneumatic Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480155309-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_19",
+    "main_image_url": "/images/ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn6X0rwYo6pfDBTCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:35.309Z",
+    "updated_at": "2025-07-14T14:25:23.320Z"
+  },
+  {
+    "id": "prod_1752480155438_4",
+    "name": "SS013",
+    "slug": "ss013-131",
+    "description": "SS013 from Pneumatic Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480155438-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_19",
+    "main_image_url": "/images/ABUIABACGAAgqIaiqgYo4qWMiQEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:35.438Z",
+    "updated_at": "2025-07-14T14:25:23.324Z"
+  },
+  {
+    "id": "prod_1752480158545_0",
+    "name": "JQR013-FCR",
+    "slug": "jqr013-fcr-132",
+    "description": "JQR013-FCR from Rubber Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480158545-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_20",
+    "main_image_url": "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:38.545Z",
+    "updated_at": "2025-07-14T14:25:23.329Z"
+  },
+  {
+    "id": "prod_1752480158733_1",
+    "name": "JQR013-FCR",
+    "slug": "jqr013-fcr-133",
+    "description": "JQR013-FCR from Rubber Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480158733-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_20",
+    "main_image_url": "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYos_Xi-gcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:38.733Z",
+    "updated_at": "2025-07-14T14:25:23.333Z"
+  },
+  {
+    "id": "prod_1752480159012_2",
+    "name": "JQR013-FCR",
+    "slug": "jqr013-fcr-134",
+    "description": "JQR013-FCR from Rubber Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480159012-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_20",
+    "main_image_url": "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiuW6uQYokK7n6gMw3BE43BE.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:39.012Z",
+    "updated_at": "2025-07-14T14:25:23.338Z"
+  },
+  {
+    "id": "prod_1752480159012_3",
+    "name": "Product 4",
+    "slug": "product-4-135",
+    "description": "Professional caster product from Rubber Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480159012-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_20",
+    "main_image_url": "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqIaiqgYo4qWMiQEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:39.012Z",
+    "updated_at": "2025-07-14T14:25:23.344Z"
+  },
+  {
+    "id": "prod_1752480159289_4",
+    "name": "JQR013-FCR",
+    "slug": "jqr013-fcr-136",
+    "description": "JQR013-FCR from Rubber Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480159289-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_20",
+    "main_image_url": "/images/ABUIABACGAAgv83ctAYowu3B3wUwlwY4jgc.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYo4pvOywIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:39.289Z",
+    "updated_at": "2025-07-14T14:25:23.350Z"
+  },
+  {
+    "id": "prod_1752480159289_5",
+    "name": "Product 8",
+    "slug": "product-8-137",
+    "description": "Professional caster product from Rubber Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480159289-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_20",
+    "main_image_url": "/images/ABUIABACGAAgxPjCoQYot-OuwgcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnKbusAYo8s213gMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:39.289Z",
+    "updated_at": "2025-07-14T14:25:23.355Z"
+  },
+  {
+    "id": "prod_1752480159591_6",
+    "name": "JQR022-ESD",
+    "slug": "jqr022-esd-138",
+    "description": "JQR022-ESD from Rubber Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480159591-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_20",
+    "main_image_url": "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqs_drQYo0KWaqgEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:39.591Z",
+    "updated_at": "2025-07-14T14:25:23.359Z"
+  },
+  {
+    "id": "prod_1752480162338_0",
+    "name": "JQR040",
+    "slug": "jqr040-139",
+    "description": "JQR040 from Polyurethane Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480162338-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_21",
+    "main_image_url": "/images/ABUIABACGAAg8oCerQYor56a7QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgobHIoQYo-OP1rwEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:42.338Z",
+    "updated_at": "2025-07-14T14:25:23.364Z"
+  },
+  {
+    "id": "prod_1752480162695_1",
+    "name": "JQR040",
+    "slug": "jqr040-140",
+    "description": "JQR040 from Polyurethane Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480162695-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_21",
+    "main_image_url": "/images/ABUIABACGAAgta-EoQYo87KthQcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:42.695Z",
+    "updated_at": "2025-07-14T14:25:23.369Z"
+  },
+  {
+    "id": "prod_1752480162932_2",
+    "name": "JQR040",
+    "slug": "jqr040-141",
+    "description": "JQR040 from Polyurethane Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480162932-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_21",
+    "main_image_url": "/images/ABUIABACGAAgwLyYpQYokPbemAQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:42.932Z",
+    "updated_at": "2025-07-14T14:25:23.373Z"
+  },
+  {
+    "id": "prod_1752480162932_3",
+    "name": "Product 4",
+    "slug": "product-4-142",
+    "description": "Professional caster product from Polyurethane Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480162932-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_21",
+    "main_image_url": "/images/ABUIABACGAAgzrjEoQYosOTfsgMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:42.932Z",
+    "updated_at": "2025-07-14T14:25:23.378Z"
+  },
+  {
+    "id": "prod_1752480163109_4",
+    "name": "JQR042A",
+    "slug": "jqr042a-143",
+    "description": "JQR042A from Polyurethane Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480163109-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_21",
+    "main_image_url": "/images/ABUIABACGAAgzrjEoQYosOTfsgMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgzczEoQYosIqK_gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:43.109Z",
+    "updated_at": "2025-07-14T14:25:23.382Z"
+  },
+  {
+    "id": "prod_1752480163109_5",
+    "name": "Product 8",
+    "slug": "product-8-144",
+    "description": "Professional caster product from Polyurethane Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480163109-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_21",
+    "main_image_url": "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgoJnxwAYomLD-rwIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:43.109Z",
+    "updated_at": "2025-07-14T14:25:23.387Z"
+  },
+  {
+    "id": "prod_1752480163289_6",
+    "name": "JQR042B",
+    "slug": "jqr042b-145",
+    "description": "JQR042B from Polyurethane Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480163289-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_21",
+    "main_image_url": "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn6X0rwYo6pfDBTCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:43.289Z",
+    "updated_at": "2025-07-14T14:25:23.392Z"
+  },
+  {
+    "id": "prod_1752480166092_0",
+    "name": "JQR052",
+    "slug": "jqr052-146",
+    "description": "JQR052 from Nylon Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480166092-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_22",
+    "main_image_url": "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:46.092Z",
+    "updated_at": "2025-07-14T14:25:23.396Z"
+  },
+  {
+    "id": "prod_1752480166243_1",
+    "name": "JQR052",
+    "slug": "jqr052-147",
+    "description": "JQR052 from Nylon Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480166243-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_22",
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn_nDoQYo3Ku5WjCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:46.243Z",
+    "updated_at": "2025-07-14T14:25:23.400Z"
+  },
+  {
+    "id": "prod_1752480166451_2",
+    "name": "JQR052",
+    "slug": "jqr052-148",
+    "description": "JQR052 from Nylon Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480166451-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_22",
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYo5Mm62AQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn_nDoQYo3Ku5WjCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:46.451Z",
+    "updated_at": "2025-07-14T14:25:23.404Z"
+  },
+  {
+    "id": "prod_1752480166451_3",
+    "name": "Product 4",
+    "slug": "product-4-149",
+    "description": "Professional caster product from Nylon Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480166451-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_22",
+    "main_image_url": "/images/ABUIABACGAAgiuW6uQYokK7n6gMw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:46.451Z",
+    "updated_at": "2025-07-14T14:25:23.408Z"
+  },
+  {
+    "id": "prod_1752480166596_4",
+    "name": "JQR052",
+    "slug": "jqr052-150",
+    "description": "JQR052 from Nylon Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480166596-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_22",
+    "main_image_url": "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnKbusAYo8s213gMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:46.596Z",
+    "updated_at": "2025-07-14T14:25:23.412Z"
+  },
+  {
+    "id": "prod_1752480166597_5",
+    "name": "Product 8",
+    "slug": "product-8-151",
+    "description": "Professional caster product from Nylon Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480166597-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_22",
+    "main_image_url": "/images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgxPjCoQYot-OuwgcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:46.597Z",
+    "updated_at": "2025-07-14T14:25:23.417Z"
+  },
+  {
+    "id": "prod_1752480166742_6",
+    "name": "JQR052",
+    "slug": "jqr052-152",
+    "description": "JQR052 from Nylon Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480166742-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_22",
+    "main_image_url": "/images/ABUIABACGAAgnKbusAYo8s213gMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:46.742Z",
+    "updated_at": "2025-07-14T14:25:23.421Z"
+  },
+  {
+    "id": "prod_1752480169427_0",
+    "name": "JQR212",
+    "slug": "jqr212-153",
+    "description": "JQR212 from Steel Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480169427-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_23",
+    "main_image_url": "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgypWqqAYo0PPz9QYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:49.427Z",
+    "updated_at": "2025-07-14T14:25:23.428Z"
+  },
+  {
+    "id": "prod_1752480169601_1",
+    "name": "JQR212",
+    "slug": "jqr212-154",
+    "description": "JQR212 from Steel Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480169601-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_23",
+    "main_image_url": "/images/ABUIABACGAAgzczEoQYos_Xi-gcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:49.601Z",
+    "updated_at": "2025-07-14T14:25:23.432Z"
+  },
+  {
+    "id": "prod_1752480169743_2",
+    "name": "JQR212",
+    "slug": "jqr212-155",
+    "description": "JQR212 from Steel Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480169743-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_23",
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:49.743Z",
+    "updated_at": "2025-07-14T14:25:23.437Z"
+  },
+  {
+    "id": "prod_1752480169743_3",
+    "name": "Product 4",
+    "slug": "product-4-156",
+    "description": "Professional caster product from Steel Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480169743-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_23",
+    "main_image_url": "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:49.743Z",
+    "updated_at": "2025-07-14T14:25:23.442Z"
+  },
+  {
+    "id": "prod_1752480169919_4",
+    "name": "JQR252",
+    "slug": "jqr252-157",
+    "description": "JQR252 from Steel Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480169919-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_23",
+    "main_image_url": "/images/ABUIABACGAAgta-EoQYo87KthQcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg8oCerQYor56a7QUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:49.919Z",
+    "updated_at": "2025-07-14T14:25:23.447Z"
+  },
+  {
+    "id": "prod_1752480174812_0",
+    "name": "JQR062/A1",
+    "slug": "jqr062a1-158",
+    "description": "JQR062/A1 from Plastic Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480174812-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_24",
+    "main_image_url": "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:54.812Z",
+    "updated_at": "2025-07-14T14:25:23.451Z"
+  },
+  {
+    "id": "prod_1752480174973_1",
+    "name": "JQR062/A1",
+    "slug": "jqr062a1-159",
+    "description": "JQR062/A1 from Plastic Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480174973-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_24",
+    "main_image_url": "/images/ABUIABACGAAgusSTtwYoiOa7nwQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:54.973Z",
+    "updated_at": "2025-07-14T14:25:23.455Z"
+  },
+  {
+    "id": "prod_1752480175175_2",
+    "name": "JQR062/A1",
+    "slug": "jqr062a1-160",
+    "description": "JQR062/A1 from Plastic Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480175175-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_24",
+    "main_image_url": "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgta-EoQYo87KthQcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:55.175Z",
+    "updated_at": "2025-07-14T14:25:23.459Z"
+  },
+  {
+    "id": "prod_1752480175176_3",
+    "name": "Product 4",
+    "slug": "product-4-161",
+    "description": "Professional caster product from Plastic Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480175176-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_24",
+    "main_image_url": "/images/ABUIABACGAAgypWqqAYo0PPz9QYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgyuS1owYo2uOqUzCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:55.176Z",
+    "updated_at": "2025-07-14T14:25:23.464Z"
+  },
+  {
+    "id": "prod_1752480175339_4",
+    "name": "JQR062/A2",
+    "slug": "jqr062a2-162",
+    "description": "JQR062/A2 from Plastic Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480175339-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_24",
+    "main_image_url": "/images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:55.339Z",
+    "updated_at": "2025-07-14T14:25:23.469Z"
+  },
+  {
+    "id": "prod_1752480175339_5",
+    "name": "Product 8",
+    "slug": "product-8-163",
+    "description": "Professional caster product from Plastic Wheel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480175339-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_24",
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYozID-qAUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgosK8uAYo0KbNoAYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:55.339Z",
+    "updated_at": "2025-07-14T14:25:23.474Z"
+  },
+  {
+    "id": "prod_1752480177881_0",
+    "name": "JQR060",
+    "slug": "jqr060-164",
+    "description": "JQR060 from Ball Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480177882-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_25",
+    "main_image_url": "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:57.882Z",
+    "updated_at": "2025-07-14T14:25:23.478Z"
+  },
+  {
+    "id": "prod_1752480178028_1",
+    "name": "JQR060",
+    "slug": "jqr060-165",
+    "description": "JQR060 from Ball Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480178028-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_25",
+    "main_image_url": "/images/ABUIABACGAAgv83ctAYowu3B3wUwlwY4jgc.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgoJnxwAYomLD-rwIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:58.028Z",
+    "updated_at": "2025-07-14T14:25:23.483Z"
+  },
+  {
+    "id": "prod_1752480178211_2",
+    "name": "JQR060",
+    "slug": "jqr060-166",
+    "description": "JQR060 from Ball Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480178211-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_25",
+    "main_image_url": "/images/ABUIABACGAAgrqXdtAYosNmpiQIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgnKbusAYo8s213gMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:58.211Z",
+    "updated_at": "2025-07-14T14:25:23.488Z"
+  },
+  {
+    "id": "prod_1752480178211_3",
+    "name": "Product 4",
+    "slug": "product-4-167",
+    "description": "Professional caster product from Ball Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480178211-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_25",
+    "main_image_url": "/images/ABUIABACGAAgiuW6uQYokK7n6gMw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABAEGAAg_-yrvQYo-NzaBzCgBjigBg.png"
+    ],
+    "created_at": "2025-07-14T08:02:58.211Z",
+    "updated_at": "2025-07-14T14:25:23.493Z"
+  },
+  {
+    "id": "prod_1752480178408_4",
+    "name": "JQR060LC",
+    "slug": "jqr060lc-168",
+    "description": "JQR060LC from Ball Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480178408-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_25",
+    "main_image_url": "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgmqLDoQYooLrGxAIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:58.408Z",
+    "updated_at": "2025-07-14T14:25:23.497Z"
+  },
+  {
+    "id": "prod_1752480178408_5",
+    "name": "Product 8",
+    "slug": "product-8-169",
+    "description": "Professional caster product from Ball Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480178408-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_25",
+    "main_image_url": "/images/ABUIABACGAAgzLq1owYohu6i7QMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg8oCerQYor56a7QUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:58.408Z",
+    "updated_at": "2025-07-14T14:25:23.502Z"
+  },
+  {
+    "id": "prod_1752480178548_6",
+    "name": "JQR062LC",
+    "slug": "jqr062lc-170",
+    "description": "JQR062LC from Ball Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480178548-6",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_25",
+    "main_image_url": "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg3PifvgYo35jC6wEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:02:58.548Z",
+    "updated_at": "2025-07-14T14:25:23.507Z"
+  },
+  {
+    "id": "prod_1752480181315_0",
+    "name": "JQR082",
+    "slug": "jqr082-171",
+    "description": "JQR082 from Roller Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480181315-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_26",
+    "main_image_url": "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:01.315Z",
+    "updated_at": "2025-07-14T14:25:23.512Z"
+  },
+  {
+    "id": "prod_1752480181496_1",
+    "name": "JQR082",
+    "slug": "jqr082-172",
+    "description": "JQR082 from Roller Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480181496-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_26",
+    "main_image_url": "/images/ABUIABACGAAg_bnbsQYoqPXM5wUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAglcbEoQYoivy9oAIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:01.496Z",
+    "updated_at": "2025-07-14T14:25:23.516Z"
+  },
+  {
+    "id": "prod_1752480181690_2",
+    "name": "JQR082",
+    "slug": "jqr082-173",
+    "description": "JQR082 from Roller Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480181690-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_26",
+    "main_image_url": "/images/ABUIABACGAAgssjYswYovtPnqQMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg76i-oQYowsX3AzCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:01.690Z",
+    "updated_at": "2025-07-14T14:25:23.522Z"
+  },
+  {
+    "id": "prod_1752480181690_3",
+    "name": "Product 4",
+    "slug": "product-4-174",
+    "description": "Professional caster product from Roller Bearing Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480181690-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_26",
+    "main_image_url": "/images/ABUIABACGAAgosK8uAYo0KbNoAYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgp9CcrQYottCERDCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:01.690Z",
+    "updated_at": "2025-07-14T14:25:23.526Z"
+  },
+  {
+    "id": "prod_1752480184564_0",
+    "name": "JQR090-ZLC",
+    "slug": "jqr090-zlc-175",
+    "description": "JQR090-ZLC from Stainless Steel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480184564-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_27",
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYozID-qAUwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:04.564Z",
+    "updated_at": "2025-07-14T14:25:23.531Z"
+  },
+  {
+    "id": "prod_1752480184721_1",
+    "name": "JQR090-ZLC",
+    "slug": "jqr090-zlc-176",
+    "description": "JQR090-ZLC from Stainless Steel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480184721-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_27",
+    "main_image_url": "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:04.721Z",
+    "updated_at": "2025-07-14T14:25:23.535Z"
+  },
+  {
+    "id": "prod_1752480184859_2",
+    "name": "JQR090-ZLC",
+    "slug": "jqr090-zlc-177",
+    "description": "JQR090-ZLC from Stainless Steel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480184859-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_27",
+    "main_image_url": "/images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:04.859Z",
+    "updated_at": "2025-07-14T14:25:23.540Z"
+  },
+  {
+    "id": "prod_1752480184859_3",
+    "name": "Product 4",
+    "slug": "product-4-178",
+    "description": "Professional caster product from Stainless Steel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480184859-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_27",
+    "main_image_url": "/images/ABUIABAEGAAgn_eqvQYo9Ij14AEwoAY4oAY.png",
+    "image_urls": [
+      "/images/ABUIABACGAAgruOhrQYo7N__zQMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:04.859Z",
+    "updated_at": "2025-07-14T14:25:23.544Z"
+  },
+  {
+    "id": "prod_1752480184992_4",
+    "name": "JQR092",
+    "slug": "jqr092-179",
+    "description": "JQR092 from Stainless Steel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480184992-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_27",
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYo4pvOywIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:04.992Z",
+    "updated_at": "2025-07-14T14:25:23.549Z"
+  },
+  {
+    "id": "prod_1752480184992_5",
+    "name": "Product 8",
+    "slug": "product-8-180",
+    "description": "Professional caster product from Stainless Steel Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480184992-5",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_27",
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgn6X0rwYo6pfDBTCgBjigBg.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:04.992Z",
+    "updated_at": "2025-07-14T14:25:23.553Z"
+  },
+  {
+    "id": "prod_1752480187788_0",
+    "name": "JQR094-A",
+    "slug": "jqr094-a-181",
+    "description": "JQR094-A from Anti-Static Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480187788-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_28",
+    "main_image_url": "/images/ABUIABACGAAg9LHIoQYo6-nOsgMwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgqsOzrAYo5LrD6AIwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:07.788Z",
+    "updated_at": "2025-07-14T14:25:23.558Z"
+  },
+  {
+    "id": "prod_1752480187927_1",
+    "name": "JQR094-A",
+    "slug": "jqr094-a-182",
+    "description": "JQR094-A from Anti-Static Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480187927-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_28",
+    "main_image_url": "/images/ABUIABACGAAgta-EoQYo87KthQcwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:07.927Z",
+    "updated_at": "2025-07-14T14:25:23.562Z"
+  },
+  {
+    "id": "prod_1752480188103_2",
+    "name": "JQR094-A",
+    "slug": "jqr094-a-183",
+    "description": "JQR094-A from Anti-Static Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480188103-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_28",
+    "main_image_url": "/images/ABUIABACGAAgmuHEoQYopOuu4gEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:08.103Z",
+    "updated_at": "2025-07-14T14:25:23.566Z"
+  },
+  {
+    "id": "prod_1752480188103_3",
+    "name": "Product 4",
+    "slug": "product-4-184",
+    "description": "Professional caster product from Anti-Static Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480188103-3",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_28",
+    "main_image_url": "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:08.103Z",
+    "updated_at": "2025-07-14T14:25:23.570Z"
+  },
+  {
+    "id": "prod_1752480188659_4",
+    "name": "JQR094-A",
+    "slug": "jqr094-a-185",
+    "description": "JQR094-A from Anti-Static Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480188659-4",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_28",
+    "main_image_url": "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgivydrQYowI7A3wEwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:08.659Z",
+    "updated_at": "2025-07-14T14:25:23.574Z"
+  },
+  {
+    "id": "prod_1752480191451_0",
+    "name": "ME26310",
+    "slug": "me26310-186",
+    "description": "ME26310 from High Temperature Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480191451-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_29",
+    "main_image_url": "/images/ABUIABACGAAgobHIoQYo-OP1rwEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:11.451Z",
+    "updated_at": "2025-07-14T14:25:23.578Z"
+  },
+  {
+    "id": "prod_1752480191580_1",
+    "name": "ME26310",
+    "slug": "me26310-187",
+    "description": "ME26310 from High Temperature Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480191580-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_29",
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:11.580Z",
+    "updated_at": "2025-07-14T14:25:23.582Z"
+  },
+  {
+    "id": "prod_1752480194292_0",
+    "name": "JQR049",
+    "slug": "jqr049-188",
+    "description": "JQR049 from Low Temperature Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480194292-0",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_30",
+    "main_image_url": "/images/ABUIABACGAAgmqLDoQYooLrGxAIwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:14.292Z",
+    "updated_at": "2025-07-14T14:25:23.589Z"
+  },
+  {
+    "id": "prod_1752480194481_1",
+    "name": "JQR049",
+    "slug": "jqr049-189",
+    "description": "JQR049 from Low Temperature Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480194481-1",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_30",
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:14.481Z",
+    "updated_at": "2025-07-14T14:25:23.593Z"
+  },
+  {
+    "id": "prod_1752480194630_2",
+    "name": "JQR049",
+    "slug": "jqr049-190",
+    "description": "JQR049 from Low Temperature Casters category manufactured by JP Caster.",
+    "price": 0,
+    "sku": "JP-1752480194630-2",
+    "stock_quantity": 100,
+    "manufacturer": "JP Caster",
+    "is_published": true,
+    "category_id": "cat_30",
+    "main_image_url": "/images/ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg",
+    "image_urls": [
+      "/images/ABUIABACGAAgta-EoQYo87KthQcwoAY4oAY.jpg"
+    ],
+    "created_at": "2025-07-14T08:03:14.630Z",
+    "updated_at": "2025-07-14T14:25:23.598Z"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "companyName": "Industrial Caster Japan",
+  "domain": "jp-industrial-caster.com", 
+  "contactEmail": "info@jp-industrial-caster.com",
+  "branding": {
+    "primaryColor": "#1d4ed8",
+    "secondaryColor": "#1e40af",
+    "logoUrl": "/assets/jp-industrial-logo.png",
+    "favicon": "/favicon-jp.ico",
+    "fontFamily": "Noto Sans JP, Inter, sans-serif"
+  },
+  "features": {
+    "wishlist": false,
+    "reviews": true,
+    "multiLanguage": true,
+    "darkMode": true,
+    "currencySymbol": "¥",
+    "language": "ja"
+  },
+  "supabase": {
+    "url": "https://jp-industrial-project.supabase.co",
+    "anonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.example-japan-key"
+  },
+  "payments": {
+    "stripe": "pk_live_japan_example",
+    "paypal": "japan-paypal-client-id",
+    "bootpay": null,
+    "toss": null
+  },
+  "ftp": {
+    "host": "ftp.jp-industrial-caster.com",
+    "username": "jp_user",
+    "password": "jp_password",
+    "path": "/public_html"
+  },
+  "seo": {
+    "title": "Industrial Caster Japan - 産業用キャスター専門",
+    "description": "日本の産業用キャスター専門メーカー。高品質なキャスターとホイールソリューションを提供。",
+    "keywords": "キャスター, 産業用キャスター, ホイール, 車輪, 日本製造"
+  },
+  "social": {
+    "twitter": "https://twitter.com/jp_industrial",
+    "linkedin": "https://linkedin.com/company/jp-industrial-caster",
+    "youtube": "https://youtube.com/jpindustrial"
+  }
+}

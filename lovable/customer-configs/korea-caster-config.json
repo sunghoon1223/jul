@@ -1,0 +1,47 @@
+{
+  "companyName": "Korea Caster Solutions",
+  "domain": "korea-caster.com",
+  "contactEmail": "info@korea-caster.com",
+  "branding": {
+    "primaryColor": "#dc2626",
+    "secondaryColor": "#991b1b",
+    "logoUrl": "/assets/korea-caster-logo.png",
+    "favicon": "/favicon-korea.ico",
+    "fontFamily": "Noto Sans KR, Inter, sans-serif"
+  },
+  "features": {
+    "wishlist": true,
+    "reviews": true,
+    "multiLanguage": true,
+    "darkMode": false,
+    "currencySymbol": "₩",
+    "language": "ko"
+  },
+  "supabase": {
+    "url": "https://korea-caster-project.supabase.co",
+    "anonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.example-korea-key"
+  },
+  "payments": {
+    "bootpay": "example-bootpay-key",
+    "toss": "example-toss-key",
+    "stripe": null,
+    "paypal": null
+  },
+  "ftp": {
+    "host": "ftp.korea-caster.com",
+    "username": "korea_user",
+    "password": "korea_password",
+    "path": "/public_html"
+  },
+  "seo": {
+    "title": "Korea Caster Solutions - 산업용 캐스터 전문",
+    "description": "한국 최고의 산업용 캐스터 제조업체. 고품질 캐스터와 휠 솔루션을 제공합니다.",
+    "keywords": "캐스터, 산업용 캐스터, 휠, 바퀴, 한국 제조"
+  },
+  "social": {
+    "facebook": "https://facebook.com/koreacaster",
+    "instagram": "https://instagram.com/koreacaster",
+    "youtube": "https://youtube.com/koreacaster",
+    "blog": "https://blog.korea-caster.com"
+  }
+}

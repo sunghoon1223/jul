@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPCaster Vendor Dashboard - 고객 관리</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body class="bg-gray-50">
+    <div x-data="vendorDashboard()" class="min-h-screen">
+        <!-- Navigation -->
+        <nav class="bg-white shadow-sm border-b">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex items-center">
+                        <h1 class="text-xl font-semibold text-gray-900">JPCaster Vendor Dashboard</h1>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <span class="text-sm text-gray-500">관리자</span>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg text-sm">새 고객 추가</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+            <!-- Stats Overview -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
+                                <span class="text-white text-sm font-semibold">👥</span>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">총 고객수</p>
+                            <p class="text-2xl font-semibold text-gray-900" x-text="stats.totalCustomers"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
+                                <span class="text-white text-sm font-semibold">🚀</span>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">활성 배포</p>
+                            <p class="text-2xl font-semibold text-gray-900" x-text="stats.activeDeployments"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <div class="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
+                                <span class="text-white text-sm font-semibold">⏳</span>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">대기중 배포</p>
+                            <p class="text-2xl font-semibold text-gray-900" x-text="stats.pendingDeployments"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <div class="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center">
+                                <span class="text-white text-sm font-semibold">💰</span>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">월 수익</p>
+                            <p class="text-2xl font-semibold text-gray-900" x-text="stats.monthlyRevenue"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Customer List -->
+            <div class="bg-white shadow rounded-lg">
+                <div class="px-6 py-4 border-b border-gray-200">
+                    <h2 class="text-lg font-semibold text-gray-900">고객 목록</h2>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">고객사</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">도메인</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">상태</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">마지막 배포</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">액션</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            <template x-for="customer in customers" :key="customer.id">
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="flex items-center">
+                                            <div class="flex-shrink-0 h-10 w-10">
+                                                <div class="h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center">
+                                                    <span class="text-sm font-medium text-gray-700" x-text="customer.companyName.charAt(0)"></span>
+                                                </div>
+                                            </div>
+                                            <div class="ml-4">
+                                                <div class="text-sm font-medium text-gray-900" x-text="customer.companyName"></div>
+                                                <div class="text-sm text-gray-500" x-text="customer.contactEmail"></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <a :href="'https://' + customer.domain" target="_blank" class="text-blue-600 hover:text-blue-900" x-text="customer.domain"></a>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <span :class="customer.status === 'active' ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'" class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full" x-text="customer.status"></span>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500" x-text="customer.lastDeployment"></td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                        <div class="flex space-x-2">
+                                            <button @click="deployCustomer(customer)" class="text-blue-600 hover:text-blue-900">배포</button>
+                                            <button @click="editCustomer(customer)" class="text-indigo-600 hover:text-indigo-900">편집</button>
+                                            <button @click="viewLogs(customer)" class="text-gray-600 hover:text-gray-900">로그</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="mt-8 bg-white shadow rounded-lg">
+                <div class="px-6 py-4 border-b border-gray-200">
+                    <h2 class="text-lg font-semibold text-gray-900">최근 활동</h2>
+                </div>
+                <div class="p-6">
+                    <div class="space-y-4">
+                        <template x-for="activity in recentActivity" :key="activity.id">
+                            <div class="flex items-center space-x-3">
+                                <div class="flex-shrink-0">
+                                    <div :class="activity.type === 'deployment' ? 'bg-green-100 text-green-600' : 'bg-blue-100 text-blue-600'" class="w-8 h-8 rounded-full flex items-center justify-center">
+                                        <span class="text-sm font-semibold" x-text="activity.type === 'deployment' ? '🚀' : '⚙️'"></span>
+                                    </div>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-sm text-gray-900" x-text="activity.message"></p>
+                                    <p class="text-xs text-gray-500" x-text="activity.timestamp"></p>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function vendorDashboard() {
+            return {
+                stats: {
+                    totalCustomers: 12,
+                    activeDeployments: 10,
+                    pendingDeployments: 2,
+                    monthlyRevenue: '$4,250'
+                },
+                customers: [
+                    {
+                        id: 1,
+                        companyName: 'Korea Caster Solutions',
+                        domain: 'korea-caster.com',
+                        contactEmail: 'info@korea-caster.com',
+                        status: 'active',
+                        lastDeployment: '2025-07-16'
+                    },
+                    {
+                        id: 2,
+                        companyName: 'Industrial Caster Japan',
+                        domain: 'jp-industrial-caster.com',
+                        contactEmail: 'info@jp-industrial-caster.com',
+                        status: 'active',
+                        lastDeployment: '2025-07-15'
+                    },
+                    {
+                        id: 3,
+                        companyName: 'US Premium Casters',
+                        domain: 'us-premium-casters.com',
+                        contactEmail: 'sales@us-premium-casters.com',
+                        status: 'pending',
+                        lastDeployment: '2025-07-10'
+                    }
+                ],
+                recentActivity: [
+                    {
+                        id: 1,
+                        type: 'deployment',
+                        message: 'Korea Caster Solutions 사이트가 성공적으로 배포되었습니다.',
+                        timestamp: '2시간 전'
+                    },
+                    {
+                        id: 2,
+                        type: 'config',
+                        message: 'Industrial Caster Japan 브랜딩 설정이 업데이트되었습니다.',
+                        timestamp: '5시간 전'
+                    },
+                    {
+                        id: 3,
+                        type: 'deployment',
+                        message: 'US Premium Casters 신규 고객이 등록되었습니다.',
+                        timestamp: '1일 전'
+                    }
+                ],
+
+                deployCustomer(customer) {
+                    alert(`${customer.companyName} 배포를 시작합니다...`);
+                    // 실제 구현에서는 API 호출
+                },
+
+                editCustomer(customer) {
+                    alert(`${customer.companyName} 설정을 편집합니다...`);
+                    // 실제 구현에서는 편집 모달 표시
+                },
+
+                viewLogs(customer) {
+                    alert(`${customer.companyName} 배포 로그를 확인합니다...`);
+                    // 실제 구현에서는 로그 페이지로 이동
+                }
+            }
+        }
+    </script>
+</body>
+</html>

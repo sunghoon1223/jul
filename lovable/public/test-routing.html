@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routing Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .success { color: green; }
+        .error { color: red; }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Studio-sb.com Routing Test</h1>
+
+    <div class="test-section">
+        <h2>1. Direct Navigation Test</h2>
+        <p>Click these links and check browser console:</p>
+        <button onclick="window.location.href='/products'">Go to /products</button>
+        <button onclick="window.location.href='/categories/agv-casters'">Go to /categories/agv-casters</button>
+        <button onclick="window.location.href='/products/mecanum-multi-directional-125mm'">Go to /products/mecanum...</button>
+    </div>
+
+    <div class="test-section">
+        <h2>2. React Router Test</h2>
+        <div id="react-test"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>3. File Loading Test</h2>
+        <button onclick="testFileLoading()">Test File Loading</button>
+        <pre id="file-results"></pre>
+    </div>
+
+    <div class="test-section">
+        <h2>4. Console Output</h2>
+        <pre id="console-output"></pre>
+    </div>
+
+    <script>
+        // Override console.log to display in page
+        const consoleOutput = document.getElementById('console-output');
+        const originalLog = console.log;
+        const originalError = console.error;
+        
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            const message = args.map(arg => 
+                typeof arg === 'object' ? JSON.stringify(arg, null, 2) : arg
+            ).join(' ');
+            consoleOutput.textContent += '[LOG] ' + message + '\n';
+        };
+        
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            const message = args.map(arg => 
+                typeof arg === 'object' ? JSON.stringify(arg, null, 2) : arg
+            ).join(' ');
+            consoleOutput.textContent += '[ERROR] ' + message + '\n';
+        };
+
+        // Test file loading
+        async function testFileLoading() {
+            const results = document.getElementById('file-results');
+            results.textContent = 'Testing...\n';
+            
+            // Check critical files
+            const files = [
+                { path: '/index.html', type: 'HTML' },
+                { path: '/data/products.json', type: 'JSON' },
+                { path: '/data/categories.json', type: 'JSON' },
+                { path: '/.htaccess', type: 'Config' }
+            ];
+            
+            for (const file of files) {
+                try {
+                    const response = await fetch(file.path);
+                    const status = response.ok ? '✅ OK' : `❌ ${response.status}`;
+                    results.textContent += `${file.path} (${file.type}): ${status}\n`;
+                    
+                    if (file.type === 'JSON' && response.ok) {
+                        const data = await response.json();
+                        results.textContent += `  - Items: ${Array.isArray(data) ? data.length : 'N/A'}\n`;
+                    }
+                } catch (error) {
+                    results.textContent += `${file.path}: ❌ Error - ${error.message}\n`;
+                }
+            }
+        }
+
+        // Test React mounting
+        window.addEventListener('load', () => {
+            const reactTest = document.getElementById('react-test');
+            
+            // Check if React app is loaded
+            const rootElement = document.getElementById('root');
+            if (rootElement && rootElement.children.length > 0) {
+                reactTest.innerHTML = '<p class="success">✅ React app is mounted</p>';
+            } else {
+                reactTest.innerHTML = '<p class="error">❌ React app not found</p>';
+            }
+            
+            // Log current location
+            console.log('Current URL:', window.location.href);
+            console.log('Pathname:', window.location.pathname);
+            console.log('Search:', window.location.search);
+            console.log('Hash:', window.location.hash);
+        });
+
+        // Monitor navigation
+        window.addEventListener('popstate', (event) => {
+            console.log('Navigation detected:', window.location.pathname);
+        });
+    </script>
+</body>
+</html>

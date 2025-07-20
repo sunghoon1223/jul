@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Debug - Studio SB</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            background: #2a2a2a;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 1px solid #444;
+        }
+        .status-ok { color: #4ade80; }
+        .status-error { color: #f87171; }
+        .status-warning { color: #fbbf24; }
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+        pre {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            border: 1px solid #444;
+        }
+        .route-link {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 4px;
+            background: #374151;
+            color: #60a5fa;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .route-link:hover {
+            background: #4b5563;
+        }
+        .log-entry {
+            padding: 8px;
+            margin: 2px 0;
+            background: #1f2937;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Route Debugging Tool</h1>
+        
+        <div class="section">
+            <h2>Environment Info</h2>
+            <div id="env-info"></div>
+        </div>
+
+        <div class="section">
+            <h2>React App Status</h2>
+            <div id="react-status"></div>
+            <button onclick="checkReactApp()">Check React App</button>
+        </div>
+
+        <div class="section">
+            <h2>Test Routes</h2>
+            <p>Click to navigate:</p>
+            <a href="/" class="route-link">Home</a>
+            <a href="/products" class="route-link">All Products (Works)</a>
+            <a href="/categories/agv-casters" class="route-link">AGV Casters (Problem)</a>
+            <a href="/categories/equipment-casters" class="route-link">Equipment Casters</a>
+            <a href="/products/mecanum-multi-directional-125mm" class="route-link">Product Detail (Problem)</a>
+        </div>
+
+        <div class="section">
+            <h2>File System Check</h2>
+            <button onclick="checkFiles()">Check Critical Files</button>
+            <pre id="file-check"></pre>
+        </div>
+
+        <div class="section">
+            <h2>Data Loading Test</h2>
+            <button onclick="loadData()">Load Products & Categories</button>
+            <pre id="data-result"></pre>
+        </div>
+
+        <div class="section">
+            <h2>Console Log</h2>
+            <div id="console-log"></div>
+        </div>
+    </div>
+
+    <script>
+        const log = (message, type = 'info') => {
+            const logDiv = document.getElementById('console-log');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            const timestamp = new Date().toLocaleTimeString();
+            let prefix = '📝';
+            if (type === 'error') prefix = '❌';
+            if (type === 'success') prefix = '✅';
+            if (type === 'warning') prefix = '⚠️';
+            entry.textContent = `[${timestamp}] ${prefix} ${message}`;
+            logDiv.appendChild(entry);
+        };
+
+        // Display environment info
+        const displayEnvInfo = () => {
+            const info = {
+                'URL': window.location.href,
+                'Origin': window.location.origin,
+                'Pathname': window.location.pathname,
+                'User Agent': navigator.userAgent,
+                'Language': navigator.language,
+                'Online': navigator.onLine,
+                'Cookies Enabled': navigator.cookieEnabled
+            };
+            
+            const envDiv = document.getElementById('env-info');
+            envDiv.innerHTML = Object.entries(info).map(([key, value]) => 
+                `<div><strong>${key}:</strong> ${value}</div>`
+            ).join('');
+        };
+
+        // Check React app status
+        const checkReactApp = async () => {
+            log('Checking React app status...');
+            const statusDiv = document.getElementById('react-status');
+            
+            try {
+                // Check if root element exists
+                const response = await fetch('/');
+                const html = await response.text();
+                const hasRoot = html.includes('id="root"');
+                
+                // Check if React scripts are loaded
+                const hasReactScript = html.includes('src="/src/main.tsx"') || html.includes('/assets/index-');
+                
+                // Try to fetch the main page and check content
+                const rootDiv = document.createElement('div');
+                rootDiv.innerHTML = html;
+                const scripts = rootDiv.querySelectorAll('script');
+                
+                statusDiv.innerHTML = `
+                    <div class="${hasRoot ? 'status-ok' : 'status-error'}">Root element: ${hasRoot ? 'Found' : 'Not found'}</div>
+                    <div class="${hasReactScript ? 'status-ok' : 'status-error'}">React scripts: ${hasReactScript ? 'Found' : 'Not found'}</div>
+                    <div>Scripts found: ${scripts.length}</div>
+                `;
+                
+                log(`React app check complete: Root=${hasRoot}, Scripts=${hasReactScript}`, hasRoot && hasReactScript ? 'success' : 'error');
+            } catch (error) {
+                statusDiv.innerHTML = `<div class="status-error">Error checking React app: ${error.message}</div>`;
+                log(`Error checking React app: ${error.message}`, 'error');
+            }
+        };
+
+        // Check critical files
+        const checkFiles = async () => {
+            log('Checking critical files...');
+            const resultDiv = document.getElementById('file-check');
+            const files = [
+                '/index.html',
+                '/.htaccess',
+                '/data/products.json',
+                '/data/categories.json',
+                '/assets/index-C9QYcub_.js',
+                '/images/placeholder.svg'
+            ];
+            
+            const results = [];
+            for (const file of files) {
+                try {
+                    const response = await fetch(file, { method: 'HEAD' });
+                    const status = response.ok ? '✅ OK' : `❌ ${response.status}`;
+                    results.push(`${file}: ${status}`);
+                    log(`File ${file}: ${response.ok ? 'OK' : response.status}`, response.ok ? 'success' : 'error');
+                } catch (error) {
+                    results.push(`${file}: ❌ Error - ${error.message}`);
+                    log(`File ${file}: Error - ${error.message}`, 'error');
+                }
+            }
+            
+            resultDiv.textContent = results.join('\n');
+        };
+
+        // Load data test
+        const loadData = async () => {
+            log('Loading products and categories...');
+            const resultDiv = document.getElementById('data-result');
+            
+            try {
+                const [productsRes, categoriesRes] = await Promise.all([
+                    fetch('/data/products.json'),
+                    fetch('/data/categories.json')
+                ]);
+                
+                if (!productsRes.ok || !categoriesRes.ok) {
+                    throw new Error(`Failed to fetch: Products ${productsRes.status}, Categories ${categoriesRes.status}`);
+                }
+                
+                const products = await productsRes.json();
+                const categories = await categoriesRes.json();
+                
+                // Test specific product
+                const testProduct = products.find(p => p.slug === 'mecanum-multi-directional-125mm');
+                
+                // Test specific category
+                const testCategory = categories.find(c => c.slug === 'agv-casters');
+                
+                const result = {
+                    productsCount: products.length,
+                    categoriesCount: categories.length,
+                    categories: categories.map(c => ({ id: c.id, name: c.name, slug: c.slug })),
+                    testProduct: testProduct ? {
+                        id: testProduct.id,
+                        name: testProduct.name,
+                        slug: testProduct.slug,
+                        categoryId: testProduct.categoryId
+                    } : 'Not found',
+                    testCategory: testCategory || 'Not found',
+                    sampleProductSlugs: products.slice(0, 5).map(p => p.slug)
+                };
+                
+                resultDiv.textContent = JSON.stringify(result, null, 2);
+                log(`Data loaded: ${products.length} products, ${categories.length} categories`, 'success');
+            } catch (error) {
+                resultDiv.textContent = `Error: ${error.message}`;
+                log(`Error loading data: ${error.message}`, 'error');
+            }
+        };
+
+        // Initialize
+        displayEnvInfo();
+        log('Route debugging tool initialized');
+        
+        // Auto-run checks
+        setTimeout(() => {
+            checkReactApp();
+            checkFiles();
+        }, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-07-18T14:07:41.178Z",
+  "tests": [
+    {
+      "name": "제품 페이지 로드",
+      "status": "success",
+      "timestamp": "2025-07-18T14:07:43.030Z"
+    },
+    {
+      "name": "제품 카드 찾기",
+      "status": "success",
+      "details": "12개 제품 발견",
+      "timestamp": "2025-07-18T14:07:43.084Z"
+    },
+    {
+      "name": "장바구니 추가 버튼 클릭",
+      "status": "success",
+      "timestamp": "2025-07-18T14:07:45.851Z"
+    },
+    {
+      "name": "장바구니 드로어 열기",
+      "status": "success",
+      "timestamp": "2025-07-18T14:07:47.863Z"
+    }
+  ],
+  "errors": [],
+  "cartItems": [],
+  "summary": {
+    "totalTests": 4,
+    "successTests": 4,
+    "failedTests": 0,
+    "totalErrors": 0,
+    "cartItemsFound": 0
+  }
+}

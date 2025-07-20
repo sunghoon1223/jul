@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cat_1",
+    "name": "Industrial Casters",
+    "slug": "industrial-casters",
+    "description": "Heavy-duty casters for industrial applications and equipment",
+    "created_at": "2025-07-14T08:12:13.522Z"
+  },
+  {
+    "id": "cat_2",
+    "name": "Medical & Healthcare",
+    "slug": "medical-healthcare",
+    "description": "Specialized casters for medical equipment and healthcare facilities",
+    "created_at": "2025-07-14T08:12:13.522Z"
+  },
+  {
+    "id": "cat_3",
+    "name": "Office & Furniture",
+    "slug": "office-furniture",
+    "description": "Casters for office chairs, furniture, and light-duty applications",
+    "created_at": "2025-07-14T08:12:13.522Z"
+  },
+  {
+    "id": "cat_4",
+    "name": "Material Handling",
+    "slug": "material-handling",
+    "description": "Casters for carts, trolleys, and material handling equipment",
+    "created_at": "2025-07-14T08:12:13.522Z"
+  },
+  {
+    "id": "cat_5",
+    "name": "Specialty & Custom",
+    "slug": "specialty-custom",
+    "description": "Specialized casters for unique applications and custom requirements",
+    "created_at": "2025-07-14T08:12:13.522Z"
+  },
+  {
+    "id": "cat_6",
+    "name": "High Performance",
+    "slug": "high-performance",
+    "description": "Premium casters for extreme conditions and high-performance applications",
+    "created_at": "2025-07-14T08:12:13.522Z"
+  }
+]

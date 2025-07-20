@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug - Studio SB</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .test-link {
+            display: block;
+            padding: 10px;
+            margin: 5px 0;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .test-link:hover {
+            background: #0056b3;
+        }
+        .info {
+            background: #e9ecef;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Studio SB Debug Page</h1>
+        
+        <div class="info">
+            <h3>Environment Info:</h3>
+            <p>Current URL: <span id="currentUrl"></span></p>
+            <p>Base URL: <span id="baseUrl"></span></p>
+            <p>User Agent: <span id="userAgent"></span></p>
+        </div>
+
+        <h2>Test Links:</h2>
+        <a href="/products" class="test-link">/products (Works)</a>
+        <a href="/categories/agv-casters" class="test-link">/categories/agv-casters (Problem)</a>
+        <a href="/products/mecanum-multi-directional-125mm" class="test-link">/products/mecanum-multi-directional-125mm (Problem)</a>
+
+        <h2>File Check:</h2>
+        <pre id="fileCheck"></pre>
+
+        <h2>JavaScript Test:</h2>
+        <button onclick="testJavaScript()">Test JavaScript Loading</button>
+        <pre id="jsResult"></pre>
+
+        <h2>API Test:</h2>
+        <button onclick="testAPI()">Test Data Loading</button>
+        <pre id="apiResult"></pre>
+    </div>
+
+    <script>
+        // Display environment info
+        document.getElementById('currentUrl').textContent = window.location.href;
+        document.getElementById('baseUrl').textContent = window.location.origin;
+        document.getElementById('userAgent').textContent = navigator.userAgent;
+
+        // Check if main files exist
+        async function checkFiles() {
+            const files = [
+                '/index.html',
+                '/assets/index-C9QYcub_.js',
+                '/assets/index-D7euThoI.css',
+                '/data/products.json',
+                '/data/categories.json'
+            ];
+
+            let results = 'File Status:\n';
+            for (const file of files) {
+                try {
+                    const response = await fetch(file, { method: 'HEAD' });
+                    results += `${file}: ${response.ok ? '✅ OK' : '❌ ' + response.status}\n`;
+                } catch (error) {
+                    results += `${file}: ❌ Error - ${error.message}\n`;
+                }
+            }
+            document.getElementById('fileCheck').textContent = results;
+        }
+
+        // Test JavaScript loading
+        function testJavaScript() {
+            const result = {
+                react: typeof React !== 'undefined',
+                reactDOM: typeof ReactDOM !== 'undefined',
+                fetch: typeof fetch !== 'undefined',
+                localStorage: typeof localStorage !== 'undefined',
+                sessionStorage: typeof sessionStorage !== 'undefined'
+            };
+            document.getElementById('jsResult').textContent = JSON.stringify(result, null, 2);
+        }
+
+        // Test API
+        async function testAPI() {
+            try {
+                const [productsRes, categoriesRes] = await Promise.all([
+                    fetch('/data/products.json'),
+                    fetch('/data/categories.json')
+                ]);
+                
+                const products = await productsRes.json();
+                const categories = await categoriesRes.json();
+                
+                const result = {
+                    productsCount: products.length,
+                    categoriesCount: categories.length,
+                    categoryNames: categories.map(c => c.name),
+                    categorySlugs: categories.map(c => c.slug),
+                    sampleProduct: products[0]
+                };
+                
+                document.getElementById('apiResult').textContent = JSON.stringify(result, null, 2);
+            } catch (error) {
+                document.getElementById('apiResult').textContent = 'Error: ' + error.message;
+            }
+        }
+
+        // Run checks on load
+        checkFiles();
+    </script>
+</body>
+</html>

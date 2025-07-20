@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "prod_1752480084979_0",
+    "name": "IND-001 산업용캐스터",
+    "slug": "ind-001-001",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 130000,
+    "main_image_url": "/images/ABUIABACGAAg0LHIoQYo8PKWiAQwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 0,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480085314_1",
+    "name": "IND-002 회전캐스터",
+    "slug": "ind-002-002",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 145000,
+    "main_image_url": "/images/ABUIABACGAAg1KHDoQYousOAODCgBjigBg.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 40,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480085560_2",
+    "name": "IND-003 고정캐스터",
+    "slug": "ind-003-003",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 140000,
+    "main_image_url": "/images/ABUIABACGAAg1qjnvwYoirDz-gIwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 100,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480088338_0",
+    "name": "AGV-004 AGV브레이크",
+    "slug": "agv-004-004",
+    "description": "극한 하중을 견딜 수 있는 중량급 캐스터로 건설 및 항만 장비에 최적화되었습니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 330000,
+    "main_image_url": "/images/ABUIABACGAAg1tLYswYokJOW9QEwoAY4oAY.jpg",
+    "category": {
+      "id": "heavy_duty",
+      "name": "AGV 캐스터"
+    },
+    "stock_quantity": 50,
+    "features": {
+      "load_capacity": "1000-5000kg",
+      "wheel_material": "Steel/Cast Iron",
+      "bearing_type": "Roller Bearing",
+      "temperature_range": "-30°C to +120°C",
+      "floor_protection": "Heavy duty",
+      "swivel_type": "Kingpin reinforced",
+      "wheel_diameter": "52mm",
+      "wheel_width": "13mm",
+      "overall_height": "82mm",
+      "mounting_type": "Heavy duty plate",
+      "brake_option": "Double brake",
+      "maintenance": "Grease lubrication",
+      "certification": "Heavy duty certified"
+    }
+  },
+  {
+    "id": "prod_1752480088743_1",
+    "name": "AGV-005 AGV캐스터",
+    "slug": "agv-005-005",
+    "description": "극한 하중을 견딜 수 있는 중량급 캐스터로 건설 및 항만 장비에 최적화되었습니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 235000,
+    "main_image_url": "/images/ABUIABACGAAg25LJoQYo9JKEnwMwoAY4oAY.jpg",
+    "category": {
+      "id": "heavy_duty",
+      "name": "AGV 캐스터"
+    },
+    "stock_quantity": 20,
+    "features": {
+      "load_capacity": "1000-5000kg",
+      "wheel_material": "Steel/Cast Iron",
+      "bearing_type": "Roller Bearing",
+      "temperature_range": "-30°C to +120°C",
+      "floor_protection": "Heavy duty",
+      "swivel_type": "Kingpin reinforced",
+      "wheel_diameter": "52mm",
+      "wheel_width": "13mm",
+      "overall_height": "82mm",
+      "mounting_type": "Heavy duty plate",
+      "brake_option": "Double brake",
+      "maintenance": "Grease lubrication",
+      "certification": "Heavy duty certified"
+    }
+  },
+  {
+    "id": "prod_1752480088914_2",
+    "name": "AGV-006 AGV모듈",
+    "slug": "agv-006-006",
+    "description": "극한 하중을 견딜 수 있는 중량급 캐스터로 건설 및 항만 장비에 최적화되었습니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 275000,
+    "main_image_url": "/images/ABUIABACGAAg277EoQYo0srl7gQwoAY4oAY.jpg",
+    "category": {
+      "id": "heavy_duty",
+      "name": "AGV 캐스터"
+    },
+    "stock_quantity": 20,
+    "features": {
+      "load_capacity": "1000-5000kg",
+      "wheel_material": "Steel/Cast Iron",
+      "bearing_type": "Roller Bearing",
+      "temperature_range": "-30°C to +120°C",
+      "floor_protection": "Heavy duty",
+      "swivel_type": "Kingpin reinforced",
+      "wheel_diameter": "52mm",
+      "wheel_width": "13mm",
+      "overall_height": "82mm",
+      "mounting_type": "Heavy duty plate",
+      "brake_option": "Double brake",
+      "maintenance": "Grease lubrication",
+      "certification": "Heavy duty certified"
+    }
+  },
+  {
+    "id": "prod_1752480088914_3",
+    "name": "AGV-007 AGV휠",
+    "slug": "agv-007-007",
+    "description": "극한 하중을 견딜 수 있는 중량급 캐스터로 건설 및 항만 장비에 최적화되었습니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 390000,
+    "main_image_url": "/images/ABUIABACGAAg2rrruQYooLfUtwEwoAY4oAY.jpg",
+    "category": {
+      "id": "heavy_duty",
+      "name": "AGV 캐스터"
+    },
+    "stock_quantity": 40,
+    "features": {
+      "load_capacity": "1000-5000kg",
+      "wheel_material": "Steel/Cast Iron",
+      "bearing_type": "Roller Bearing",
+      "temperature_range": "-30°C to +120°C",
+      "floor_protection": "Heavy duty",
+      "swivel_type": "Kingpin reinforced",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Heavy duty plate",
+      "brake_option": "Double brake",
+      "maintenance": "Grease lubrication",
+      "certification": "Heavy duty certified"
+    }
+  },
+  {
+    "id": "prod_1752480089119_4",
+    "name": "AGV-008 AGV브레이크",
+    "slug": "agv-008-008",
+    "description": "극한 하중을 견딜 수 있는 중량급 캐스터로 건설 및 항만 장비에 최적화되었습니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 305000,
+    "main_image_url": "/images/ABUIABACGAAg3-rEugYon5XGywEwoAY4oAY.jpg",
+    "category": {
+      "id": "heavy_duty",
+      "name": "AGV 캐스터"
+    },
+    "stock_quantity": 10,
+    "features": {
+      "load_capacity": "1000-5000kg",
+      "wheel_material": "Steel/Cast Iron",
+      "bearing_type": "Roller Bearing",
+      "temperature_range": "-30°C to +120°C",
+      "floor_protection": "Heavy duty",
+      "swivel_type": "Kingpin reinforced",
+      "wheel_diameter": "73mm",
+      "wheel_width": "15mm",
+      "overall_height": "103mm",
+      "mounting_type": "Heavy duty plate",
+      "brake_option": "Double brake",
+      "maintenance": "Grease lubrication",
+      "certification": "Heavy duty certified"
+    }
+  },
+  {
+    "id": "prod_1752480092040_0",
+    "name": "PU-009 폴리우레탄휠",
+    "slug": "pu-009-009",
+    "description": "특수 환경 및 용도에 맞춘 맞춤형 캐스터로 고유한 요구사항을 만족합니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 155000,
+    "main_image_url": "/images/ABUIABACGAAg0rLUswYotNOjtgYwoAY4oAY.jpg",
+    "category": {
+      "id": "specialty",
+      "name": "폴리우레탄 휠"
+    },
+    "stock_quantity": 10,
+    "features": {
+      "load_capacity": "100-1000kg",
+      "wheel_material": "Specialized materials",
+      "bearing_type": "Precision bearing",
+      "temperature_range": "Environment specific",
+      "floor_protection": "Specialized coating",
+      "swivel_type": "Custom design",
+      "wheel_diameter": "120mm",
+      "wheel_width": "50mm",
+      "overall_height": "150mm",
+      "mounting_type": "Custom mounting",
+      "brake_option": "Specialized brake",
+      "maintenance": "Application specific",
+      "certification": "Special purpose"
+    }
+  },
+  {
+    "id": "prod_1752480094923_0",
+    "name": "DRV-010 드라이빙유닛",
+    "slug": "drv-010-010",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 370000,
+    "main_image_url": "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 30,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "28mm",
+      "wheel_width": "22mm",
+      "overall_height": "58mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480095150_1",
+    "name": "DRV-011 모터모듈",
+    "slug": "drv-011-011",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 395000,
+    "main_image_url": "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 50,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "28mm",
+      "wheel_width": "22mm",
+      "overall_height": "58mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480095473_2",
+    "name": "DRV-012 제어모듈",
+    "slug": "drv-012-012",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 270000,
+    "main_image_url": "/images/ABUIABACGAAg7L7IoQYoiJS5cDCgBjigBg.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 0,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "28mm",
+      "wheel_width": "22mm",
+      "overall_height": "58mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480095473_3",
+    "name": "DRV-013 구동모듈",
+    "slug": "drv-013-013",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 370000,
+    "main_image_url": "/images/ABUIABACGAAg3PifvgYo35jC6wEwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480095605_4",
+    "name": "DRV-014 드라이빙유닛",
+    "slug": "drv-014-014",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 325000,
+    "main_image_url": "/images/ABUIABACGAAg-cLXqQYogYWDIjCgBjigBg.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 15,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "36mm",
+      "wheel_width": "11mm",
+      "overall_height": "66mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480095605_5",
+    "name": "DRV-015 모터모듈",
+    "slug": "drv-015-015",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 245000,
+    "main_image_url": "/images/ABUIABACGAAg3qrcsQYo-6nG3AcwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 40,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480095752_6",
+    "name": "DRV-016 제어모듈",
+    "slug": "drv-016-016",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 540000,
+    "main_image_url": "/images/ABUIABACGAAgqOzuwgYouOChnwUwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 5,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "40mm",
+      "wheel_width": "15mm",
+      "overall_height": "70mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480095752_7",
+    "name": "DRV-017 구동모듈",
+    "slug": "drv-017-017",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 575000,
+    "main_image_url": "/images/ABUIABACGAAg4LHIoQYo8PTS4AMwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 10,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480098746_0",
+    "name": "DRV-018 드라이빙유닛",
+    "slug": "drv-018-018",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 440000,
+    "main_image_url": "/images/ABUIABACGAAg4OTDoQYo0N-6rgcwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 75,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "58mm",
+      "wheel_width": "25mm",
+      "overall_height": "88mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099113_1",
+    "name": "DRV-019 모터모듈",
+    "slug": "drv-019-019",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 355000,
+    "main_image_url": "/images/ABUIABACGAAg4aHDoQYonM-SETCgBjigBg.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 40,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "58mm",
+      "wheel_width": "25mm",
+      "overall_height": "88mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099332_2",
+    "name": "DRV-020 제어모듈",
+    "slug": "drv-020-020",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 205000,
+    "main_image_url": "/images/ABUIABACGAAg5P-CoQYoooL4lgIwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 20,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "58mm",
+      "wheel_width": "25mm",
+      "overall_height": "88mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099332_3",
+    "name": "DRV-021 구동모듈",
+    "slug": "drv-021-021",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 270000,
+    "main_image_url": "/images/ABUIABACGAAg6Jz0rwYo4KaroQUwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 5,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099477_4",
+    "name": "DRV-022 드라이빙유닛",
+    "slug": "drv-022-022",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 430000,
+    "main_image_url": "/images/ABUIABACGAAg6qzdtAYo8OGJjwQwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "60mm",
+      "wheel_width": "20mm",
+      "overall_height": "90mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099477_5",
+    "name": "DRV-023 모터모듈",
+    "slug": "drv-023-023",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 365000,
+    "main_image_url": "/images/ABUIABACGAAg6ujywgYohvGqvwUwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 40,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099608_6",
+    "name": "DRV-024 제어모듈",
+    "slug": "drv-024-024",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 585000,
+    "main_image_url": "/images/ABUIABACGAAg76i-oQYowsX3AzCgBjigBg.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 5,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "60mm",
+      "wheel_width": "20mm",
+      "overall_height": "90mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099608_7",
+    "name": "DRV-025 구동모듈",
+    "slug": "drv-025-025",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 470000,
+    "main_image_url": "/images/ABUIABACGAAg8IzDrAYoiPzzowMwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 10,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099749_8",
+    "name": "DRV-026 드라이빙유닛",
+    "slug": "drv-026-026",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 530000,
+    "main_image_url": "/images/ABUIABACGAAg8oCerQYor56a7QUwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 15,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "60mm",
+      "wheel_width": "21mm",
+      "overall_height": "90mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480099749_9",
+    "name": "DRV-027 모터모듈",
+    "slug": "drv-027-027",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 270000,
+    "main_image_url": "/images/ABUIABACGAAg9LHIoQYo6-nOsgMwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 0,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480100929_10",
+    "name": "DRV-028 제어모듈",
+    "slug": "drv-028-028",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 285000,
+    "main_image_url": "/images/ABUIABACGAAg_Li1owYosPvK3QUwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 75,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480100929_11",
+    "name": "DRV-029 구동모듈",
+    "slug": "drv-029-029",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 345000,
+    "main_image_url": "/images/ABUIABACGAAg_aHDoQYo4c_6ywUwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 30,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480101261_12",
+    "name": "DRV-030 드라이빙유닛",
+    "slug": "drv-030-030",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 370000,
+    "main_image_url": "/images/ABUIABACGAAg_bnbsQYoqPXM5wUwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 15,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "65mm",
+      "wheel_width": "30mm",
+      "overall_height": "95mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480101261_13",
+    "name": "DRV-031 모터모듈",
+    "slug": "drv-031-031",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 525000,
+    "main_image_url": "/images/ABUIABACGAAg_cqmwQYosJCi7gYwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 5,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480101406_14",
+    "name": "DRV-032 제어모듈",
+    "slug": "drv-032-032",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 595000,
+    "main_image_url": "/images/ABUIABACGAAggJ_qqAYoppDUzQEwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 0,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "65mm",
+      "wheel_width": "30mm",
+      "overall_height": "95mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480101406_15",
+    "name": "DRV-033 구동모듈",
+    "slug": "drv-033-033",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 575000,
+    "main_image_url": "/images/ABUIABACGAAggdzctAYo6dPNpAUwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 20,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480102681_16",
+    "name": "DRV-034 드라이빙유닛",
+    "slug": "drv-034-034",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 445000,
+    "main_image_url": "/images/ABUIABACGAAggfGhrQYousy7ngMwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 30,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "65mm",
+      "wheel_width": "50mm",
+      "overall_height": "95mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480102681_17",
+    "name": "DRV-035 모터모듈",
+    "slug": "drv-035-035",
+    "description": "가벼운 운반 및 일반 사무 환경에 적합한 범용 캐스터입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 215000,
+    "main_image_url": "/images/ABUIABACGAAghazdtAYovMf79gQwoAY4oAY.jpg",
+    "category": {
+      "id": "light_medium-duty",
+      "name": "드라이빙 모듈"
+    },
+    "stock_quantity": 30,
+    "features": {
+      "load_capacity": "50-500kg",
+      "wheel_material": "Rubber/Plastic",
+      "bearing_type": "Plain Bearing",
+      "temperature_range": "0°C to +60°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Optional",
+      "maintenance": "Maintenance free",
+      "certification": "Standard grade"
+    }
+  },
+  {
+    "id": "prod_1752480106794_0",
+    "name": "IND-036 브레이크캐스터",
+    "slug": "ind-036-036",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 145000,
+    "main_image_url": "/images/ABUIABACGAAghoKdrQYogYeI6gQwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 50,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "110mm",
+      "wheel_width": "40mm",
+      "overall_height": "140mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480106988_1",
+    "name": "IND-037 산업용캐스터",
+    "slug": "ind-037-037",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 190000,
+    "main_image_url": "/images/ABUIABACGAAgi6LDoQYosoXNggEwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "110mm",
+      "wheel_width": "40mm",
+      "overall_height": "140mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107145_2",
+    "name": "IND-038 회전캐스터",
+    "slug": "ind-038-038",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 190000,
+    "main_image_url": "/images/ABUIABACGAAgiK7csQYowIOs8wUwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "110mm",
+      "wheel_width": "40mm",
+      "overall_height": "140mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107145_3",
+    "name": "IND-039 고정캐스터",
+    "slug": "ind-039-039",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 145000,
+    "main_image_url": "/images/ABUIABACGAAgiO7CoQYooebvrAYwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 30,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107299_4",
+    "name": "IND-040 브레이크캐스터",
+    "slug": "ind-040-040",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 115000,
+    "main_image_url": "/images/ABUIABACGAAgibLIoQYo-ITEMTCgBjigBg.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "110mm",
+      "wheel_width": "42mm",
+      "overall_height": "140mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107299_5",
+    "name": "IND-041 산업용캐스터",
+    "slug": "ind-041-041",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 165000,
+    "main_image_url": "/images/ABUIABACGAAgieW6uQYo9qq7uwIw3BE43BE.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107518_6",
+    "name": "IND-042 회전캐스터",
+    "slug": "ind-042-042",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 145000,
+    "main_image_url": "/images/ABUIABACGAAgitzctAYoncGSkAIwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "112mm",
+      "wheel_width": "40mm",
+      "overall_height": "142mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107518_7",
+    "name": "IND-043 고정캐스터",
+    "slug": "ind-043-043",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 125000,
+    "main_image_url": "/images/ABUIABACGAAgiuW6uQYokK7n6gMw3BE43BE.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 15,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107681_8",
+    "name": "IND-044 브레이크캐스터",
+    "slug": "ind-044-044",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 175000,
+    "main_image_url": "/images/ABUIABACGAAgivydrQYowI7A3wEwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "120mm",
+      "wheel_width": "72mm",
+      "overall_height": "150mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107681_9",
+    "name": "IND-045 산업용캐스터",
+    "slug": "ind-045-045",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 160000,
+    "main_image_url": "/images/ABUIABACGAAgjc2jqQYo8Iyj8gMwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 5,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107816_10",
+    "name": "IND-046 회전캐스터",
+    "slug": "ind-046-046",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 175000,
+    "main_image_url": "/images/ABUIABACGAAgktLTqQYoyO_QrQMwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 50,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "120mm",
+      "wheel_width": "72mm",
+      "overall_height": "150mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480107816_11",
+    "name": "IND-047 고정캐스터",
+    "slug": "ind-047-047",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 155000,
+    "main_image_url": "/images/ABUIABACGAAglbWdrQYo55vm1wcwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480108001_12",
+    "name": "IND-048 브레이크캐스터",
+    "slug": "ind-048-048",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 140000,
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYo4OOS2wEwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 25,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "125mm",
+      "wheel_width": "28mm",
+      "overall_height": "155mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480108001_13",
+    "name": "IND-049 산업용캐스터",
+    "slug": "ind-049-049",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 145000,
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYo4pvOywIwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 50,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "Contact for specifications",
+      "wheel_width": "Contact for specifications",
+      "overall_height": "Contact for specifications",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  },
+  {
+    "id": "prod_1752480108178_14",
+    "name": "IND-050 회전캐스터",
+    "slug": "ind-050-050",
+    "description": "산업용 캐스터로 제조업 및 창고 환경에서 사용되는 고내구성 제품입니다.\n\n이 제품은 JP Caster에서 제조한 고품질 캐스터로, 다양한 산업 환경에서 안정적인 성능을 제공합니다. 우수한 내구성과 원활한 회전 성능으로 작업 효율성을 높입니다.",
+    "price": 200000,
+    "main_image_url": "/images/ABUIABACGAAglcbEoQYoivy9oAIwoAY4oAY.jpg",
+    "category": {
+      "id": "industrial",
+      "name": "장비용 캐스터"
+    },
+    "stock_quantity": 75,
+    "features": {
+      "load_capacity": "500-2000kg",
+      "wheel_material": "Polyurethane/Steel",
+      "bearing_type": "Ball Bearing",
+      "temperature_range": "-20°C to +80°C",
+      "floor_protection": "Non-marking",
+      "swivel_type": "Kingpin/Raceway",
+      "wheel_diameter": "125mm",
+      "wheel_width": "38mm",
+      "overall_height": "155mm",
+      "mounting_type": "Plate/Stem",
+      "brake_option": "Available",
+      "maintenance": "Low maintenance",
+      "certification": "Industrial grade"
+    }
+  }
+]

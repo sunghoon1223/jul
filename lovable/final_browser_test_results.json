@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-07-15T08:48:28.895Z",
+  "categories": {
+    "totalCategories": 5,
+    "testedCategories": 5,
+    "allCategoriesWorking": true
+  },
+  "products": {
+    "totalProducts": 12,
+    "abuiImages": 12,
+    "placeholderImages": 0,
+    "abuiUsageRate": "100.0"
+  },
+  "performance": {
+    "firstPaint": 188,
+    "firstContentfulPaint": 308,
+    "domComplete": 186,
+    "loadComplete": 186
+  },
+  "consoleErrors": 0,
+  "success": true
+}
